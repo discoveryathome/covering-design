@@ -1,0 +1,127 @@
+{
+  "url": "https://github.com/dmgordo/LJCR",
+  "commit": "459bcaf247bd8d34610d946b0465864f7d4dfa37",
+  "commit_date": "2022-12-19T18:10:24Z",
+  "path": "coverings/coverdata.json",
+  "file_sha256": "0984bb8b4c89fe07268569b9814794e3c8852302d075f0794140f202e83d7fef",
+  "license": "CC-BY-4.0",
+  "modification": "selected entries from archived GitHub metadata",
+  "records": {
+    "C(7,3,2)": {
+      "size": 7,
+      "low_bd": 7,
+      "imps": [
+        [
+          "7",
+          "",
+          "JCD article",
+          "1996-11-14 17:08:00"
+        ]
+      ]
+    },
+    "C(14,5,3)": {
+      "size": 43,
+      "low_bd": 37,
+      "imps": [
+        [
+          "47",
+          "",
+          "JCD article",
+          "1996-11-14 17:08:00"
+        ]
+      ]
+    },
+    "C(15,5,3)": {
+      "size": 55,
+      "low_bd": 54,
+      "imps": [
+        [
+          "55",
+          "",
+          "Carmine Iorio",
+          "2020-01-15 05:29:05"
+        ],
+        [
+          "56",
+          "",
+          "Daniel Morais",
+          "2000-03-03 00:00:00"
+        ],
+        [
+          "60",
+          "",
+          "JCD article",
+          "1996-11-14 17:08:00"
+        ]
+      ]
+    },
+    "C(16,5,3)": {
+      "size": 65,
+      "low_bd": 61,
+      "imps": [
+        [
+          "65",
+          "",
+          "Rade Belic",
+          "1997-08-06 00:00:00"
+        ],
+        [
+          "68",
+          "",
+          "JCD article",
+          "1996-11-14 17:08:00"
+        ]
+      ]
+    },
+    "C(13,6,3)": {
+      "size": 21,
+      "low_bd": 20,
+      "imps": [
+        [
+          "21",
+          "Random Greedy Covering",
+          "",
+          "1997-01-31 00:00:00"
+        ],
+        [
+          "21",
+          "",
+          "JCD article",
+          "1996-11-14 17:08:00"
+        ]
+      ]
+    }
+  },
+  "comparison_to_zenodo_v1_2": {
+    "C(7,3,2)": {
+      "github_size": 7,
+      "zenodo_size": 7,
+      "github_lower": 7,
+      "zenodo_lower": 7
+    },
+    "C(14,5,3)": {
+      "github_size": 43,
+      "zenodo_size": 43,
+      "github_lower": 37,
+      "zenodo_lower": 37
+    },
+    "C(15,5,3)": {
+      "github_size": 55,
+      "zenodo_size": 55,
+      "github_lower": 54,
+      "zenodo_lower": 54
+    },
+    "C(16,5,3)": {
+      "github_size": 65,
+      "zenodo_size": 65,
+      "github_lower": 61,
+      "zenodo_lower": 61
+    },
+    "C(13,6,3)": {
+      "github_size": 21,
+      "zenodo_size": 21,
+      "github_lower": 20,
+      "zenodo_lower": 20
+    }
+  }
+}

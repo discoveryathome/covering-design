@@ -1,0 +1,33 @@
+CARD search-repair
+EXPECT valid=true, blocks=43, covered=required=364
+{"blocks": 43, "covered": 364, "k": 5, "lower_bound": 37, "required": 364, "t": 3, "uncovered": 0, "v": 14, "valid": true}
+CARD trace-bound
+EXPECT (13,6,3) Schonheim=18, archive_reported_lower_bound=20; Fano=7
+{"instance": [7, 3, 2], "counting": 7, "schonheim": 7, "steps": [{"v": 6, "k": 2, "t": 1, "bound": 3}, {"v": 7, "k": 3, "t": 2, "bound": 7}], "archive_reported_lower_bound": 7}
+{"instance": [14, 5, 3], "counting": 37, "schonheim": 37, "steps": [{"v": 12, "k": 3, "t": 1, "bound": 4}, {"v": 13, "k": 4, "t": 2, "bound": 13}, {"v": 14, "k": 5, "t": 3, "bound": 37}], "archive_reported_lower_bound": 37}
+{"instance": [15, 5, 3], "counting": 46, "schonheim": 54, "steps": [{"v": 13, "k": 3, "t": 1, "bound": 5}, {"v": 14, "k": 4, "t": 2, "bound": 18}, {"v": 15, "k": 5, "t": 3, "bound": 54}], "archive_reported_lower_bound": 54}
+{"instance": [16, 5, 3], "counting": 56, "schonheim": 61, "steps": [{"v": 14, "k": 3, "t": 1, "bound": 5}, {"v": 15, "k": 4, "t": 2, "bound": 19}, {"v": 16, "k": 5, "t": 3, "bound": 61}], "archive_reported_lower_bound": 61}
+{"instance": [13, 6, 3], "counting": 15, "schonheim": 18, "steps": [{"v": 11, "k": 4, "t": 1, "bound": 3}, {"v": 12, "k": 5, "t": 2, "bound": 8}, {"v": 13, "k": 6, "t": 3, "bound": 18}], "archive_reported_lower_bound": 20}
+CARD audit-current-records
+EXPECT Five archive rows match their metadata and all witnesses verify; successor confirmation pending
+C(7,3,2): archive 7..7; local 7 blocks; successor confirmation pending
+C(14,5,3): archive 37..43; local 43 blocks; successor confirmation pending
+C(15,5,3): archive 54..55; local 55 blocks; successor confirmation pending
+C(16,5,3): archive 61..65; local 65 blocks; successor confirmation pending
+C(13,6,3): archive 20..21; local 21 blocks; successor confirmation pending
+CARD verify-independently
+EXPECT 8 tests pass, including six negative fixtures and exhaustive C(5,3,2) subfamilies
+test_all_subfamilies_against_incidence_oracle (test_verify.VerifierTests.test_all_subfamilies_against_incidence_oracle) ... ok
+test_edge_instances (test_verify.VerifierTests.test_edge_instances) ... ok
+test_fano_and_optimality (test_verify.VerifierTests.test_fano_and_optimality) ... ok
+test_instance_and_count_are_checked (test_verify.VerifierTests.test_instance_and_count_are_checked) ... ok
+test_invalid_fixtures (test_verify.VerifierTests.test_invalid_fixtures) ... ok
+test_record_binding_mutations (test_verify.VerifierTests.test_record_binding_mutations) ... ok
+test_relabeling_and_block_order_invariance (test_verify.VerifierTests.test_relabeling_and_block_order_invariance) ... ok
+test_wrong_types_and_parameters (test_verify.VerifierTests.test_wrong_types_and_parameters) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.025s
+
+OK
+PASS: all 4 task first_step controls

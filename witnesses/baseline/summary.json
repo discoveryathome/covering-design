@@ -1,0 +1,116 @@
+{
+  "method": "random-tie-greedy+redundancy-deletion-v1",
+  "python": "3.14.6",
+  "results": [
+    {
+      "v": 7,
+      "k": 3,
+      "t": 2,
+      "blocks": 7,
+      "archive_upper_bound": 7,
+      "delta_to_archive": 0,
+      "seed": 20261020,
+      "restarts": 8,
+      "restart_sizes": [
+        9,
+        7,
+        7,
+        7,
+        7,
+        7,
+        7,
+        9
+      ],
+      "verified": true,
+      "witness": "witnesses/baseline/7-3-2.json"
+    },
+    {
+      "v": 14,
+      "k": 5,
+      "t": 3,
+      "blocks": 51,
+      "archive_upper_bound": 43,
+      "delta_to_archive": 8,
+      "seed": 20261020,
+      "restarts": 8,
+      "restart_sizes": [
+        51,
+        51,
+        54,
+        52,
+        52,
+        53,
+        52,
+        52
+      ],
+      "verified": true,
+      "witness": "witnesses/baseline/14-5-3.json"
+    },
+    {
+      "v": 15,
+      "k": 5,
+      "t": 3,
+      "blocks": 64,
+      "archive_upper_bound": 55,
+      "delta_to_archive": 9,
+      "seed": 20261020,
+      "restarts": 8,
+      "restart_sizes": [
+        65,
+        65,
+        64,
+        66,
+        67,
+        64,
+        64,
+        66
+      ],
+      "verified": true,
+      "witness": "witnesses/baseline/15-5-3.json"
+    },
+    {
+      "v": 16,
+      "k": 5,
+      "t": 3,
+      "blocks": 77,
+      "archive_upper_bound": 65,
+      "delta_to_archive": 12,
+      "seed": 20261020,
+      "restarts": 8,
+      "restart_sizes": [
+        79,
+        79,
+        79,
+        79,
+        79,
+        77,
+        79,
+        79
+      ],
+      "verified": true,
+      "witness": "witnesses/baseline/16-5-3.json"
+    },
+    {
+      "v": 13,
+      "k": 6,
+      "t": 3,
+      "blocks": 24,
+      "archive_upper_bound": 21,
+      "delta_to_archive": 3,
+      "seed": 20261020,
+      "restarts": 8,
+      "restart_sizes": [
+        25,
+        24,
+        24,
+        24,
+        25,
+        24,
+        24,
+        24
+      ],
+      "verified": true,
+      "witness": "witnesses/baseline/13-6-3.json"
+    }
+  ]
+}

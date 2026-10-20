@@ -1,0 +1,7 @@
+bool-label.json: exit=1 INVALID: block 0: labels must be integers in 1..7
+duplicate-block.json: exit=1 INVALID: block 7: duplicate block
+missing-block.json: exit=1 INVALID: uncovered 3/21 subsets; first=(3, 5)
+out-of-range.json: exit=1 INVALID: block 0: labels must be integers in 1..7
+repeated-point.json: exit=1 INVALID: block 0: repeated point
+wrong-size.json: exit=1 INVALID: block 0: require exactly 3 entries
+PASS: all 6 invalid constructions rejected by CLI

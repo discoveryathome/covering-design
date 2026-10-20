@@ -1,0 +1,6 @@
+13-6-3.json: byte-identical sha256=d7851761687edb9424770763090e94b0f7dd4284a4e30a9f74b8ea41e85b3467
+14-5-3.json: byte-identical sha256=acb7c1d12d0b45ee9111a62c865a9363346eba7f249df9485090fcdcb3738a25
+15-5-3.json: byte-identical sha256=a528e7e45abc9d4ce0304304b2c89def8c323926cac012073eba2d4c959ad8db
+16-5-3.json: byte-identical sha256=e5b8cbcecf2b23f35ef55e0980da1ff16f0e0fd84318c5f79c4a90defcc8e729
+7-3-2.json: byte-identical sha256=a90c3f5b2b628293f92dd942848fc518e2a30ac5cb889f1595a625e1476ba8f5
+PASS: all 5 baseline witnesses byte-identical across repeated seeded runs

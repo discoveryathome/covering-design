@@ -1,0 +1,8 @@
+.: not conformant: the problems below need fixing, in the repo or the hub's adapter
+  frontier table: 5 cases, 4 open
+  problem: discover.json $.maintainers: needs at least 1 items
+  conventions followed: weighted task catalogue, priority log, frontier `reproduce` check, review ledger
+  convention not followed: coordination channel: manifest has no `coordination` channel
+  convention not followed: result packages: none yet under research/*/ (fine for a new project)
+  Conventions are recommended, not required. The stage comes from a hub assessment of
+  the five properties (spec §3), not from this check.

@@ -1,0 +1,101 @@
+{
+  "source": "https://zenodo.org/records/19735294/files/coverdata.json",
+  "version": "1.2",
+  "doi": "10.5281/zenodo.19735294",
+  "retrieved_at": "2026-10-20T04:49:27.845271+00:00",
+  "source_sha256": "9e7da3710921066b10234fdc95379a18df3a7d3ae0f8a08ae188ea6bbca92f87",
+  "license": "CC-BY-4.0",
+  "modification": "selected five entries; metadata retained verbatim",
+  "records": {
+    "C(7,3,2)": {
+      "size": 7,
+      "low_bd": 7,
+      "imps": [
+        [
+          "7",
+          "",
+          "JCD article",
+          "1996-11-14 17:08:00"
+        ]
+      ]
+    },
+    "C(14,5,3)": {
+      "size": 43,
+      "low_bd": 37,
+      "imps": [
+        [
+          "43",
+          "nurmela and ostergard simulated annealing cover",
+          "",
+          "1996-12-01 00:00:00"
+        ],
+        [
+          "47",
+          "",
+          "JCD article",
+          "1996-11-14 17:08:00"
+        ]
+      ]
+    },
+    "C(15,5,3)": {
+      "size": 55,
+      "low_bd": 54,
+      "imps": [
+        [
+          "55",
+          "",
+          "Carmine Iorio",
+          "2020-01-15 05:29:05"
+        ],
+        [
+          "56",
+          "",
+          "Daniel Morais",
+          "2000-03-03 00:00:00"
+        ],
+        [
+          "60",
+          "",
+          "JCD article",
+          "1996-11-14 17:08:00"
+        ]
+      ]
+    },
+    "C(16,5,3)": {
+      "size": 65,
+      "low_bd": 61,
+      "imps": [
+        [
+          "65",
+          "",
+          "Rade Belic",
+          "1997-08-06 00:00:00"
+        ],
+        [
+          "68",
+          "",
+          "JCD article",
+          "1996-11-14 17:08:00"
+        ]
+      ]
+    },
+    "C(13,6,3)": {
+      "size": 21,
+      "low_bd": 20,
+      "imps": [
+        [
+          "21",
+          "Random Greedy Covering",
+          "",
+          "1997-01-31 00:00:00"
+        ],
+        [
+          "21",
+          "",
+          "JCD article",
+          "1996-11-14 17:08:00"
+        ]
+      ]
+    }
+  }
+}
