@@ -1,0 +1,19 @@
+test_all_subfamilies_against_incidence_oracle (test_verify.VerifierTests.test_all_subfamilies_against_incidence_oracle) ... ok
+test_edge_instances (test_verify.VerifierTests.test_edge_instances) ... ok
+test_fano_and_optimality (test_verify.VerifierTests.test_fano_and_optimality) ... ok
+test_instance_and_count_are_checked (test_verify.VerifierTests.test_instance_and_count_are_checked) ... ok
+test_invalid_fixtures (test_verify.VerifierTests.test_invalid_fixtures) ... ok
+test_record_binding_mutations (test_verify.VerifierTests.test_record_binding_mutations) ... ok
+test_relabeling_and_block_order_invariance (test_verify.VerifierTests.test_relabeling_and_block_order_invariance) ... ok
+test_wrong_types_and_parameters (test_verify.VerifierTests.test_wrong_types_and_parameters) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.027s
+
+OK
+{"blocks": 7, "covered": 21, "k": 3, "lower_bound": 7, "required": 21, "t": 2, "uncovered": 0, "v": 7, "valid": true}
+{"blocks": 43, "covered": 364, "k": 5, "lower_bound": 37, "required": 364, "t": 3, "uncovered": 0, "v": 14, "valid": true}
+{"blocks": 55, "covered": 455, "k": 5, "lower_bound": 54, "required": 455, "t": 3, "uncovered": 0, "v": 15, "valid": true}
+{"blocks": 65, "covered": 560, "k": 5, "lower_bound": 61, "required": 560, "t": 3, "uncovered": 0, "v": 16, "valid": true}
+{"blocks": 21, "covered": 286, "k": 6, "lower_bound": 18, "required": 286, "t": 3, "uncovered": 0, "v": 13, "valid": true}
+PASS: 5 record witnesses, 5 baseline witnesses, Fano optimum, and verifier controls
