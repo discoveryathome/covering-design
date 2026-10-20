@@ -1,0 +1,1 @@
+{"blocks": 166692, "covered": 17259390, "k": 10, "required": 17259390, "t": 5, "uncovered": 0, "v": 75, "valid": true}

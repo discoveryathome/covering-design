@@ -1,0 +1,1 @@
+PASS: colex rank bijection for v<=10, exhaustive 1024 families agree with union checker, six negative fixtures rejected

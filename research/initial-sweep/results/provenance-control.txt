@@ -1,0 +1,1 @@
+PASS: final driver preserves valid blocks, binds archive input hash, and labels unchanged fallback explicitly

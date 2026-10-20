@@ -1,0 +1,1 @@
+PASS: omitting the entire new-point branch is rejected: uncovered 121485/2794155

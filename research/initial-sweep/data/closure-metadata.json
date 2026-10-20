@@ -1,0 +1,1195 @@
+{
+  "source": "https://doi.org/10.5281/zenodo.19735294",
+  "license": "CC-BY-4.0",
+  "attribution": "Daniel M. Gordon and contributors",
+  "records": {
+    "C(76,24,7)": {
+      "size": 36144,
+      "low_bd": 7860,
+      "imps": [
+        [
+          "36144",
+          "Local search",
+          "A. West",
+          "2026-01-22 10:07:38"
+        ],
+        [
+          "36198",
+          "Dynamic programming construction",
+          "LJCR",
+          "2025-10-31 17:08:16"
+        ],
+        [
+          "38079",
+          "Local search",
+          "A. West",
+          "2024-10-03 07:28:10"
+        ],
+        [
+          "38184",
+          "Dynamic programming construction",
+          "LJCR",
+          "2024-09-27 16:15:38"
+        ],
+        [
+          "38742",
+          "Local search",
+          "A. West",
+          "2024-09-02 07:04:42"
+        ],
+        [
+          "38814",
+          "Dynamic programming construction",
+          "LJCR",
+          "2024-08-30 18:35:49"
+        ],
+        [
+          "39808",
+          "Local search",
+          "A. West",
+          "2023-12-18 07:39:44"
+        ],
+        [
+          "39882",
+          "Dynamic programming construction",
+          "LJCR",
+          "2023-06-16 14:35:40"
+        ],
+        [
+          "39883",
+          "Dynamic programming construction",
+          "LJCR",
+          "2023-03-21 18:14:25"
+        ],
+        [
+          "40289",
+          "Local search",
+          "A. West",
+          "2021-01-13 09:02:05"
+        ],
+        [
+          "40353",
+          "private tool",
+          "Stefano de Martino",
+          "2021-01-02 05:54:04"
+        ],
+        [
+          "40354",
+          "Dynamic programming construction",
+          "LJCR",
+          "2020-11-30 17:44:48"
+        ],
+        [
+          "40355",
+          "Dynamic programming construction",
+          "LJCR",
+          "2020-06-29 15:17:31"
+        ],
+        [
+          "40851",
+          "Dynamic programming construction",
+          "LJCR",
+          "2019-07-14 18:33:09"
+        ],
+        [
+          "41115",
+          "Dynamic programming construction",
+          "LJCR",
+          "2019-01-30 12:00:38"
+        ],
+        [
+          "41116",
+          "Dynamic programming construction",
+          "LJCR",
+          "2019-01-28 14:48:28"
+        ],
+        [
+          "41216",
+          "Dynamic programming construction",
+          "LJCR",
+          "2015-05-07 09:05:00"
+        ],
+        [
+          "41218",
+          "Dynamic programming construction",
+          "LJCR",
+          "2015-04-29 10:00:00"
+        ],
+        [
+          "41219",
+          "Dynamic programming construction",
+          "LJCR",
+          "2015-04-07 09:14:36"
+        ],
+        [
+          "42019",
+          "Dynamic programming construction",
+          "LJCR",
+          "2015-02-18 19:34:51"
+        ],
+        [
+          "42037",
+          "Dynamic programming construction",
+          "LJCR",
+          "2013-05-12 18:26:40"
+        ],
+        [
+          "42169",
+          "Dynamic programming construction",
+          "LJCR",
+          "2012-12-11 10:14:13"
+        ],
+        [
+          "42268",
+          "Dynamic programming construction",
+          "LJCR",
+          "2012-12-08 19:04:00"
+        ],
+        [
+          "42585",
+          "Dynamic programming construction",
+          "LJCR",
+          "2012-12-03 11:15:49"
+        ],
+        [
+          "42614",
+          "Dynamic programming construction",
+          "LJCR",
+          "2012-01-19 15:15:54"
+        ],
+        [
+          "42658",
+          "Dynamic programming construction",
+          "LJCR",
+          "2011-04-05 15:50:06"
+        ],
+        [
+          "42697",
+          "Dynamic programming construction",
+          "LJCR",
+          "2010-11-22 14:54:45"
+        ],
+        [
+          "42951",
+          "Dynamic programming construction",
+          "LJCR",
+          "2010-11-06 14:14:25"
+        ],
+        [
+          "42961",
+          "Dynamic programming construction",
+          "LJCR",
+          "2010-10-29 14:42:13"
+        ],
+        [
+          "42962",
+          "Dynamic programming construction",
+          "LJCR",
+          "2010-10-27 16:35:40"
+        ],
+        [
+          "42971",
+          "Dynamic programming construction",
+          "LJCR",
+          "2010-08-26 21:45:22"
+        ],
+        [
+          "43301",
+          "Dynamic programming construction",
+          "LJCR",
+          "2010-08-18 11:38:33"
+        ],
+        [
+          "43302",
+          "Dynamic programming construction",
+          "LJCR",
+          "2010-08-16 11:37:46"
+        ],
+        [
+          "43303",
+          "Dynamic programming construction",
+          "LJCR",
+          "2010-08-11 14:46:56"
+        ],
+        [
+          "43304",
+          "Dynamic programming construction",
+          "LJCR",
+          "2010-08-09 10:27:20"
+        ],
+        [
+          "43305",
+          "Dynamic programming construction",
+          "LJCR",
+          "2010-08-06 11:14:36"
+        ],
+        [
+          "43306",
+          "Dynamic programming construction",
+          "LJCR",
+          "2010-08-04 12:04:40"
+        ],
+        [
+          "43321",
+          "Dynamic programming construction",
+          "LJCR",
+          "2010-07-13 19:42:09"
+        ],
+        [
+          "43323",
+          "Dynamic programming construction",
+          "LJCR",
+          "2010-07-12 14:02:25"
+        ],
+        [
+          "43324",
+          "Dynamic programming construction",
+          "LJCR",
+          "2010-07-06 13:28:31"
+        ],
+        [
+          "43819",
+          "Dynamic programming construction",
+          "LJCR",
+          "2010-03-08 22:56:17"
+        ],
+        [
+          "50040",
+          "Simple construction: combined (75,24,7) and  (75,23,6)",
+          "LJCR",
+          "2010-03-01 12:07:22"
+        ],
+        [
+          "50210",
+          "Simple construction: combined (75,24,7) and  (75,23,6)",
+          "LJCR",
+          "2009-11-30 17:22:23"
+        ],
+        [
+          "57523",
+          "Simple construction: combined (75,24,7) and  (75,23,6)",
+          "LJCR",
+          "2009-11-30 10:45:00"
+        ]
+      ]
+    },
+    "C(76,25,8)": {
+      "size": 138919,
+      "low_bd": 22317,
+      "imps": [
+        [
+          "138919",
+          "Dynamic programming construction",
+          "LJCR",
+          "2026-03-17 14:39:39"
+        ],
+        [
+          "143079",
+          "Dynamic programming construction",
+          "LJCR",
+          "2026-02-27 23:58:15"
+        ],
+        [
+          "160483",
+          "Simple construction: combined (75,25,8) and  (75,24,7)",
+          "LJCR",
+          "2026-02-23 13:25:04"
+        ]
+      ]
+    },
+    "C(77,25,8)": {
+      "size": 179223,
+      "low_bd": 24209,
+      "imps": [
+        [
+          "179223",
+          "Simple construction: combined (76,25,8) and  (76,24,7)",
+          "LJCR",
+          "2026-03-02 13:15:58"
+        ]
+      ]
+    },
+    "C(78,20,6)": {
+      "size": 28051,
+      "low_bd": 8015,
+      "imps": [
+        [
+          "28051",
+          "Dynamic programming construction",
+          "LJCR",
+          "2026-03-08 23:03:17"
+        ],
+        [
+          "28079",
+          "Local search",
+          "A. West",
+          "2023-12-18 08:13:38"
+        ],
+        [
+          "28305",
+          "Local search",
+          "Dietmar Pree",
+          "2023-04-02 21:33:18"
+        ],
+        [
+          "28320",
+          "Local search",
+          "A. West",
+          "2021-01-12 20:16:34"
+        ],
+        [
+          "28455",
+          "",
+          "Tommaso Tanto",
+          "2011-08-20 09:12:57"
+        ],
+        [
+          "29075",
+          "Dynamic programming construction",
+          "LJCR",
+          "2011-04-19 09:01:50"
+        ],
+        [
+          "29117",
+          "Dynamic programming construction",
+          "LJCR",
+          "2011-04-10 22:31:52"
+        ],
+        [
+          "29118",
+          "Dynamic programming construction",
+          "LJCR",
+          "2011-04-05 14:21:27"
+        ],
+        [
+          "29157",
+          "Dynamic programming construction",
+          "LJCR",
+          "2010-07-12 11:16:25"
+        ],
+        [
+          "29386",
+          "Dynamic programming construction",
+          "LJCR",
+          "2010-07-02 13:33:13"
+        ],
+        [
+          "31064",
+          "Dynamic programming construction",
+          "LJCR",
+          "2010-06-01 19:34:39"
+        ],
+        [
+          "31073",
+          "Dynamic programming construction",
+          "LJCR",
+          "2010-03-04 03:55:41"
+        ],
+        [
+          "31169",
+          "Dynamic programming construction",
+          "LJCR",
+          "2009-08-24 16:28:21"
+        ],
+        [
+          "34651",
+          "Simple construction: combined (77,20,6) and  (77,19,5)",
+          "LJCR",
+          "2009-08-24 11:19:45"
+        ],
+        [
+          "37803",
+          "Multiple of (39,10,6) covering",
+          "LJCR",
+          "2009-04-27 10:39:19"
+        ],
+        [
+          "45991",
+          "Multiple of (39,10,6) covering",
+          "LJCR",
+          "2009-04-19 21:02:01"
+        ]
+      ]
+    },
+    "C(78,21,7)": {
+      "size": 136976,
+      "low_bd": 27170,
+      "imps": [
+        [
+          "136976",
+          "Dynamic programming construction",
+          "LJCR",
+          "2026-03-11 17:59:41"
+        ],
+        [
+          "137134",
+          "Dynamic programming construction",
+          "LJCR",
+          "2026-02-27 21:26:27"
+        ],
+        [
+          "146763",
+          "Simple construction: combined (77,21,7) and  (77,20,6)",
+          "LJCR",
+          "2026-02-23 11:38:40"
+        ]
+      ]
+    },
+    "C(79,21,7)": {
+      "size": 165213,
+      "low_bd": 30152,
+      "imps": [
+        [
+          "165213",
+          "Simple construction: combined (78,21,7) and  (78,20,6)",
+          "LJCR",
+          "2026-03-02 11:59:48"
+        ]
+      ]
+    },
+    "C(85,22,6)": {
+      "size": 27279,
+      "low_bd": 6940,
+      "imps": [
+        [
+          "27279",
+          "Dynamic programming construction",
+          "LJCR",
+          "2026-03-09 12:55:14"
+        ],
+        [
+          "27471",
+          "Local search",
+          "A. West",
+          "2025-11-04 15:28:08"
+        ],
+        [
+          "27479",
+          "Dynamic programming construction",
+          "LJCR",
+          "2025-10-23 12:20:34"
+        ],
+        [
+          "27531",
+          "Dynamic programming construction",
+          "LJCR",
+          "2025-10-16 12:07:08"
+        ],
+        [
+          "27572",
+          "Local search",
+          "A. West",
+          "2025-09-09 11:11:46"
+        ],
+        [
+          "27635",
+          "Dynamic programming construction",
+          "LJCR",
+          "2025-08-08 11:33:33"
+        ],
+        [
+          "27697",
+          "Local search",
+          "A. West",
+          "2023-12-18 07:39:28"
+        ],
+        [
+          "27712",
+          "Local search",
+          "A. West",
+          "2021-01-12 22:00:53"
+        ],
+        [
+          "28914",
+          "Dynamic programming construction",
+          "LJCR",
+          "2021-01-04 15:06:29"
+        ],
+        [
+          "28925",
+          "Dynamic programming construction",
+          "LJCR",
+          "2020-10-06 13:29:07"
+        ],
+        [
+          "28936",
+          "Dynamic programming construction",
+          "LJCR",
+          "2012-01-19 13:06:14"
+        ],
+        [
+          "29541",
+          "Dynamic programming construction",
+          "LJCR",
+          "2011-03-03 10:54:29"
+        ],
+        [
+          "29596",
+          "Dynamic programming construction",
+          "LJCR",
+          "2011-02-14 11:58:59"
+        ],
+        [
+          "29696",
+          "Dynamic programming construction",
+          "LJCR",
+          "2010-07-02 16:56:39"
+        ],
+        [
+          "30788",
+          "Dynamic programming construction",
+          "LJCR",
+          "2009-08-28 10:48:30"
+        ],
+        [
+          "36208",
+          "Simple construction: combined (84,22,6) and  (84,21,5)",
+          "LJCR",
+          "2009-04-29 17:55:10"
+        ],
+        [
+          "46917",
+          "Simple construction: combined (84,22,6) and  (84,21,5)",
+          "LJCR",
+          "2009-04-25 08:19:29"
+        ]
+      ]
+    },
+    "C(85,23,7)": {
+      "size": 125768,
+      "low_bd": 23594,
+      "imps": [
+        [
+          "125768",
+          "Dynamic programming construction",
+          "LJCR",
+          "2026-03-13 13:13:55"
+        ],
+        [
+          "126212",
+          "Dynamic programming construction",
+          "LJCR",
+          "2026-02-27 22:05:07"
+        ],
+        [
+          "141477",
+          "Simple construction: combined (84,23,7) and  (84,22,6)",
+          "LJCR",
+          "2026-02-23 11:14:08"
+        ]
+      ]
+    },
+    "C(86,23,7)": {
+      "size": 153683,
+      "low_bd": 25950,
+      "imps": [
+        [
+          "153683",
+          "Simple construction: combined (85,23,7) and  (85,22,6)",
+          "LJCR",
+          "2026-03-02 11:32:17"
+        ]
+      ]
+    },
+    "C(91,6,3)": {
+      "size": 6765,
+      "low_bd": 6279,
+      "imps": [
+        [
+          "6765",
+          "Wheel Generator V2",
+          "David A Balfour",
+          "2024-08-15 00:35:49"
+        ],
+        [
+          "6774",
+          "Private Tools",
+          "Jan de Heer and Steve Muir",
+          "2011-06-07 05:32:38"
+        ],
+        [
+          "7064",
+          "",
+          "Gerald Unger",
+          "2010-12-30 12:15:48"
+        ],
+        [
+          "7066",
+          "Simple construction: combined (90,6,3) and  (90,5,2)",
+          "LJCR",
+          "2010-05-25 14:16:45"
+        ],
+        [
+          "7072",
+          "",
+          "Gerald Unger",
+          "2009-04-18 02:49:29"
+        ],
+        [
+          "7080",
+          "Simple construction: combined (90,6,3) and  (90,5,2)",
+          "LJCR",
+          "2008-12-09 10:19:51"
+        ]
+      ]
+    },
+    "C(91,7,4)": {
+      "size": 124357,
+      "low_bd": 76440,
+      "imps": [
+        [
+          "124357",
+          "Sidorenko construction",
+          "LJCR",
+          "2026-03-12 07:49:15"
+        ],
+        [
+          "124583",
+          "Simple construction: combined (90,7,4) and  (90,6,3)",
+          "LJCR",
+          "2026-03-11 07:16:57"
+        ],
+        [
+          "124648",
+          "Dynamic programming construction",
+          "LJCR",
+          "2026-03-06 14:11:44"
+        ],
+        [
+          "126140",
+          "Simple construction: combined (90,7,4) and  (90,6,3)",
+          "LJCR",
+          "2026-02-23 07:37:53"
+        ]
+      ]
+    },
+    "C(92,7,4)": {
+      "size": 132580,
+      "low_bd": 82524,
+      "imps": [
+        [
+          "132580",
+          "Dynamic programming construction",
+          "LJCR",
+          "2026-03-02 15:46:53"
+        ],
+        [
+          "132903",
+          "Simple construction: combined (91,7,4) and  (91,6,3)",
+          "LJCR",
+          "2026-03-02 07:39:50"
+        ]
+      ]
+    },
+    "C(75,10,5)": {
+      "size": 166799,
+      "low_bd": 69810,
+      "imps": [
+        [
+          "166799",
+          "Dynamic programming construction",
+          "LJCR",
+          "2026-03-02 16:25:52"
+        ],
+        [
+          "169348",
+          "Simple construction: combined (74,10,5) and  (74,9,4)",
+          "LJCR",
+          "2026-03-02 08:20:09"
+        ]
+      ]
+    },
+    "C(73,10,5)": {
+      "size": 143485,
+      "low_bd": 62196,
+      "imps": [
+        [
+          "143485",
+          "union optimization",
+          "Bluskov and Sidorenko",
+          "2025-09-22 23:31:58"
+        ]
+      ]
+    },
+    "C(73,8,4)": {
+      "size": 23207,
+      "low_bd": 15586,
+      "imps": [
+        [
+          "23207",
+          "Private Tools",
+          "Jan de Heer and Steve Muir",
+          "2026-02-28 23:37:33"
+        ],
+        [
+          "24185",
+          "Local search",
+          "A. West",
+          "2024-05-28 06:17:08"
+        ],
+        [
+          "24193",
+          "Local search",
+          "A. West",
+          "2023-12-28 07:54:51"
+        ],
+        [
+          "24194",
+          "Simple optimization",
+          "Jan de Heer and Steve Muir",
+          "2013-11-28 09:18:10"
+        ],
+        [
+          "24231",
+          "",
+          "Pio Leonardi",
+          "2013-01-03 01:33:46"
+        ],
+        [
+          "24282",
+          "Simulated Annealing",
+          "Michael Dambmann",
+          "2012-06-16 07:35:33"
+        ],
+        [
+          "24289",
+          "PRIVATO",
+          "Pio Leonardi",
+          "2011-05-14 05:02:39"
+        ],
+        [
+          "24654",
+          "",
+          "Rade Belic & Dragan Stojiljkovic",
+          "2011-03-05 01:05:06"
+        ],
+        [
+          "24724",
+          "Private Tools",
+          "Tommaso Tanto",
+          "2010-12-30 01:51:50"
+        ],
+        [
+          "24728",
+          "Dynamic programming construction",
+          "LJCR",
+          "2010-09-02 16:32:37"
+        ],
+        [
+          "24733",
+          "Dynamic programming construction",
+          "LJCR",
+          "2010-08-04 10:48:56"
+        ],
+        [
+          "24740",
+          "Dynamic programming construction",
+          "LJCR",
+          "2010-07-01 20:43:40"
+        ],
+        [
+          "24748",
+          "Dynamic programming construction",
+          "LJCR",
+          "2010-04-18 23:19:00"
+        ],
+        [
+          "24955",
+          "Simple construction: combined (72,8,4) and  (72,7,3)",
+          "LJCR",
+          "2010-04-11 09:55:06"
+        ],
+        [
+          "25352",
+          "Dynamic programming construction",
+          "LJCR",
+          "2010-04-10 23:16:32"
+        ],
+        [
+          "30577",
+          "Dynamic programming construction",
+          "LJCR",
+          "2009-04-19 07:50:57"
+        ],
+        [
+          "30720",
+          "Dynamic programming construction",
+          "LJCR",
+          "2009-02-15 21:06:10"
+        ]
+      ]
+    },
+    "C(81,11,5)": {
+      "size": 148763,
+      "low_bd": 55846,
+      "imps": [
+        [
+          "148763",
+          "Dynamic programming construction",
+          "LJCR",
+          "2026-03-02 16:33:12"
+        ],
+        [
+          "154512",
+          "Simple construction: combined (80,11,5) and  (80,10,4)",
+          "LJCR",
+          "2026-03-02 08:15:28"
+        ]
+      ]
+    },
+    "C(79,11,5)": {
+      "size": 128340,
+      "low_bd": 50367,
+      "imps": [
+        [
+          "128340",
+          "Dynamic programming construction",
+          "LJCR",
+          "2026-03-06 18:14:43"
+        ],
+        [
+          "129738",
+          "Dynamic programming construction",
+          "LJCR",
+          "2026-02-20 00:12:12"
+        ],
+        [
+          "130328",
+          "Dynamic programming construction",
+          "LJCR",
+          "2025-10-16 08:25:56"
+        ],
+        [
+          "135561",
+          "Simple construction: combined (78,11,5) and  (78,10,4)",
+          "LJCR",
+          "2025-10-09 11:52:08"
+        ]
+      ]
+    },
+    "C(79,9,4)": {
+      "size": 20171,
+      "low_bd": 12245,
+      "imps": [
+        [
+          "20171",
+          "Private Tools",
+          "Jan de Heer and Steve Muir",
+          "2026-02-28 23:37:40"
+        ],
+        [
+          "20181",
+          "Local search",
+          "A. West",
+          "2024-05-27 06:56:33"
+        ],
+        [
+          "20195",
+          "Local search",
+          "A. West",
+          "2023-12-28 07:54:17"
+        ],
+        [
+          "20196",
+          "Local search",
+          "Dietmar Pree",
+          "2021-06-09 20:43:47"
+        ],
+        [
+          "20244",
+          "Local search",
+          "A. West",
+          "2021-01-12 11:22:09"
+        ],
+        [
+          "20246",
+          "Local search",
+          "Dietmar Pree",
+          "2020-10-08 08:58:44"
+        ],
+        [
+          "20394",
+          "",
+          "Pio Leonardi",
+          "2013-06-11 10:10:05"
+        ],
+        [
+          "20613",
+          "",
+          "Flavio Perona",
+          "2013-05-13 04:53:59"
+        ],
+        [
+          "20621",
+          "Simulated Annealing",
+          "Michael Dambmann",
+          "2012-07-01 13:01:44"
+        ],
+        [
+          "20751",
+          "",
+          "Tommaso Tanto",
+          "2012-02-16 11:21:14"
+        ],
+        [
+          "20752",
+          "",
+          "Flavio Perona",
+          "2011-12-31 00:06:27"
+        ],
+        [
+          "20753",
+          "",
+          "Tommaso Tanto",
+          "2011-12-29 13:25:54"
+        ],
+        [
+          "20755",
+          "",
+          "Flavio Perona",
+          "2011-12-29 04:41:37"
+        ],
+        [
+          "20758",
+          "",
+          "Tommaso Tanto",
+          "2011-12-14 16:36:36"
+        ],
+        [
+          "20760",
+          "Simulated Annealing",
+          "Michael Dambmann",
+          "2011-12-14 15:13:33"
+        ],
+        [
+          "20763",
+          "",
+          "Tommaso Tanto",
+          "2011-12-12 06:45:34"
+        ],
+        [
+          "20764",
+          "",
+          "Flavio Perona",
+          "2011-12-11 01:56:13"
+        ],
+        [
+          "20774",
+          "",
+          "Tommaso Tanto",
+          "2011-11-23 09:49:59"
+        ],
+        [
+          "20775",
+          "",
+          "Flavio Perona",
+          "2011-11-22 10:23:29"
+        ],
+        [
+          "20834",
+          "",
+          "Tommaso Tanto",
+          "2011-11-21 12:57:46"
+        ],
+        [
+          "20835",
+          "",
+          "Flavio Perona",
+          "2011-11-20 03:16:01"
+        ],
+        [
+          "21539",
+          "",
+          "Tommaso Tanto",
+          "2011-04-21 05:45:05"
+        ],
+        [
+          "21560",
+          "Simple construction from (80,9,4)",
+          "LJCR",
+          "2011-04-20 07:50:42"
+        ],
+        [
+          "23246",
+          "Dynamic programming construction",
+          "LJCR",
+          "2011-04-12 15:33:58"
+        ],
+        [
+          "23318",
+          "",
+          "Rade Belic & Dragan Stojiljkovic",
+          "2011-04-05 12:34:09"
+        ],
+        [
+          "23296",
+          "Dynamic programming construction",
+          "LJCR",
+          "2011-04-05 12:00:56"
+        ],
+        [
+          "23417",
+          "Dynamic programming construction",
+          "LJCR",
+          "2011-04-04 10:32:43"
+        ],
+        [
+          "23448",
+          "Dynamic programming construction",
+          "LJCR",
+          "2011-04-01 12:00:55"
+        ],
+        [
+          "23454",
+          "Dynamic programming construction",
+          "LJCR",
+          "2011-03-16 14:43:06"
+        ],
+        [
+          "23475",
+          "",
+          "Flavio Perona",
+          "2011-03-13 23:47:44"
+        ],
+        [
+          "23492",
+          "Private Tools",
+          "Tommaso Tanto",
+          "2011-02-10 06:37:26"
+        ],
+        [
+          "23496",
+          "Dynamic programming construction",
+          "LJCR",
+          "2011-02-07 10:48:04"
+        ],
+        [
+          "23501",
+          "Private Tools",
+          "Tommaso Tanto",
+          "2011-01-25 14:13:42"
+        ],
+        [
+          "23502",
+          "Dynamic programming construction",
+          "LJCR",
+          "2011-01-25 10:24:02"
+        ],
+        [
+          "23506",
+          "Private Tools",
+          "Tommaso Tanto",
+          "2011-01-24 16:29:23"
+        ],
+        [
+          "23509",
+          "Dynamic programming construction",
+          "LJCR",
+          "2011-01-24 12:58:46"
+        ],
+        [
+          "23519",
+          "Private Tools",
+          "Tommaso Tanto",
+          "2011-01-12 05:50:33"
+        ],
+        [
+          "23521",
+          "Dynamic programming construction",
+          "LJCR",
+          "2011-01-11 10:14:52"
+        ],
+        [
+          "23523",
+          "Private Tools",
+          "Tommaso Tanto",
+          "2011-01-11 04:30:38"
+        ],
+        [
+          "23524",
+          "Dynamic programming construction",
+          "LJCR",
+          "2011-01-10 12:08:01"
+        ],
+        [
+          "23552",
+          "Private Tools",
+          "Tommaso Tanto",
+          "2011-01-05 12:40:31"
+        ],
+        [
+          "23553",
+          "Dynamic programming construction",
+          "LJCR",
+          "2011-01-04 16:13:32"
+        ],
+        [
+          "23577",
+          "Private Tools",
+          "Tommaso Tanto",
+          "2011-01-03 09:05:56"
+        ],
+        [
+          "23578",
+          "Dynamic programming construction",
+          "LJCR",
+          "2010-07-01 20:46:34"
+        ],
+        [
+          "24558",
+          "Dynamic programming construction",
+          "LJCR",
+          "2010-04-29 22:01:13"
+        ],
+        [
+          "24591",
+          "Dynamic programming construction",
+          "LJCR",
+          "2010-04-27 21:43:28"
+        ],
+        [
+          "24646",
+          "Dynamic programming construction",
+          "LJCR",
+          "2010-04-21 16:26:58"
+        ],
+        [
+          "25621",
+          "Private tools",
+          "Flavio Perona",
+          "2010-02-27 06:04:43"
+        ],
+        [
+          "25757",
+          "Dynamic programming construction",
+          "LJCR",
+          "2010-02-11 17:36:09"
+        ],
+        [
+          "25955",
+          "Dynamic programming construction",
+          "LJCR",
+          "2009-12-26 19:11:12"
+        ],
+        [
+          "25960",
+          "Dynamic programming construction",
+          "LJCR",
+          "2009-10-19 11:18:07"
+        ],
+        [
+          "25975",
+          "Dynamic programming construction",
+          "LJCR",
+          "2009-08-07 17:21:19"
+        ],
+        [
+          "25977",
+          "Dynamic programming construction",
+          "LJCR",
+          "2009-02-15 22:26:18"
+        ]
+      ]
+    }
+  }
+}

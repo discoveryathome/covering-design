@@ -1,0 +1,123 @@
+{
+  "rounds": 2,
+  "source_cells": 9482,
+  "rules": [
+    "one-point-combination",
+    "delete-point-and-pad",
+    "enlarge-blocks"
+  ],
+  "candidates": [
+    {
+      "v": 92,
+      "k": 7,
+      "t": 4,
+      "archive_upper": 132580,
+      "derived_upper": 131122,
+      "delta": -1458,
+      "proof": {
+        "rule": "one-point-combination",
+        "parents": [
+          [
+            91,
+            7,
+            4
+          ],
+          [
+            91,
+            6,
+            3
+          ]
+        ],
+        "parent_bounds": [
+          124357,
+          6765
+        ]
+      },
+      "status": "arithmetic construction candidate; witness and current-frontier audit required"
+    },
+    {
+      "v": 79,
+      "k": 21,
+      "t": 7,
+      "archive_upper": 165213,
+      "derived_upper": 165027,
+      "delta": -186,
+      "proof": {
+        "rule": "one-point-combination",
+        "parents": [
+          [
+            78,
+            21,
+            7
+          ],
+          [
+            78,
+            20,
+            6
+          ]
+        ],
+        "parent_bounds": [
+          136976,
+          28051
+        ]
+      },
+      "status": "arithmetic construction candidate; witness and current-frontier audit required"
+    },
+    {
+      "v": 86,
+      "k": 23,
+      "t": 7,
+      "archive_upper": 153683,
+      "derived_upper": 153047,
+      "delta": -636,
+      "proof": {
+        "rule": "one-point-combination",
+        "parents": [
+          [
+            85,
+            23,
+            7
+          ],
+          [
+            85,
+            22,
+            6
+          ]
+        ],
+        "parent_bounds": [
+          125768,
+          27279
+        ]
+      },
+      "status": "arithmetic construction candidate; witness and current-frontier audit required"
+    },
+    {
+      "v": 77,
+      "k": 25,
+      "t": 8,
+      "archive_upper": 179223,
+      "derived_upper": 175063,
+      "delta": -4160,
+      "proof": {
+        "rule": "one-point-combination",
+        "parents": [
+          [
+            76,
+            25,
+            8
+          ],
+          [
+            76,
+            24,
+            7
+          ]
+        ],
+        "parent_bounds": [
+          138919,
+          36144
+        ]
+      },
+      "status": "arithmetic construction candidate; witness and current-frontier audit required"
+    }
+  ]
+}

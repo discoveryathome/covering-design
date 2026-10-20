@@ -1,5 +1,9 @@
 # Local handoff
 
+**Later evidence:** the [initial sweep](research/initial-sweep/REPORT.md) supersedes
+the exploratory attack priorities below for launch planning. Original records and
+governance status remain unchanged.
+
 The pilot is ready for local review and bounded experiments. It is not ready for
 donor intake or publication. Run `python3 -m covering.reproduce` from this directory.
 Read `docs/LITERATURE.md` before treating any archive target as a current record.

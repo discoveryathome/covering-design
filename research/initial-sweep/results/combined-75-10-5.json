@@ -1,0 +1,65 @@
+{
+  "parents": [
+    {
+      "valid": true,
+      "v": 73,
+      "k": 10,
+      "t": 5,
+      "blocks": 143485,
+      "required": 15020334,
+      "uncovered": 0,
+      "witness_sha256": "bd568bd6526ce37abc4716ec311c1424b9bf3e7e51a93be2b58de7d2811b9bbe",
+      "matrix_sha256": "112f1e62e351300e4c9d0d88344418ada4520da4c77bc6e382b99549a87842c2",
+      "command": [
+        "/Users/colkitt/discover-work/incubatedPilots/covering-design/session-covering-design/sweep/verify-matrix",
+        "73",
+        "10",
+        "5",
+        "143485",
+        "session-covering-design/sweep/combine-75/parent-a.txt"
+      ]
+    },
+    {
+      "valid": true,
+      "v": 73,
+      "k": 8,
+      "t": 4,
+      "blocks": 23207,
+      "required": 1088430,
+      "uncovered": 0,
+      "witness_sha256": "ea88b1d30d6f2b8f32590baf8b97587f3cfe5bc5be5320f28935967102c77c9d",
+      "matrix_sha256": "ff7d15be7d68534347c103e0473bf6c26e722debe008704d41712cf1fc6bf56a",
+      "command": [
+        "/Users/colkitt/discover-work/incubatedPilots/covering-design/session-covering-design/sweep/verify-matrix",
+        "73",
+        "8",
+        "4",
+        "23207",
+        "session-covering-design/sweep/combine-75/parent-b.txt"
+      ]
+    }
+  ],
+  "result": {
+    "valid": true,
+    "v": 75,
+    "k": 10,
+    "t": 5,
+    "blocks": 166692,
+    "required": 17259390,
+    "uncovered": 0,
+    "witness_sha256": "8ebceaa51da77c92f6d321f9dfdd025362eb2aa8140bbf17a2bcc24653c430af",
+    "matrix_sha256": "314553ce461999f8e878e6caa8205b48efc40adc42479f74cabccd786f9e1120",
+    "command": [
+      "/Users/colkitt/discover-work/incubatedPilots/covering-design/session-covering-design/sweep/verify-matrix",
+      "75",
+      "10",
+      "5",
+      "166692",
+      "session-covering-design/sweep/combine-75/result.txt"
+    ]
+  },
+  "archive_upper": 166799,
+  "improvement": 107,
+  "wall_seconds_including_verification": 11.62763216602616,
+  "status": "author-checked archive improvement; current record status unconfirmed"
+}

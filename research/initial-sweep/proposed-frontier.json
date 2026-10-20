@@ -1,0 +1,61 @@
+{
+  "schema": "discover-frontier/v0",
+  "statement": "LOCAL proposed table: three exactly verified constructions below frozen LJCR v1.2 counts. C(92,7,4) reproduces a July 2026 Numaro report; the other two cells have unconfirmed current-record status. Main pilot frontier unchanged.",
+  "status": "Research proposal only; author-checked; current record audit and acceptance pending",
+  "evidence_level": [
+    "author-checked"
+  ],
+  "claim_kind": [
+    "exact"
+  ],
+  "scope": "Three independent instances; integer labels and simple block families; lower bounds are recomputed Schonheim bounds, not optimality.",
+  "table": {
+    "path": "research/initial-sweep/proposal-records.json",
+    "format": "json",
+    "key": [
+      "v",
+      "k",
+      "t"
+    ],
+    "value": "blocks",
+    "direction": "lower-is-better",
+    "bound": "lower_bound",
+    "object": "repo_witness",
+    "check_row": [
+      "python3",
+      "research/initial-sweep/tools/check_package.py",
+      "check_row",
+      "--v",
+      "{v}",
+      "--k",
+      "{k}",
+      "--t",
+      "{t}"
+    ],
+    "check_row_minutes": 2
+  },
+  "reproduce": "python3 research/initial-sweep/tools/check_package.py all",
+  "reproduce_minutes": 5,
+  "prerequisites": [
+    "Python 3.10+ standard library; no compiler needed to verify stored evidence"
+  ],
+  "assumptions": [
+    {
+      "id": "current-record",
+      "statement": "Successor filtered cell inaccessible; novelty remains unconfirmed.",
+      "status": "open"
+    },
+    {
+      "id": "separate-review",
+      "statement": "No separate reviewer or maintainer has checked this research package.",
+      "status": "open"
+    }
+  ],
+  "sources": [
+    "https://doi.org/10.5281/zenodo.19735294",
+    "https://arxiv.org/html/math/9502238",
+    "https://numaro.tech/research/covering-designs-la-jolla-2026/"
+  ],
+  "review": "research/initial-sweep/REPORT.md",
+  "updated_on": "2026-10-20"
+}

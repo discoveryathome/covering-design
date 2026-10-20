@@ -1,5 +1,8 @@
 # Covering designs: Discovery@Home local pilot
 
+The [initial tractability sweep](research/initial-sweep/REPORT.md) now reports the
+empirical launch assessment. Read it before advertising easy construction wins.
+
 Find small families of k-element blocks on {1,...,v} that cover every t-element
 subset. Each (v,k,t) is an independent minimization record. A witness proves an
 **upper bound**, not optimality. Only the Fano control is proved optimal here.

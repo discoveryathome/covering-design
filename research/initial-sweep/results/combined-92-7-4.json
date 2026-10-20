@@ -1,0 +1,37 @@
+{
+  "parents": [
+    {
+      "valid": true,
+      "v": 91,
+      "k": 7,
+      "t": 4,
+      "blocks": 124357,
+      "covered": 2672670,
+      "required": 2672670,
+      "uncovered": 0
+    },
+    {
+      "valid": true,
+      "v": 91,
+      "k": 6,
+      "t": 3,
+      "blocks": 6765,
+      "covered": 121485,
+      "required": 121485,
+      "uncovered": 0
+    }
+  ],
+  "result": {
+    "valid": true,
+    "v": 92,
+    "k": 7,
+    "t": 4,
+    "blocks": 131122,
+    "covered": 2794155,
+    "required": 2794155,
+    "uncovered": 0
+  },
+  "witness_sha256": "5374395997f378ffbd2ef2c32a17381cc95c1c99647e7c5c44117359e07aceab",
+  "wall_seconds_including_verification": 17.68740904191509,
+  "status": "author-checked construction; current record status unconfirmed"
+}

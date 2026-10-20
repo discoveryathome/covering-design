@@ -1,0 +1,65 @@
+{
+  "parents": [
+    {
+      "valid": true,
+      "v": 79,
+      "k": 11,
+      "t": 5,
+      "blocks": 128340,
+      "required": 22537515,
+      "uncovered": 0,
+      "witness_sha256": "4b579161ff90d8cd8425fd066518fb273e783a30518d665ad78a82e9d547d082",
+      "matrix_sha256": "f930c28c9f93b8f19c87f0f487bf7a51354776179ea3c4c3264ae5d555256007",
+      "command": [
+        "/Users/colkitt/discover-work/incubatedPilots/covering-design/session-covering-design/sweep/verify-matrix",
+        "79",
+        "11",
+        "5",
+        "128340",
+        "session-covering-design/sweep/combine-81/parent-a.txt"
+      ]
+    },
+    {
+      "valid": true,
+      "v": 79,
+      "k": 9,
+      "t": 4,
+      "blocks": 20171,
+      "required": 1502501,
+      "uncovered": 0,
+      "witness_sha256": "d93489a43f729b8f8310e7a7b485ae67474f4da73dd6731eda2243cc37cf5014",
+      "matrix_sha256": "9e421fab241786182311ef6c2b853ac0eda43e344f5deaeab0002df88cf4d84e",
+      "command": [
+        "/Users/colkitt/discover-work/incubatedPilots/covering-design/session-covering-design/sweep/verify-matrix",
+        "79",
+        "9",
+        "4",
+        "20171",
+        "session-covering-design/sweep/combine-81/parent-b.txt"
+      ]
+    }
+  ],
+  "result": {
+    "valid": true,
+    "v": 81,
+    "k": 11,
+    "t": 5,
+    "blocks": 148511,
+    "required": 25621596,
+    "uncovered": 0,
+    "witness_sha256": "e0efe40ef6eaf45ff5a6fa847154cdc535eb04f8e72dc9955965bc70ee419049",
+    "matrix_sha256": "f83afc1c79349f6c8348567a768871d9a9c28aaa21a4d2c9fefd8059bd1ce533",
+    "command": [
+      "/Users/colkitt/discover-work/incubatedPilots/covering-design/session-covering-design/sweep/verify-matrix",
+      "81",
+      "11",
+      "5",
+      "148511",
+      "session-covering-design/sweep/combine-81/result.txt"
+    ]
+  },
+  "archive_upper": 148763,
+  "improvement": 252,
+  "wall_seconds_including_verification": 14.686472082976252,
+  "status": "author-checked archive improvement; current record status unconfirmed"
+}

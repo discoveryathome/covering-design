@@ -1,0 +1,199 @@
+{
+  "source_cells": 9482,
+  "two_point_candidates": [
+    {
+      "v": 92,
+      "k": 7,
+      "t": 4,
+      "archive_upper": 132580,
+      "derived_upper": 131129,
+      "rule": "two-point-combination",
+      "parents": [
+        [
+          90,
+          7,
+          4
+        ],
+        [
+          90,
+          5,
+          3
+        ]
+      ],
+      "parent_bounds": [
+        118229,
+        12900
+      ]
+    },
+    {
+      "v": 75,
+      "k": 10,
+      "t": 5,
+      "archive_upper": 166799,
+      "derived_upper": 166692,
+      "rule": "two-point-combination",
+      "parents": [
+        [
+          73,
+          10,
+          5
+        ],
+        [
+          73,
+          8,
+          4
+        ]
+      ],
+      "parent_bounds": [
+        143485,
+        23207
+      ]
+    },
+    {
+      "v": 81,
+      "k": 11,
+      "t": 5,
+      "archive_upper": 148763,
+      "derived_upper": 148511,
+      "rule": "two-point-combination",
+      "parents": [
+        [
+          79,
+          11,
+          5
+        ],
+        [
+          79,
+          9,
+          4
+        ]
+      ],
+      "parent_bounds": [
+        128340,
+        20171
+      ]
+    },
+    {
+      "v": 66,
+      "k": 13,
+      "t": 6,
+      "archive_upper": 186439,
+      "derived_upper": 185232,
+      "rule": "two-point-combination",
+      "parents": [
+        [
+          64,
+          13,
+          6
+        ],
+        [
+          64,
+          11,
+          5
+        ]
+      ],
+      "parent_bounds": [
+        146220,
+        39012
+      ]
+    },
+    {
+      "v": 68,
+      "k": 18,
+      "t": 7,
+      "archive_upper": 174239,
+      "derived_upper": 173592,
+      "rule": "two-point-combination",
+      "parents": [
+        [
+          66,
+          18,
+          7
+        ],
+        [
+          66,
+          16,
+          6
+        ]
+      ],
+      "parent_bounds": [
+        131678,
+        41914
+      ]
+    },
+    {
+      "v": 79,
+      "k": 21,
+      "t": 7,
+      "archive_upper": 165213,
+      "derived_upper": 157904,
+      "rule": "two-point-combination",
+      "parents": [
+        [
+          77,
+          21,
+          7
+        ],
+        [
+          77,
+          19,
+          6
+        ]
+      ],
+      "parent_bounds": [
+        121526,
+        36378
+      ]
+    },
+    {
+      "v": 86,
+      "k": 23,
+      "t": 7,
+      "archive_upper": 153683,
+      "derived_upper": 147948,
+      "rule": "two-point-combination",
+      "parents": [
+        [
+          84,
+          23,
+          7
+        ],
+        [
+          84,
+          21,
+          6
+        ]
+      ],
+      "parent_bounds": [
+        115502,
+        32446
+      ]
+    },
+    {
+      "v": 77,
+      "k": 25,
+      "t": 8,
+      "archive_upper": 179223,
+      "derived_upper": 169050,
+      "rule": "two-point-combination",
+      "parents": [
+        [
+          75,
+          25,
+          8
+        ],
+        [
+          75,
+          23,
+          7
+        ]
+      ],
+      "parent_bounds": [
+        121597,
+        47453
+      ]
+    }
+  ],
+  "induced_candidates": [],
+  "status": "Arithmetic leads conditional on source constructions; no new witness or novelty claim."
+}

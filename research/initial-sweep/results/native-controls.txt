@@ -1,0 +1,1 @@
+PASS: native verifier agrees on all 1024 (5,3,2) subfamilies; Fano accepted; six invalid JSON fixtures rejected

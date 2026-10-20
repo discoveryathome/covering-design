@@ -1,0 +1,1114 @@
+[
+  {
+    "v": 18,
+    "k": 9,
+    "t": 3,
+    "archive_upper": 16,
+    "archive_reported_lower": 14,
+    "candidates": 48620,
+    "subsets": 816,
+    "subsets_per_block": 84,
+    "metadata": {
+      "size": 16,
+      "low_bd": 14,
+      "imps": [
+        [
+          "16",
+          "Random Greedy Covering",
+          "",
+          "1997-01-31 00:00:00"
+        ],
+        [
+          "16",
+          "",
+          "JCD article",
+          "1996-11-14 17:08:00"
+        ]
+      ]
+    },
+    "selection_reason": "ten closest greedy ratios, archive size <=1000",
+    "greedy_blocks": 17,
+    "initial_text": "data/archive-18-9-3.txt"
+  },
+  {
+    "v": 13,
+    "k": 6,
+    "t": 3,
+    "archive_upper": 21,
+    "archive_reported_lower": 20,
+    "candidates": 1716,
+    "subsets": 286,
+    "subsets_per_block": 20,
+    "metadata": {
+      "size": 21,
+      "low_bd": 20,
+      "imps": [
+        [
+          "21",
+          "Random Greedy Covering",
+          "",
+          "1997-01-31 00:00:00"
+        ],
+        [
+          "21",
+          "",
+          "JCD article",
+          "1996-11-14 17:08:00"
+        ]
+      ]
+    },
+    "selection_reason": "ten closest greedy ratios, archive size <=1000",
+    "greedy_blocks": 23,
+    "initial_text": "data/archive-13-6-3.txt"
+  },
+  {
+    "v": 23,
+    "k": 6,
+    "t": 2,
+    "archive_upper": 21,
+    "archive_reported_lower": 20,
+    "candidates": 100947,
+    "subsets": 253,
+    "subsets_per_block": 15,
+    "metadata": {
+      "size": 21,
+      "low_bd": 20,
+      "imps": [
+        [
+          "21",
+          "",
+          "JCD article",
+          "1996-11-14 17:08:00"
+        ]
+      ]
+    },
+    "selection_reason": "ten closest greedy ratios, archive size <=1000",
+    "greedy_blocks": 23,
+    "initial_text": "data/archive-23-6-2.txt"
+  },
+  {
+    "v": 19,
+    "k": 4,
+    "t": 3,
+    "archive_upper": 258,
+    "archive_reported_lower": 257,
+    "candidates": 3876,
+    "subsets": 969,
+    "subsets_per_block": 4,
+    "metadata": {
+      "size": 258,
+      "low_bd": 257,
+      "imps": [
+        [
+          "258",
+          "",
+          "Adolf Muehl and Dietmar Pree",
+          "1997-06-27 00:00:00"
+        ],
+        [
+          "261",
+          "",
+          "JCD article",
+          "1996-11-14 17:08:00"
+        ]
+      ]
+    },
+    "selection_reason": "ten closest greedy ratios, archive size <=1000",
+    "greedy_blocks": 284,
+    "initial_text": "data/archive-19-4-3.txt"
+  },
+  {
+    "v": 11,
+    "k": 6,
+    "t": 5,
+    "archive_upper": 100,
+    "archive_reported_lower": 96,
+    "candidates": 462,
+    "subsets": 462,
+    "subsets_per_block": 6,
+    "metadata": {
+      "size": 100,
+      "low_bd": 96,
+      "imps": [
+        [
+          "100",
+          "",
+          "JCD article",
+          "1996-11-14 17:08:00"
+        ]
+      ]
+    },
+    "selection_reason": "ten closest greedy ratios, archive size <=1000",
+    "greedy_blocks": 112,
+    "initial_text": "data/archive-11-6-5.txt"
+  },
+  {
+    "v": 16,
+    "k": 7,
+    "t": 3,
+    "archive_upper": 24,
+    "archive_reported_lower": 23,
+    "candidates": 11440,
+    "subsets": 560,
+    "subsets_per_block": 35,
+    "metadata": {
+      "size": 24,
+      "low_bd": 23,
+      "imps": [
+        [
+          "24",
+          "",
+          "Rade Belic",
+          "1998-01-08 00:00:00"
+        ],
+        [
+          "25",
+          "",
+          "JCD article",
+          "1996-11-14 17:08:00"
+        ]
+      ]
+    },
+    "selection_reason": "ten closest greedy ratios, archive size <=1000",
+    "greedy_blocks": 27,
+    "initial_text": "data/archive-16-7-3.txt"
+  },
+  {
+    "v": 14,
+    "k": 5,
+    "t": 4,
+    "archive_upper": 229,
+    "archive_reported_lower": 219,
+    "candidates": 2002,
+    "subsets": 1001,
+    "subsets_per_block": 5,
+    "metadata": {
+      "size": 229,
+      "low_bd": 219,
+      "imps": [
+        [
+          "229",
+          "Private tools",
+          "Jan de Heer and Steve Muir",
+          "2011-11-13 07:57:53"
+        ],
+        [
+          "230",
+          "",
+          "Rade Belic",
+          "1998-01-08 00:00:00"
+        ],
+        [
+          "231",
+          "",
+          "Rade Belic",
+          "1997-08-29 00:00:00"
+        ],
+        [
+          "235",
+          "",
+          "JCD article",
+          "1996-11-14 17:08:00"
+        ]
+      ]
+    },
+    "selection_reason": "ten closest greedy ratios, archive size <=1000",
+    "greedy_blocks": 259,
+    "initial_text": "data/archive-14-5-4.txt"
+  },
+  {
+    "v": 12,
+    "k": 7,
+    "t": 5,
+    "archive_upper": 59,
+    "archive_reported_lower": 55,
+    "candidates": 792,
+    "subsets": 792,
+    "subsets_per_block": 21,
+    "metadata": {
+      "size": 59,
+      "low_bd": 55,
+      "imps": [
+        [
+          "59",
+          "",
+          "JCD article",
+          "1996-11-14 17:08:00"
+        ]
+      ]
+    },
+    "selection_reason": "ten closest greedy ratios, archive size <=1000",
+    "greedy_blocks": 67,
+    "initial_text": "data/archive-12-7-5.txt"
+  },
+  {
+    "v": 24,
+    "k": 6,
+    "t": 2,
+    "archive_upper": 22,
+    "archive_reported_lower": 21,
+    "candidates": 134596,
+    "subsets": 276,
+    "subsets_per_block": 15,
+    "metadata": {
+      "size": 22,
+      "low_bd": 21,
+      "imps": [
+        [
+          "22",
+          "",
+          "JCD article",
+          "1996-11-14 17:08:00"
+        ]
+      ]
+    },
+    "selection_reason": "ten closest greedy ratios, archive size <=1000",
+    "greedy_blocks": 25,
+    "initial_text": "data/archive-24-6-2.txt"
+  },
+  {
+    "v": 30,
+    "k": 5,
+    "t": 3,
+    "archive_upper": 459,
+    "archive_reported_lower": 438,
+    "candidates": 142506,
+    "subsets": 4060,
+    "subsets_per_block": 10,
+    "metadata": {
+      "size": 459,
+      "low_bd": 438,
+      "imps": [
+        [
+          "459",
+          "Wheel Generator",
+          "Anastasios Tampakis",
+          "2020-04-19 04:01:46"
+        ],
+        [
+          "460",
+          "Wheel Generator",
+          "kleszek",
+          "2017-03-29 06:15:01"
+        ],
+        [
+          "461",
+          "",
+          "Anastasios Tampakis",
+          "2006-06-26 00:00:00"
+        ],
+        [
+          "462",
+          "",
+          "Anastasios Tampakis",
+          "2006-03-08 00:00:00"
+        ],
+        [
+          "472",
+          "",
+          "Dietmar Pree",
+          "1998-08-16 00:00:00"
+        ],
+        [
+          "473",
+          "",
+          "Dietmar Pree",
+          "1998-06-03 00:00:00"
+        ],
+        [
+          "478",
+          "",
+          "Rade Belic",
+          "1998-01-08 00:00:00"
+        ],
+        [
+          "503",
+          "",
+          "JCD article",
+          "1996-11-14 17:08:00"
+        ]
+      ]
+    },
+    "selection_reason": "ten closest greedy ratios, archive size <=1000",
+    "greedy_blocks": 522,
+    "initial_text": "data/archive-30-5-3.txt"
+  },
+  {
+    "v": 16,
+    "k": 11,
+    "t": 8,
+    "archive_upper": 167,
+    "archive_reported_lower": 114,
+    "candidates": 4368,
+    "subsets": 12870,
+    "subsets_per_block": 165,
+    "metadata": {
+      "size": 167,
+      "low_bd": 114,
+      "imps": [
+        [
+          "167",
+          "Private tools",
+          "Jan de Heer and Steve Muir",
+          "2008-12-08 13:36:02"
+        ],
+        [
+          "170",
+          "",
+          "Jan de Heer and Steve Muir",
+          "2006-12-29 00:00:00"
+        ],
+        [
+          "177",
+          "",
+          "Jan de Heer and Steve Muir",
+          "2006-09-10 00:00:00"
+        ],
+        [
+          "180",
+          "",
+          "Rade Belic",
+          "2006-09-07 00:00:00"
+        ],
+        [
+          "188",
+          "Sidorenko method",
+          "",
+          "2006-09-06 00:00:00"
+        ],
+        [
+          "191",
+          "",
+          "Dietmar Pree",
+          "1997-10-06 00:00:00"
+        ],
+        [
+          "192",
+          "",
+          "Rade Belic",
+          "1997-09-30 00:00:00"
+        ],
+        [
+          "209",
+          "",
+          "JCD article",
+          "1996-11-14 17:08:00"
+        ]
+      ]
+    },
+    "selection_reason": "ten largest archive upper/lower ratios among remaining, archive size <=1000",
+    "greedy_blocks": 210,
+    "initial_text": "data/archive-16-11-8.txt"
+  },
+  {
+    "v": 17,
+    "k": 10,
+    "t": 8,
+    "archive_upper": 947,
+    "archive_reported_lower": 672,
+    "candidates": 19448,
+    "subsets": 24310,
+    "subsets_per_block": 45,
+    "metadata": {
+      "size": 947,
+      "low_bd": 672,
+      "imps": [
+        [
+          "947",
+          "Private tools",
+          "Jan de Heer and Steve Muir",
+          "2017-03-22 04:41:02"
+        ],
+        [
+          "956",
+          "",
+          "Marco Meoli",
+          "2016-09-29 05:29:07"
+        ],
+        [
+          "957",
+          "",
+          "Marco Meoli",
+          "2016-09-28 10:17:31"
+        ],
+        [
+          "964",
+          "Private tools",
+          "Jan de Heer and Steve Muir",
+          "2016-09-28 00:55:09"
+        ],
+        [
+          "965",
+          "Private tools",
+          "Sveta Marjanovic",
+          "2016-09-27 22:58:46"
+        ],
+        [
+          "971",
+          "Simple construction: combined (16,10,8) and  (16,9,7)",
+          "LJCR",
+          "2016-09-27 18:31:33"
+        ],
+        [
+          "973",
+          "",
+          "Jan de Heer and Steve Muir",
+          "2006-11-13 00:00:00"
+        ],
+        [
+          "977",
+          "",
+          "Barnabas Toth",
+          "2006-11-09 00:00:00"
+        ],
+        [
+          "978",
+          "",
+          "Barnabas Toth",
+          "2006-11-07 00:00:00"
+        ],
+        [
+          "979",
+          "",
+          "Rade Belic",
+          "1997-11-13 00:00:00"
+        ],
+        [
+          "998",
+          "Simple Construction: combined (16,10,8) and (16,9,7)-coverings",
+          "",
+          "1997-10-31 00:00:00"
+        ],
+        [
+          "999",
+          "",
+          "Rade Belic",
+          "1997-08-06 00:00:00"
+        ],
+        [
+          "1088",
+          "Hill-climb on affine orbits",
+          "",
+          "1997-01-15 00:00:00"
+        ],
+        [
+          "1160",
+          "",
+          "JCD article",
+          "1996-11-14 17:08:00"
+        ]
+      ]
+    },
+    "selection_reason": "ten largest archive upper/lower ratios among remaining, archive size <=1000",
+    "greedy_blocks": 1172,
+    "initial_text": "data/archive-17-10-8.txt"
+  },
+  {
+    "v": 17,
+    "k": 12,
+    "t": 8,
+    "archive_upper": 122,
+    "archive_reported_lower": 88,
+    "candidates": 6188,
+    "subsets": 24310,
+    "subsets_per_block": 495,
+    "metadata": {
+      "size": 122,
+      "low_bd": 88,
+      "imps": [
+        [
+          "122",
+          "Private tools",
+          "Jan de Heer and Steve Muir",
+          "2008-12-08 13:37:35"
+        ],
+        [
+          "130",
+          "",
+          "Kamal Fadlaoui",
+          "2008-09-22 00:00:00"
+        ],
+        [
+          "132",
+          "",
+          "Alessandro Jurcovich",
+          "2006-09-25 00:00:00"
+        ],
+        [
+          "133",
+          "",
+          "Jan de Heer and Steve Muir",
+          "2006-06-26 00:00:00"
+        ],
+        [
+          "137",
+          "Sidorenko method",
+          "",
+          "2006-05-09 00:00:00"
+        ],
+        [
+          "137",
+          "Helped by Ininuga",
+          "Jan de Heer and Steve Muir",
+          "2005-12-12 00:00:00"
+        ],
+        [
+          "138",
+          "",
+          "Rade Belic",
+          "2000-01-20 00:00:00"
+        ],
+        [
+          "149",
+          "Sidorenko method",
+          "",
+          "1997-06-17 00:00:00"
+        ],
+        [
+          "153",
+          "",
+          "JCD article",
+          "1996-11-14 17:08:00"
+        ]
+      ]
+    },
+    "selection_reason": "ten largest archive upper/lower ratios among remaining, archive size <=1000",
+    "greedy_blocks": 155,
+    "initial_text": "data/archive-17-12-8.txt"
+  },
+  {
+    "v": 15,
+    "k": 10,
+    "t": 7,
+    "archive_upper": 108,
+    "archive_reported_lower": 78,
+    "candidates": 3003,
+    "subsets": 6435,
+    "subsets_per_block": 120,
+    "metadata": {
+      "size": 108,
+      "low_bd": 78,
+      "imps": [
+        [
+          "108",
+          "",
+          "Kamal Fadlaoui",
+          "2008-09-22 00:00:00"
+        ],
+        [
+          "112",
+          "",
+          "Jan de Heer and Steve Muir",
+          "2006-12-29 00:00:00"
+        ],
+        [
+          "114",
+          "",
+          "Jan de Heer and Steve Muir",
+          "2006-06-26 00:00:00"
+        ],
+        [
+          "117",
+          "",
+          "Chaoying Dai, Ben Li and Michel Toulouse",
+          "2006-05-02 00:00:00"
+        ],
+        [
+          "118",
+          "",
+          "Grzesiek",
+          "2003-08-21 00:00:00"
+        ],
+        [
+          "132",
+          "",
+          "JCD article",
+          "1996-11-14 17:08:00"
+        ]
+      ]
+    },
+    "selection_reason": "ten largest archive upper/lower ratios among remaining, archive size <=1000",
+    "greedy_blocks": 135,
+    "initial_text": "data/archive-15-10-7.txt"
+  },
+  {
+    "v": 17,
+    "k": 11,
+    "t": 8,
+    "archive_upper": 282,
+    "archive_reported_lower": 204,
+    "candidates": 12376,
+    "subsets": 24310,
+    "subsets_per_block": 165,
+    "metadata": {
+      "size": 282,
+      "low_bd": 204,
+      "imps": [
+        [
+          "282",
+          "",
+          "Jan de Heer and Steve Muir",
+          "2006-12-29 00:00:00"
+        ],
+        [
+          "284",
+          "",
+          "Rade Belic",
+          "2005-05-17 00:00:00"
+        ],
+        [
+          "286",
+          "",
+          "Steve Muir",
+          "2005-03-23 00:00:00"
+        ],
+        [
+          "306",
+          "",
+          "Rade Belic",
+          "2000-08-02 00:00:00"
+        ],
+        [
+          "308",
+          "Sidorenko method",
+          "",
+          "2000-07-31 00:00:00"
+        ],
+        [
+          "321",
+          "",
+          "Rade Belic",
+          "2000-04-17 00:00:00"
+        ],
+        [
+          "332",
+          "Sidorenko method",
+          "",
+          "2000-02-23 00:00:00"
+        ],
+        [
+          "333",
+          "Sidorenko method",
+          "",
+          "1997-06-04 00:00:00"
+        ],
+        [
+          "342",
+          "Sidorenko method",
+          "",
+          "1997-04-29 00:00:00"
+        ],
+        [
+          "349",
+          "Sidorenko method",
+          "",
+          "1997-04-25 00:00:00"
+        ],
+        [
+          "393",
+          "",
+          "JCD article",
+          "1996-11-14 17:08:00"
+        ]
+      ]
+    },
+    "selection_reason": "ten largest archive upper/lower ratios among remaining, archive size <=1000",
+    "greedy_blocks": 400,
+    "initial_text": "data/archive-17-11-8.txt"
+  },
+  {
+    "v": 17,
+    "k": 9,
+    "t": 7,
+    "archive_upper": 840,
+    "archive_reported_lower": 609,
+    "candidates": 24310,
+    "subsets": 19448,
+    "subsets_per_block": 36,
+    "metadata": {
+      "size": 840,
+      "low_bd": 609,
+      "imps": [
+        [
+          "840",
+          "Tabu Search started from a 841-block covering previously created by Jan de Heer and Steve Muir",
+          "Moshe Milshtein",
+          "2024-01-12 12:04:16"
+        ],
+        [
+          "841",
+          "",
+          "Jan de Heer and Steve Muir",
+          "2008-07-02 00:00:00"
+        ],
+        [
+          "845",
+          "",
+          "Jan de Heer and Steve Muir",
+          "2008-02-05 00:00:00"
+        ],
+        [
+          "846",
+          "",
+          "Rade Belic",
+          "2001-08-15 00:00:00"
+        ],
+        [
+          "854",
+          "",
+          "Felix Rodriguez Martin",
+          "2001-08-13 00:00:00"
+        ],
+        [
+          "860",
+          "",
+          "Rade Belic",
+          "1997-11-13 00:00:00"
+        ],
+        [
+          "884",
+          "Nurmela-Ostergard symmetric covering",
+          "",
+          "1997-10-31 00:00:00"
+        ],
+        [
+          "940",
+          "",
+          "Rade Belic",
+          "1997-08-12 00:00:00"
+        ],
+        [
+          "946",
+          "Sidorenko method",
+          "",
+          "1997-08-06 00:00:00"
+        ],
+        [
+          "952",
+          "Hill-climb on affine orbits",
+          "",
+          "1997-01-15 00:00:00"
+        ],
+        [
+          "1093",
+          "",
+          "JCD article",
+          "1996-11-14 17:08:00"
+        ]
+      ]
+    },
+    "selection_reason": "ten largest archive upper/lower ratios among remaining, archive size <=1000",
+    "greedy_blocks": 1098,
+    "initial_text": "data/archive-17-9-7.txt"
+  },
+  {
+    "v": 17,
+    "k": 8,
+    "t": 6,
+    "archive_upper": 614,
+    "archive_reported_lower": 453,
+    "candidates": 24310,
+    "subsets": 12376,
+    "subsets_per_block": 28,
+    "metadata": {
+      "size": 614,
+      "low_bd": 453,
+      "imps": [
+        [
+          "614",
+          "Tabu Search started from a 615-block covering previously created by Jan de Heer and Steve Muir",
+          "Moshe Milshtein",
+          "2024-01-12 15:41:48"
+        ],
+        [
+          "615",
+          "",
+          "Jan de Heer and Steve Muir",
+          "2007-11-30 00:00:00"
+        ],
+        [
+          "619",
+          "",
+          "Felix Rodriguez Martin",
+          "2001-02-07 00:00:00"
+        ],
+        [
+          "620",
+          "",
+          "Rade Belic",
+          "1997-11-13 00:00:00"
+        ],
+        [
+          "680",
+          "Simple Construction: induced on C(18,9,7) covering",
+          "",
+          "1997-10-31 00:00:00"
+        ],
+        [
+          "718",
+          "",
+          "Dietmar Pree and Rade Belic",
+          "1997-05-29 00:00:00"
+        ],
+        [
+          "829",
+          "",
+          "JCD article",
+          "1996-11-14 17:08:00"
+        ]
+      ]
+    },
+    "selection_reason": "ten largest archive upper/lower ratios among remaining, archive size <=1000",
+    "greedy_blocks": 837,
+    "initial_text": "data/archive-17-8-6.txt"
+  },
+  {
+    "v": 18,
+    "k": 9,
+    "t": 6,
+    "archive_upper": 395,
+    "archive_reported_lower": 294,
+    "candidates": 48620,
+    "subsets": 18564,
+    "subsets_per_block": 84,
+    "metadata": {
+      "size": 395,
+      "low_bd": 294,
+      "imps": [
+        [
+          "395",
+          "",
+          "Anastasios Tampakis",
+          "2008-09-02 00:00:00"
+        ],
+        [
+          "397",
+          "",
+          "Anastasios Tampakis",
+          "2008-08-07 00:00:00"
+        ],
+        [
+          "398",
+          "",
+          "Anastasios Tampakis",
+          "2008-08-04 00:00:00"
+        ],
+        [
+          "415",
+          "",
+          "Jan de Heer and Steve Muir",
+          "2006-04-13 00:00:00"
+        ],
+        [
+          "422",
+          "Simple Construction: combined (17,9,6) and (17,8,5)-coverings",
+          "",
+          "2006-04-11 00:00:00"
+        ],
+        [
+          "436",
+          "",
+          "Rade Belic",
+          "2001-05-07 00:00:00"
+        ],
+        [
+          "439",
+          "",
+          "Jan de Heer",
+          "2001-01-02 00:00:00"
+        ],
+        [
+          "440",
+          "",
+          "Rade Belic",
+          "2000-05-02 00:00:00"
+        ],
+        [
+          "446",
+          "",
+          "Rade Belic",
+          "1997-11-21 00:00:00"
+        ],
+        [
+          "447",
+          "",
+          "Rade Belic",
+          "1997-11-18 00:00:00"
+        ],
+        [
+          "450",
+          "",
+          "Dietmar Pree and Rade Belic",
+          "1997-05-29 00:00:00"
+        ],
+        [
+          "461",
+          "Simple Construction: combined (17,9,6) and (17,8,5)-coverings",
+          "",
+          "1997-05-21 00:00:00"
+        ],
+        [
+          "462",
+          "Sidorenko method",
+          "",
+          "1997-05-15 00:00:00"
+        ],
+        [
+          "465",
+          "Simple Construction: combined (17,9,6) and (17,8,5)-coverings",
+          "",
+          "1997-05-09 00:00:00"
+        ],
+        [
+          "466",
+          "Simple Construction: combined (17,9,6) and (17,8,5)-coverings",
+          "",
+          "1997-04-30 00:00:00"
+        ],
+        [
+          "479",
+          "Simple Construction: combined (17,9,6) and (17,8,5)-coverings",
+          "",
+          "1997-04-25 00:00:00"
+        ],
+        [
+          "482",
+          "Simple Construction: combined (17,9,6) and (17,8,5)-coverings",
+          "",
+          "1997-04-02 00:00:00"
+        ],
+        [
+          "483",
+          "Simple Construction: combined (17,9,6) and (17,8,5)-coverings",
+          "",
+          "1997-03-27 00:00:00"
+        ],
+        [
+          "506",
+          "",
+          "JCD article",
+          "1996-11-14 17:08:00"
+        ]
+      ]
+    },
+    "selection_reason": "ten largest archive upper/lower ratios among remaining, archive size <=1000",
+    "greedy_blocks": 511,
+    "initial_text": "data/archive-18-9-6.txt"
+  },
+  {
+    "v": 17,
+    "k": 9,
+    "t": 5,
+    "archive_upper": 79,
+    "archive_reported_lower": 59,
+    "candidates": 24310,
+    "subsets": 6188,
+    "subsets_per_block": 126,
+    "metadata": {
+      "size": 79,
+      "low_bd": 59,
+      "imps": [
+        [
+          "79",
+          "",
+          "Chaoying Dai, Ben Li and Michel Toulouse",
+          "2005-08-04 00:00:00"
+        ],
+        [
+          "80",
+          "",
+          "Felix Rodriguez Martin",
+          "2001-01-24 00:00:00"
+        ],
+        [
+          "81",
+          "Covering provided by Dietmar Pree",
+          "",
+          "1997-05-15 00:00:00"
+        ],
+        [
+          "82",
+          "Covering provided by Rade Belic",
+          "",
+          "1997-05-09 00:00:00"
+        ],
+        [
+          "87",
+          "Sidorenko method",
+          "",
+          "1997-04-25 00:00:00"
+        ],
+        [
+          "94",
+          "",
+          "JCD article",
+          "1996-11-14 17:08:00"
+        ]
+      ]
+    },
+    "selection_reason": "ten largest archive upper/lower ratios among remaining, archive size <=1000",
+    "greedy_blocks": 117,
+    "initial_text": "data/archive-17-9-5.txt"
+  },
+  {
+    "v": 16,
+    "k": 7,
+    "t": 5,
+    "archive_upper": 283,
+    "archive_reported_lower": 213,
+    "candidates": 11440,
+    "subsets": 4368,
+    "subsets_per_block": 21,
+    "metadata": {
+      "size": 283,
+      "low_bd": 213,
+      "imps": [
+        [
+          "283",
+          "",
+          "Felix Rodriguez Martin",
+          "2001-10-25 00:00:00"
+        ],
+        [
+          "284",
+          "",
+          "Felix Rodriguez Martin",
+          "2001-01-25 00:00:00"
+        ],
+        [
+          "285",
+          "",
+          "Rade Belic",
+          "1997-11-13 00:00:00"
+        ],
+        [
+          "288",
+          "Nurmela-Ostergard symmetric covering",
+          "",
+          "1997-10-31 00:00:00"
+        ],
+        [
+          "301",
+          "",
+          "Rade Belic",
+          "1997-08-06 00:00:00"
+        ],
+        [
+          "321",
+          "Simple Construction: combined (15,7,5) and (15,6,4)-coverings",
+          "",
+          "1997-01-24 00:00:00"
+        ],
+        [
+          "358",
+          "",
+          "JCD article",
+          "1996-11-14 17:08:00"
+        ]
+      ]
+    },
+    "selection_reason": "ten largest archive upper/lower ratios among remaining, archive size <=1000",
+    "greedy_blocks": 364,
+    "initial_text": "data/archive-16-7-5.txt"
+  }
+]

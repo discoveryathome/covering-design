@@ -1,0 +1,45 @@
+[
+  {
+    "v": 92,
+    "k": 7,
+    "t": 4,
+    "blocks": 131122,
+    "lower_bound": 82524,
+    "archive_upper": 132580,
+    "archive_reported_lower": 82524,
+    "witness": "witnesses/combined-92-7-4.json",
+    "witness_sha256": "5374395997f378ffbd2ef2c32a17381cc95c1c99647e7c5c44117359e07aceab",
+    "evidence_level": "author-checked",
+    "status": "replication of prior Numaro July 2026 result; verified archive improvement, no novelty claim",
+    "repo_witness": "research/initial-sweep/witnesses/combined-92-7-4.json",
+    "prior_result": "https://numaro.tech/research/covering-designs-la-jolla-2026/"
+  },
+  {
+    "v": 75,
+    "k": 10,
+    "t": 5,
+    "blocks": 166692,
+    "lower_bound": 69810,
+    "archive_upper": 166799,
+    "archive_reported_lower": 69810,
+    "witness": "witnesses/combined-75-10-5.json",
+    "repo_witness": "research/initial-sweep/witnesses/combined-75-10-5.json",
+    "witness_sha256": "8ebceaa51da77c92f6d321f9dfdd025362eb2aa8140bbf17a2bcc24653c430af",
+    "evidence_level": "author-checked",
+    "status": "verified archive improvement; current public record and novelty unconfirmed"
+  },
+  {
+    "v": 81,
+    "k": 11,
+    "t": 5,
+    "blocks": 148511,
+    "lower_bound": 55846,
+    "archive_upper": 148763,
+    "archive_reported_lower": 55846,
+    "witness": "witnesses/combined-81-11-5.json",
+    "repo_witness": "research/initial-sweep/witnesses/combined-81-11-5.json",
+    "witness_sha256": "e0efe40ef6eaf45ff5a6fa847154cdc535eb04f8e72dc9955965bc70ee419049",
+    "evidence_level": "author-checked",
+    "status": "verified archive improvement; current public record and novelty unconfirmed"
+  }
+]

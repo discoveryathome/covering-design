@@ -1,0 +1,62 @@
+{
+  "base": "99fd9f56ffc290da88636819f8fed35a19465688",
+  "seed": "dfd378b39a602458ed164ae0ef63400e",
+  "created_at": "2026-10-20T05:09:38.147624+00:00",
+  "archive": "https://doi.org/10.5281/zenodo.19735294",
+  "archive_metadata_sha256": "9e7da3710921066b10234fdc95379a18df3a7d3ae0f8a08ae188ea6bbca92f87",
+  "selection": {
+    "requires_open_archive_gap": true,
+    "candidate_limit": 150000,
+    "required_subset_limit": 50000,
+    "incidence_limit": 5000000
+  },
+  "eligible_cells": 184,
+  "method_budget": {
+    "greedy_restarts_per_cell": 16,
+    "stage_1_global_seconds": 180,
+    "repair_cell_count": 20,
+    "repair_seconds_per_trial": 20,
+    "repair_seed_count": 3,
+    "repair_global_seconds": 1260
+  },
+  "stopping_rule": "Stop after fixed budgets; no adaptive budget increase to manufacture a win. Verify all best complete witnesses; compare against current sources before any novelty claim.",
+  "governance": "LOCAL, no accepted frontier changes or public actions.",
+  "repair_selection_rule": "Among screened cells with archive size <=1000: ten closest greedy/archive ratios, then ten largest archive upper/reported-lower ratios of remaining cells; numeric ties by size and/or instance as implemented in selection transcript.",
+  "stage1_source_sha256": "3dd07384f15ac1a3b8d59cc9779b33302881b4cf08d00280a40a07f83c8c2655",
+  "completed_at": "2026-10-20T05:36:13.183007+00:00",
+  "environment": {
+    "python": "3.14.6",
+    "os": "Darwin",
+    "architecture": "arm64",
+    "compiler": "Apple clang version 21.0.0 (clang-2100.3.34.2)"
+  },
+  "executed_source_sha256": {
+    "tools/search-used-v1.cpp": "3dd07384f15ac1a3b8d59cc9779b33302881b4cf08d00280a40a07f83c8c2655",
+    "tools/sweep-used-v1.py": "084365464b065f0f8a2ba0383603a1e94b960f4f8a9e8594f36c39ed6f232203"
+  },
+  "executed_binary_sha256": "6c1a33a52010861091830caeb4b80b2b90af5fceefcc1feb57c9aa295b303789",
+  "current_source_sha256": {
+    "tools/audit_additional_rules.py": "f225f10236b9612cd7a02b33ae4823a22aeec4240dd2c11472f62096f739fa38",
+    "tools/check_native.py": "7683eaa5e00369762ba045ef56c83631ec2e3c7ba0d675a73a9cf145055a7ecb",
+    "tools/verify_rank.py": "1b68fee40fe5b524e628b043ad8e2d7a6706820831da6cdcca6b7c7eb8c3bf93",
+    "tools/combine_two.py": "68efd64d40e3b3be62c545b159c633f802f3e3256fcd87466c4da2646e4a3557",
+    "tools/combine.py": "57a9c303cd478a2803789e1853410ce139603101750e3e50b3fdf2d2de157612",
+    "tools/normalize_trial_provenance.py": "c5619b2282d62ead017a16a713ffccbc5c549c77d4818401956e9698301ac1a6",
+    "tools/archive_ranges.py": "9492be0a6f29b2d9bf6f06fd1561acb00ceba15d698d78c8f814293b143faaa1",
+    "tools/test_controls.py": "eccf9180ae86f8554bc0ef8064658894ec47a73e53fb64dea117772f857850fe",
+    "tools/prune_archives.py": "5121ca15521f92b541a8d7c1d2e97df7f1e7fe446b1d5d0de841837820ad7c06",
+    "tools/summarize.py": "c0a45ef5d98f982d361ef4ac0fe84775b666aa00e45793ba1e81e71ed3731b65",
+    "tools/sweep-used-v1.py": "084365464b065f0f8a2ba0383603a1e94b960f4f8a9e8594f36c39ed6f232203",
+    "tools/verify_matrix.cpp": "e74feb5fb90c7832b07b1b2bbdfc042a2a796def7520776ecf4669d0af2a5d7f",
+    "tools/check_package.py": "8c2fcdd1971a388ce9a9edb2e4f00b6829e6e63cbcd209cdfacd519baf2ec838",
+    "tools/search.cpp": "3072c9836ccfd8baffae601ac3bfc6f891c68bb5c5743ffdcdde98ee9f4ca3ea",
+    "tools/sweep.py": "ac63c36e0a863bbcd1140c91bb20e3d2d97c246363795d549fcc69046e4d261e",
+    "tools/search-used-v1.cpp": "3dd07384f15ac1a3b8d59cc9779b33302881b4cf08d00280a40a07f83c8c2655",
+    "tools/closure.py": "6462aa3893c73cf64b6b2ba893cb8092f8c02a8747974496529f96a2ae36fe15"
+  },
+  "follow_up_constructions": {
+    "selection": "After the fixed greedy screen, audit one-point and two-point propagation against the full archive; materialize (92,7,4), (75,10,5), and (81,11,5) with at most 30 million required subsets per direct check. This was adaptive follow-up work, not a predeclared search success.",
+    "current_record_policy": "Numaro July 2026 prior report marks C(92,7,4) as replication. Remaining two current-record statuses are unconfirmed."
+  },
+  "envelope_normalization": "After all trials, repaired witness provenance names archive inputs and unchanged outcomes; raw engine envelope hashes retained. Block lists unaltered."
+}
