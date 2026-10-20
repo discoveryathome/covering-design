@@ -32,5 +32,25 @@ The manifest intentionally fails the schema's nonempty-maintainer rule. The LICE
 notice grants no license for original pilot material. A future maintainer should
 review the verifier and frontier most carefully; review capacity will set the pace.
 
-The local handoff payload is appended after the evidence commit is created. It is
-for local use only; no posting destination has been authorized.
+Picker smoke-test seed: `3dea6ad0da2a3d63247b45f5a4d24b12`; drawn task `verify-independently`, row `(14,5,3)`. This draw is not a reservation. The payload below is local only; no posting destination is authorized.
+
+```discover
+{
+  "v": 0,
+  "kind": "handoff",
+  "task": "verify-independently",
+  "scope": "Independent audit of five covering-design records; seeded picker example draws (14,5,3).",
+  "base": "2f320f8d1193bf4ae238b2fae3a9221fe1ae6228",
+  "posted_at": "2026-10-20T04:56:54.834271Z",
+  "evidence_level": "local-only",
+  "priority_revision": 1,
+  "request": {
+    "question": "Can a separate reviewer reproduce the five records and independently check the verifier, starting with C(14,5,3)?",
+    "first_step": "python3 -m covering.records check_row --v 14 --k 5 --t 3",
+    "success_test": "All five witnesses and negative controls agree with a separately authored checker; record actual commit and hashes. No independent-review label until a separate reviewer completes it.",
+    "track": "independent-verification",
+    "est_minutes": 60
+  },
+  "seed": "3dea6ad0da2a3d63247b45f5a4d24b12"
+}
+```

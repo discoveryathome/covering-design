@@ -16,3 +16,7 @@ pilot's runnable implementation. The helper ran in the session OS sandbox.
 The manifest schema requires a named maintainer; the user required that decision
 to remain pending. We preserve the empty array and report the validation error.
 No schema or consent record has been fabricated.
+
+This is a reference copy rather than a complete upstream mirror. Resolve the
+specification's relative calibration-document links against the pinned upstream
+repository; those calibration files are not required for this local pilot.

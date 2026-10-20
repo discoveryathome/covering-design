@@ -1,0 +1,53 @@
+{
+  "seed": "3dea6ad0da2a3d63247b45f5a4d24b12",
+  "track": "independent-verification",
+  "handoffs_first": [],
+  "suggestions": [
+    {
+      "task_id": "verify-independently",
+      "question": "Can a reviewer independently validate all five rows without using the search incidence masks?",
+      "method": "direct-pair-and-triple-enumeration",
+      "first_step": {
+        "command": [
+          "python3",
+          "-m",
+          "unittest",
+          "discover",
+          "-s",
+          "tests",
+          "-v"
+        ],
+        "expected": "8 tests pass, including six negative fixtures and exhaustive C(5,3,2) subfamilies",
+        "scope": "positive control only; does not complete the research task"
+      },
+      "acceptance_gate": "Every row agrees, all deliberate invalid cases fail, and a separately authored report identifies reviewer and implementation independence. Do not claim independently-checked on the basis of two same-session implementations.",
+      "claim_kind": [
+        "exact"
+      ],
+      "row": {
+        "v": "14",
+        "k": "5",
+        "t": "3"
+      },
+      "row_value": "43",
+      "row_bound": "37",
+      "row_check": [
+        "python3",
+        "-m",
+        "covering.records",
+        "check_row",
+        "--v",
+        "14",
+        "--k",
+        "5",
+        "--t",
+        "3"
+      ],
+      "rows_eligible": 5,
+      "scope_key": "741e1894c2b99eb5c40447728c1c9abc"
+    }
+  ],
+  "note": "Suggestions, not reservations. Prefer a matching open handoff. Run an overlap check and write a task card before substantial work.",
+  "base": "2f320f8d1193bf4ae238b2fae3a9221fe1ae6228",
+  "priority_revision": 1
+}
