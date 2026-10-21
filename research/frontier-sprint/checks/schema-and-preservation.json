@@ -1,0 +1,6 @@
+{
+  "discover/catalog.json": "valid",
+  "research/frontier-sprint/proposed-frontier.json": "valid",
+  "research/frontier-sprint/data/handoff-message.json": "valid",
+  "accepted_frontier_and_historical_code_data": "unchanged from base commit"
+}

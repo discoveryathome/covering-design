@@ -1,5 +1,11 @@
 # Local handoff
 
+**Latest continuation:** [frontier-sprint handoff](research/frontier-sprint/HANDOFF.md)
+supersedes the search priorities below. It contains two exactly verified proposed
+improvements to the audited current frontier, eight live-source targets, completed
+finite repair censuses and a LAUNCH recommendation for scientific fit. Accepted
+records and governance remain unchanged; separate review is pending.
+
 **Later evidence:** the [initial sweep](research/initial-sweep/REPORT.md) supersedes
 the exploratory attack priorities below for launch planning. Original records and
 governance status remain unchanged.

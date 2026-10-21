@@ -1,0 +1,326 @@
+{
+  "scope": "LOCAL instance-level work units; not a randomized donor sample",
+  "historical_exhaustion": "research/initial-sweep/experiment.json: 2943 greedy restarts on 184 cells, plus 60 short repairs; do not repeat as a new method",
+  "entries": [
+    {
+      "artifact": "research/frontier-sprint/results/13-6-3-r3.json",
+      "instance": [
+        13,
+        6,
+        3
+      ],
+      "input_sha256": "3200692781de46ee74f08cb6436fe4194dece9bbb45099a7b6c07624e17f77da",
+      "canonical_block_family_sha256": "7ab43711988f3c84096fdf2949dbd77773a1435afdc21d9e829cfb42c74d0a5e",
+      "method": "exact-containment-two",
+      "remove": 3,
+      "replace_at_most": 2,
+      "planned": 1330,
+      "deletion_sets_total": 1330,
+      "seed": "4ab3d4d0142a4bb506f6bea2245d1be4",
+      "counts": {
+        "sat": 0,
+        "unsat": 1330,
+        "unknown": 0
+      },
+      "scope": "Only the pinned incumbent and specified deletion sets; no global lower bound.",
+      "duplicate_rule": "Complete censuses cannot be reopened by new seeds, block reorderings or point relabelings. Sampled sets are archived in the artifact."
+    },
+    {
+      "artifact": "research/frontier-sprint/results/13-6-3-r4-all.json",
+      "instance": [
+        13,
+        6,
+        3
+      ],
+      "input_sha256": "3200692781de46ee74f08cb6436fe4194dece9bbb45099a7b6c07624e17f77da",
+      "canonical_block_family_sha256": "7ab43711988f3c84096fdf2949dbd77773a1435afdc21d9e829cfb42c74d0a5e",
+      "method": "z3-point-membership",
+      "remove": 4,
+      "replace_at_most": 3,
+      "planned": 5985,
+      "deletion_sets_total": 5985,
+      "seed": "4ab3d4d0142a4bb506f6bea2245d1be4",
+      "counts": {
+        "sat": 0,
+        "unsat": 5985,
+        "unknown": 0
+      },
+      "scope": "Only the pinned incumbent and specified deletion sets; no global lower bound.",
+      "duplicate_rule": "Complete censuses cannot be reopened by new seeds, block reorderings or point relabelings. Sampled sets are archived in the artifact."
+    },
+    {
+      "artifact": "research/frontier-sprint/results/13-6-3-r4.json",
+      "instance": [
+        13,
+        6,
+        3
+      ],
+      "input_sha256": "3200692781de46ee74f08cb6436fe4194dece9bbb45099a7b6c07624e17f77da",
+      "canonical_block_family_sha256": "7ab43711988f3c84096fdf2949dbd77773a1435afdc21d9e829cfb42c74d0a5e",
+      "method": "z3-point-membership",
+      "remove": 4,
+      "replace_at_most": 3,
+      "planned": 32,
+      "deletion_sets_total": 5985,
+      "seed": "4ab3d4d0142a4bb506f6bea2245d1be4",
+      "counts": {
+        "sat": 0,
+        "unsat": 32,
+        "unknown": 0
+      },
+      "scope": "Only the pinned incumbent and specified deletion sets; no global lower bound.",
+      "duplicate_rule": "Complete censuses cannot be reopened by new seeds, block reorderings or point relabelings. Sampled sets are archived in the artifact."
+    },
+    {
+      "artifact": "research/frontier-sprint/results/13-6-3-r6.json",
+      "instance": [
+        13,
+        6,
+        3
+      ],
+      "input_sha256": "3200692781de46ee74f08cb6436fe4194dece9bbb45099a7b6c07624e17f77da",
+      "canonical_block_family_sha256": "7ab43711988f3c84096fdf2949dbd77773a1435afdc21d9e829cfb42c74d0a5e",
+      "method": "z3-point-membership",
+      "remove": 6,
+      "replace_at_most": 5,
+      "planned": 64,
+      "deletion_sets_total": 54264,
+      "seed": "4ab3d4d0142a4bb506f6bea2245d1be4",
+      "counts": {
+        "sat": 0,
+        "unsat": 64,
+        "unknown": 0
+      },
+      "scope": "Only the pinned incumbent and specified deletion sets; no global lower bound.",
+      "duplicate_rule": "Complete censuses cannot be reopened by new seeds, block reorderings or point relabelings. Sampled sets are archived in the artifact."
+    },
+    {
+      "artifact": "research/frontier-sprint/results/16-7-3-r3.json",
+      "instance": [
+        16,
+        7,
+        3
+      ],
+      "input_sha256": "82e383e8596526fd516c2ea75ab97d39d9239046e14fd0c06159f63889f03d4d",
+      "canonical_block_family_sha256": "3ce235a4a1032222dcbdedd32b8eb44045d0c140bd85570c4cf195b514c01dea",
+      "method": "exact-containment-two",
+      "remove": 3,
+      "replace_at_most": 2,
+      "planned": 2024,
+      "deletion_sets_total": 2024,
+      "seed": "4ab3d4d0142a4bb506f6bea2245d1be4",
+      "counts": {
+        "sat": 0,
+        "unsat": 2024,
+        "unknown": 0
+      },
+      "scope": "Only the pinned incumbent and specified deletion sets; no global lower bound.",
+      "duplicate_rule": "Complete censuses cannot be reopened by new seeds, block reorderings or point relabelings. Sampled sets are archived in the artifact."
+    },
+    {
+      "artifact": "research/frontier-sprint/results/16-7-3-r4.json",
+      "instance": [
+        16,
+        7,
+        3
+      ],
+      "input_sha256": "82e383e8596526fd516c2ea75ab97d39d9239046e14fd0c06159f63889f03d4d",
+      "canonical_block_family_sha256": "3ce235a4a1032222dcbdedd32b8eb44045d0c140bd85570c4cf195b514c01dea",
+      "method": "z3-point-membership",
+      "remove": 4,
+      "replace_at_most": 3,
+      "planned": 32,
+      "deletion_sets_total": 10626,
+      "seed": "4ab3d4d0142a4bb506f6bea2245d1be4",
+      "counts": {
+        "sat": 0,
+        "unsat": 32,
+        "unknown": 0
+      },
+      "scope": "Only the pinned incumbent and specified deletion sets; no global lower bound.",
+      "duplicate_rule": "Complete censuses cannot be reopened by new seeds, block reorderings or point relabelings. Sampled sets are archived in the artifact."
+    },
+    {
+      "artifact": "research/frontier-sprint/results/16-7-3-r6.json",
+      "instance": [
+        16,
+        7,
+        3
+      ],
+      "input_sha256": "82e383e8596526fd516c2ea75ab97d39d9239046e14fd0c06159f63889f03d4d",
+      "canonical_block_family_sha256": "3ce235a4a1032222dcbdedd32b8eb44045d0c140bd85570c4cf195b514c01dea",
+      "method": "z3-point-membership",
+      "remove": 6,
+      "replace_at_most": 5,
+      "planned": 64,
+      "deletion_sets_total": 134596,
+      "seed": "4ab3d4d0142a4bb506f6bea2245d1be4",
+      "counts": {
+        "sat": 0,
+        "unsat": 8,
+        "unknown": 56
+      },
+      "scope": "Only the pinned incumbent and specified deletion sets; no global lower bound.",
+      "duplicate_rule": "Complete censuses cannot be reopened by new seeds, block reorderings or point relabelings. Sampled sets are archived in the artifact."
+    },
+    {
+      "artifact": "research/frontier-sprint/results/18-9-3-r3.json",
+      "instance": [
+        18,
+        9,
+        3
+      ],
+      "input_sha256": "8de29578a1ec5ba55a2cd1fcb9bc930a08a48ff11cc2741461e29f3e6ebb4cf5",
+      "canonical_block_family_sha256": "2f660867904944afd26c66a8cd2fadc2328a10f4e566e998bd6dfba51a983b85",
+      "method": "exact-containment-two",
+      "remove": 3,
+      "replace_at_most": 2,
+      "planned": 560,
+      "deletion_sets_total": 560,
+      "seed": "4ab3d4d0142a4bb506f6bea2245d1be4",
+      "counts": {
+        "sat": 0,
+        "unsat": 560,
+        "unknown": 0
+      },
+      "scope": "Only the pinned incumbent and specified deletion sets; no global lower bound.",
+      "duplicate_rule": "Complete censuses cannot be reopened by new seeds, block reorderings or point relabelings. Sampled sets are archived in the artifact."
+    },
+    {
+      "artifact": "research/frontier-sprint/results/18-9-3-r4.json",
+      "instance": [
+        18,
+        9,
+        3
+      ],
+      "input_sha256": "8de29578a1ec5ba55a2cd1fcb9bc930a08a48ff11cc2741461e29f3e6ebb4cf5",
+      "canonical_block_family_sha256": "2f660867904944afd26c66a8cd2fadc2328a10f4e566e998bd6dfba51a983b85",
+      "method": "z3-point-membership",
+      "remove": 4,
+      "replace_at_most": 3,
+      "planned": 32,
+      "deletion_sets_total": 1820,
+      "seed": "4ab3d4d0142a4bb506f6bea2245d1be4",
+      "counts": {
+        "sat": 0,
+        "unsat": 32,
+        "unknown": 0
+      },
+      "scope": "Only the pinned incumbent and specified deletion sets; no global lower bound.",
+      "duplicate_rule": "Complete censuses cannot be reopened by new seeds, block reorderings or point relabelings. Sampled sets are archived in the artifact."
+    },
+    {
+      "artifact": "research/frontier-sprint/results/18-9-3-r6.json",
+      "instance": [
+        18,
+        9,
+        3
+      ],
+      "input_sha256": "8de29578a1ec5ba55a2cd1fcb9bc930a08a48ff11cc2741461e29f3e6ebb4cf5",
+      "canonical_block_family_sha256": "2f660867904944afd26c66a8cd2fadc2328a10f4e566e998bd6dfba51a983b85",
+      "method": "z3-point-membership",
+      "remove": 6,
+      "replace_at_most": 5,
+      "planned": 64,
+      "deletion_sets_total": 8008,
+      "seed": "4ab3d4d0142a4bb506f6bea2245d1be4",
+      "counts": {
+        "sat": 0,
+        "unsat": 0,
+        "unknown": 64
+      },
+      "scope": "Only the pinned incumbent and specified deletion sets; no global lower bound.",
+      "duplicate_rule": "Complete censuses cannot be reopened by new seeds, block reorderings or point relabelings. Sampled sets are archived in the artifact."
+    },
+    {
+      "artifact": "research/frontier-sprint/results/wls-48-9-3-s1/result.json",
+      "instance": [
+        48,
+        9,
+        3
+      ],
+      "input_sha256": "923f2f15b0998d98cf27941ba936c432c6b4f20a88d4dfc2b30245b23eb37c9f",
+      "method": "pinned-wls2-CHECK",
+      "seed": 287374570,
+      "budget_seconds": 360,
+      "best_blocks": 273,
+      "published_comparison": 273,
+      "scope": "Bounded search trace; no exclusion. Published comparison reconfirmed in current-selected-counts.json."
+    },
+    {
+      "artifact": "research/frontier-sprint/results/wls-48-9-3-s2/result.json",
+      "instance": [
+        48,
+        9,
+        3
+      ],
+      "input_sha256": "5925f4398f53aa34107ff3fb3cfa729b628fcee4f292d8f4ca1cada3c991876a",
+      "method": "pinned-wls2-CHECK",
+      "seed": 287374571,
+      "budget_seconds": 720,
+      "best_blocks": 272,
+      "published_comparison": 273,
+      "scope": "Bounded search trace; no exclusion. Published comparison reconfirmed in current-selected-counts.json."
+    },
+    {
+      "artifact": "research/frontier-sprint/results/wls-70-12-3-s1/result.json",
+      "instance": [
+        70,
+        12,
+        3
+      ],
+      "input_sha256": "3e61231a09aca90e842d8b287304e4c2044bde339fccd27113055c082378b8f6",
+      "method": "pinned-wls2-CHECK",
+      "seed": 542097520,
+      "budget_seconds": 360,
+      "best_blocks": 340,
+      "published_comparison": 337,
+      "scope": "Bounded search trace; no exclusion. Published comparison reconfirmed in current-selected-counts.json."
+    },
+    {
+      "artifact": "research/frontier-sprint/results/wls-70-12-3-s2/result.json",
+      "instance": [
+        70,
+        12,
+        3
+      ],
+      "input_sha256": "e3fffb97e6f5a088f8671d306a5c15c80c91bfc00ce5f2903d267ab1597454df",
+      "method": "pinned-wls2-CHECK",
+      "seed": 542097521,
+      "budget_seconds": 720,
+      "best_blocks": 338,
+      "published_comparison": 337,
+      "scope": "Bounded search trace; no exclusion. Published comparison reconfirmed in current-selected-counts.json."
+    },
+    {
+      "artifact": "research/frontier-sprint/results/wls-90-12-3-s1/result.json",
+      "instance": [
+        90,
+        12,
+        3
+      ],
+      "input_sha256": "4c66f6a4166bc4f98bc1a7241a558bf033772397f221f118e28950e7ebf7fcf2",
+      "method": "pinned-wls2-CHECK",
+      "seed": 1644407115,
+      "budget_seconds": 360,
+      "best_blocks": 679,
+      "published_comparison": 679,
+      "scope": "Bounded search trace; no exclusion. Published comparison reconfirmed in current-selected-counts.json."
+    },
+    {
+      "artifact": "research/frontier-sprint/results/wls-90-12-3-s2/result.json",
+      "instance": [
+        90,
+        12,
+        3
+      ],
+      "input_sha256": "6486a335f280d4358009bc0c20e7be978d8a60cf7e6493912c2e21c66848ed58",
+      "method": "pinned-wls2-CHECK",
+      "seed": 1644407116,
+      "budget_seconds": 720,
+      "best_blocks": 678,
+      "published_comparison": 679,
+      "scope": "Bounded search trace; no exclusion. Published comparison reconfirmed in current-selected-counts.json."
+    }
+  ]
+}

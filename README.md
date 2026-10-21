@@ -1,7 +1,11 @@
 # Covering designs: Discovery@Home local pilot
 
-The [initial tractability sweep](research/initial-sweep/REPORT.md) now reports the
-empirical launch assessment. Read it before advertising easy construction wins.
+The [follow-up frontier sprint](research/frontier-sprint/README.md) reports two
+exactly verified proposals below the audited published counts: C(48,9,3)<=272
+and C(90,12,3)<=678. Its scientific-fit recommendation is LAUNCH on the larger
+t=3 track, with separate review and governance still pending. The
+[initial sweep](research/initial-sweep/REPORT.md) is retained as evidence about
+the earlier methods; its priorities are superseded by the follow-up.
 
 Find small families of k-element blocks on {1,...,v} that cover every t-element
 subset. Each (v,k,t) is an independent minimization record. A witness proves an

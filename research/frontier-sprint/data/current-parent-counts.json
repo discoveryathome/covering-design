@@ -1,0 +1,49 @@
+{
+  "source": "https://coveringrepository.com/download_archive_vkt.aspx",
+  "accessed_on": "2026-10-20",
+  "scope": "Selected numerical facts; no parent witnesses obtained from successor",
+  "rows": [
+    {
+      "v": 73,
+      "k": 10,
+      "t": 5,
+      "blocks": 143408,
+      "source_line": 2325
+    },
+    {
+      "v": 73,
+      "k": 8,
+      "t": 4,
+      "blocks": 23207,
+      "source_line": 1450
+    },
+    {
+      "v": 79,
+      "k": 11,
+      "t": 5,
+      "blocks": 128314,
+      "source_line": 2752
+    },
+    {
+      "v": 79,
+      "k": 9,
+      "t": 4,
+      "blocks": 20171,
+      "source_line": 1835
+    },
+    {
+      "v": 91,
+      "k": 6,
+      "t": 3,
+      "blocks": 6764,
+      "source_line": 725
+    },
+    {
+      "v": 91,
+      "k": 7,
+      "t": 4,
+      "blocks": 123257,
+      "source_line": 1124
+    }
+  ]
+}

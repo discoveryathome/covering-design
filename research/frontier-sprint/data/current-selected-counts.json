@@ -1,0 +1,84 @@
+{
+  "source": "https://coveringrepository.com/download_archive_vkt.aspx",
+  "accessed_on": "2026-10-20",
+  "transport": "web tool text/plain representation; direct urllib returned HTTP 403; selected numerical facts only, not a raw archive download",
+  "rows": [
+    {
+      "v": 75,
+      "k": 10,
+      "t": 5,
+      "blocks": 166568,
+      "source_line": 2327
+    },
+    {
+      "v": 48,
+      "k": 9,
+      "t": 3,
+      "blocks": 273,
+      "source_line": 1713
+    },
+    {
+      "v": 52,
+      "k": 9,
+      "t": 3,
+      "blocks": 339,
+      "source_line": 1717
+    },
+    {
+      "v": 57,
+      "k": 12,
+      "t": 3,
+      "blocks": 175,
+      "source_line": 2986
+    },
+    {
+      "v": 70,
+      "k": 12,
+      "t": 3,
+      "blocks": 337,
+      "source_line": 2999
+    },
+    {
+      "v": 90,
+      "k": 12,
+      "t": 3,
+      "blocks": 679,
+      "source_line": 3019
+    },
+    {
+      "v": 81,
+      "k": 11,
+      "t": 5,
+      "blocks": 148485,
+      "source_line": 2754
+    },
+    {
+      "v": 92,
+      "k": 7,
+      "t": 4,
+      "blocks": 129738,
+      "source_line": 1125
+    },
+    {
+      "v": 54,
+      "k": 13,
+      "t": 4,
+      "blocks": 666,
+      "source_line": 3517
+    },
+    {
+      "v": 35,
+      "k": 18,
+      "t": 6,
+      "blocks": 207,
+      "source_line": 6014
+    },
+    {
+      "v": 48,
+      "k": 11,
+      "t": 3,
+      "blocks": 142,
+      "source_line": 2543
+    }
+  ]
+}

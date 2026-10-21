@@ -1,5 +1,13 @@
 # Literature and source audit
 
+**Later audit in this pilot:** see
+[`research/frontier-sprint/CURRENT_RECORD_AUDIT.md`](../research/frontier-sprint/CURRENT_RECORD_AUDIT.md).
+It resolves the numeric novelty questions using the successor's public ordinary
+count export and records October 2026 weighted-search work at a pinned commit.
+The archived source histories and original proof qualifications below are retained.
+An accessible count export does not itself supply the associated block witnesses
+or lower-bound proofs.
+
 Accessed for this pilot on 2026-10-20 UTC. A dated archive, a construction witness,
 and a lower-bound proof are different evidence. Search terms included the exact
 selected C(v,k,t) cells, Schönheim bounds, covering-design greedy algorithms,

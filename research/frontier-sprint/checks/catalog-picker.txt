@@ -1,0 +1,9 @@
+seed=90e2920d4fc3a54524856fccdc364e4e
+seed 90e2920d4fc3a54524856fccdc364e4e  track construction-audit
+Card suggestions:
+  - refresh-live-incumbents
+    question: Can every shortlisted current count be bound to a permitted downloadable witness and an actual source recipe?
+    method: component-propagation-audit
+    first step: python3 research/frontier-sprint/tools/check_row.py --v 48 --k 9 --t 3  → expect valid=true, blocks=272, current_published_upper=273; proposed result remains unaccepted. Inspect the latest research_upper_to_beat before searching.
+    scope_key: ee9190177192b73fdd23feaa3b663270
+Suggestions, not reservations. Prefer a matching open handoff. Run an overlap check and write a task card before substantial work.

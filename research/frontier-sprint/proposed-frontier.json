@@ -1,0 +1,60 @@
+{
+  "schema": "discover-frontier/v0",
+  "statement": "LOCAL proposal only: supplied witnesses prove C(48,9,3)<=272 and C(90,12,3)<=678, below the respective 273 and 679 counts in both audited October 2026 sources. Separate review and fresh novelty confirmation required before acceptance or publication.",
+  "status": "UNACCEPTED LOCAL proposal; accepted frontier unchanged",
+  "evidence_level": [
+    "author-checked"
+  ],
+  "claim_kind": [
+    "exact"
+  ],
+  "scope": "Two independent ordinary covering-design instances; integer labels; simple blocks; reproduced Schonheim lower bounds 224 and 548 respectively.",
+  "table": {
+    "path": "research/frontier-sprint/proposal-records.json",
+    "format": "json",
+    "key": [
+      "v",
+      "k",
+      "t"
+    ],
+    "value": "blocks",
+    "direction": "lower-is-better",
+    "bound": "lower_bound",
+    "object": "witness",
+    "check_row": [
+      "python3",
+      "research/frontier-sprint/tools/check_row.py",
+      "--v",
+      "{v}",
+      "--k",
+      "{k}",
+      "--t",
+      "{t}",
+      "--proposal"
+    ],
+    "check_row_minutes": 1
+  },
+  "reproduce": "python3 research/frontier-sprint/tools/replay.py",
+  "reproduce_minutes": 2,
+  "prerequisites": [
+    "Python 3.10+ standard library for stored witnesses; no search solver needed."
+  ],
+  "assumptions": [
+    {
+      "id": "separate-review",
+      "statement": "A different contributor has not reviewed witness validity, novelty, attribution or this proposal.",
+      "status": "open"
+    },
+    {
+      "id": "current-sources",
+      "statement": "Published comparison count 273 confirmed in successor export and pinned van Staden ledger; an unindexed or unpublished better construction cannot be ruled out. Refresh at review time.",
+      "status": "open"
+    }
+  ],
+  "sources": [
+    "https://coveringrepository.com/download_archive_vkt.aspx",
+    "https://github.com/WynandVStaden/covering-design-records/tree/970a68752d01ca5aa04129bebbb92e1b268c947e"
+  ],
+  "review": "research/frontier-sprint/CURRENT_RECORD_AUDIT.md",
+  "updated_on": "2026-10-20"
+}

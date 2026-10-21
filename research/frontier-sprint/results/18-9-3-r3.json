@@ -1,0 +1,5627 @@
+{
+  "instance": [
+    18,
+    9,
+    3
+  ],
+  "incumbent_blocks": 16,
+  "input": "research/initial-sweep/data/archive-18-9-3.json",
+  "input_sha256": "8de29578a1ec5ba55a2cd1fcb9bc930a08a48ff11cc2741461e29f3e6ebb4cf5",
+  "seed": "4ab3d4d0142a4bb506f6bea2245d1be4",
+  "derived_seed": 1644407115,
+  "remove": 3,
+  "replace_at_most": 2,
+  "timeout_ms": 5000,
+  "planned": 560,
+  "total_deletion_sets": 560,
+  "method": "exact-containment-two",
+  "trials": [
+    {
+      "removed": [
+        0,
+        1,
+        2
+      ],
+      "holes": 112,
+      "status": "unsat",
+      "seconds": 0.2760003750445321
+    },
+    {
+      "removed": [
+        0,
+        1,
+        3
+      ],
+      "holes": 102,
+      "status": "unsat",
+      "seconds": 0.2101255829911679
+    },
+    {
+      "removed": [
+        0,
+        1,
+        4
+      ],
+      "holes": 104,
+      "status": "unsat",
+      "seconds": 0.4006557089742273
+    },
+    {
+      "removed": [
+        0,
+        1,
+        5
+      ],
+      "holes": 116,
+      "status": "unsat",
+      "seconds": 0.4284711660584435
+    },
+    {
+      "removed": [
+        0,
+        1,
+        6
+      ],
+      "holes": 110,
+      "status": "unsat",
+      "seconds": 0.5504249170189723
+    },
+    {
+      "removed": [
+        0,
+        1,
+        7
+      ],
+      "holes": 83,
+      "status": "unsat",
+      "seconds": 0.4903587499866262
+    },
+    {
+      "removed": [
+        0,
+        1,
+        8
+      ],
+      "holes": 110,
+      "status": "unsat",
+      "seconds": 0.5271413329755887
+    },
+    {
+      "removed": [
+        0,
+        1,
+        9
+      ],
+      "holes": 87,
+      "status": "unsat",
+      "seconds": 0.30011650000233203
+    },
+    {
+      "removed": [
+        0,
+        1,
+        10
+      ],
+      "holes": 112,
+      "status": "unsat",
+      "seconds": 0.2787561659933999
+    },
+    {
+      "removed": [
+        0,
+        1,
+        11
+      ],
+      "holes": 87,
+      "status": "unsat",
+      "seconds": 0.20448950002901256
+    },
+    {
+      "removed": [
+        0,
+        1,
+        12
+      ],
+      "holes": 104,
+      "status": "unsat",
+      "seconds": 0.21241575002204627
+    },
+    {
+      "removed": [
+        0,
+        1,
+        13
+      ],
+      "holes": 112,
+      "status": "unsat",
+      "seconds": 0.24614374991506338
+    },
+    {
+      "removed": [
+        0,
+        1,
+        14
+      ],
+      "holes": 108,
+      "status": "unsat",
+      "seconds": 0.21171599999070168
+    },
+    {
+      "removed": [
+        0,
+        1,
+        15
+      ],
+      "holes": 87,
+      "status": "unsat",
+      "seconds": 0.14723037497606128
+    },
+    {
+      "removed": [
+        0,
+        2,
+        3
+      ],
+      "holes": 106,
+      "status": "unsat",
+      "seconds": 0.3613340409938246
+    },
+    {
+      "removed": [
+        0,
+        2,
+        4
+      ],
+      "holes": 116,
+      "status": "unsat",
+      "seconds": 0.542941499967128
+    },
+    {
+      "removed": [
+        0,
+        2,
+        5
+      ],
+      "holes": 123,
+      "status": "unsat",
+      "seconds": 0.49601608398370445
+    },
+    {
+      "removed": [
+        0,
+        2,
+        6
+      ],
+      "holes": 118,
+      "status": "unsat",
+      "seconds": 1.1676885839551687
+    },
+    {
+      "removed": [
+        0,
+        2,
+        7
+      ],
+      "holes": 91,
+      "status": "unsat",
+      "seconds": 0.6705302499467507
+    },
+    {
+      "removed": [
+        0,
+        2,
+        8
+      ],
+      "holes": 114,
+      "status": "unsat",
+      "seconds": 0.49916395801119506
+    },
+    {
+      "removed": [
+        0,
+        2,
+        9
+      ],
+      "holes": 91,
+      "status": "unsat",
+      "seconds": 0.3063375420169905
+    },
+    {
+      "removed": [
+        0,
+        2,
+        10
+      ],
+      "holes": 119,
+      "status": "unsat",
+      "seconds": 0.3676347089931369
+    },
+    {
+      "removed": [
+        0,
+        2,
+        11
+      ],
+      "holes": 95,
+      "status": "unsat",
+      "seconds": 0.32188912492711097
+    },
+    {
+      "removed": [
+        0,
+        2,
+        12
+      ],
+      "holes": 108,
+      "status": "unsat",
+      "seconds": 0.29441808303818107
+    },
+    {
+      "removed": [
+        0,
+        2,
+        13
+      ],
+      "holes": 120,
+      "status": "unsat",
+      "seconds": 0.3480552500113845
+    },
+    {
+      "removed": [
+        0,
+        2,
+        14
+      ],
+      "holes": 116,
+      "status": "unsat",
+      "seconds": 0.26858474989421666
+    },
+    {
+      "removed": [
+        0,
+        2,
+        15
+      ],
+      "holes": 95,
+      "status": "unsat",
+      "seconds": 0.17727208300493658
+    },
+    {
+      "removed": [
+        0,
+        3,
+        4
+      ],
+      "holes": 106,
+      "status": "unsat",
+      "seconds": 0.2224664589157328
+    },
+    {
+      "removed": [
+        0,
+        3,
+        5
+      ],
+      "holes": 108,
+      "status": "unsat",
+      "seconds": 0.25467654096428305
+    },
+    {
+      "removed": [
+        0,
+        3,
+        6
+      ],
+      "holes": 111,
+      "status": "unsat",
+      "seconds": 0.19899175001773983
+    },
+    {
+      "removed": [
+        0,
+        3,
+        7
+      ],
+      "holes": 81,
+      "status": "unsat",
+      "seconds": 0.21122258296236396
+    },
+    {
+      "removed": [
+        0,
+        3,
+        8
+      ],
+      "holes": 107,
+      "status": "unsat",
+      "seconds": 0.2563754579750821
+    },
+    {
+      "removed": [
+        0,
+        3,
+        9
+      ],
+      "holes": 81,
+      "status": "unsat",
+      "seconds": 0.1432593340286985
+    },
+    {
+      "removed": [
+        0,
+        3,
+        10
+      ],
+      "holes": 104,
+      "status": "unsat",
+      "seconds": 0.2300382920075208
+    },
+    {
+      "removed": [
+        0,
+        3,
+        11
+      ],
+      "holes": 85,
+      "status": "unsat",
+      "seconds": 0.1743020829744637
+    },
+    {
+      "removed": [
+        0,
+        3,
+        12
+      ],
+      "holes": 96,
+      "status": "unsat",
+      "seconds": 0.13819450000301003
+    },
+    {
+      "removed": [
+        0,
+        3,
+        13
+      ],
+      "holes": 108,
+      "status": "unsat",
+      "seconds": 0.2053198330104351
+    },
+    {
+      "removed": [
+        0,
+        3,
+        14
+      ],
+      "holes": 108,
+      "status": "unsat",
+      "seconds": 0.17889458301942796
+    },
+    {
+      "removed": [
+        0,
+        3,
+        15
+      ],
+      "holes": 85,
+      "status": "unsat",
+      "seconds": 0.1573119160020724
+    },
+    {
+      "removed": [
+        0,
+        4,
+        5
+      ],
+      "holes": 120,
+      "status": "unsat",
+      "seconds": 0.24574929208029062
+    },
+    {
+      "removed": [
+        0,
+        4,
+        6
+      ],
+      "holes": 118,
+      "status": "unsat",
+      "seconds": 0.2205082499422133
+    },
+    {
+      "removed": [
+        0,
+        4,
+        7
+      ],
+      "holes": 91,
+      "status": "unsat",
+      "seconds": 0.148092667106539
+    },
+    {
+      "removed": [
+        0,
+        4,
+        8
+      ],
+      "holes": 110,
+      "status": "unsat",
+      "seconds": 0.1909047090448439
+    },
+    {
+      "removed": [
+        0,
+        4,
+        9
+      ],
+      "holes": 87,
+      "status": "unsat",
+      "seconds": 0.16924824996385723
+    },
+    {
+      "removed": [
+        0,
+        4,
+        10
+      ],
+      "holes": 116,
+      "status": "unsat",
+      "seconds": 0.18857704102993011
+    },
+    {
+      "removed": [
+        0,
+        4,
+        11
+      ],
+      "holes": 91,
+      "status": "unsat",
+      "seconds": 0.16925670893397182
+    },
+    {
+      "removed": [
+        0,
+        4,
+        12
+      ],
+      "holes": 104,
+      "status": "unsat",
+      "seconds": 0.17555133299902081
+    },
+    {
+      "removed": [
+        0,
+        4,
+        13
+      ],
+      "holes": 116,
+      "status": "unsat",
+      "seconds": 0.19864129193592817
+    },
+    {
+      "removed": [
+        0,
+        4,
+        14
+      ],
+      "holes": 112,
+      "status": "unsat",
+      "seconds": 0.2557078329846263
+    },
+    {
+      "removed": [
+        0,
+        4,
+        15
+      ],
+      "holes": 91,
+      "status": "unsat",
+      "seconds": 0.16456091694999486
+    },
+    {
+      "removed": [
+        0,
+        5,
+        6
+      ],
+      "holes": 122,
+      "status": "unsat",
+      "seconds": 0.18919795902911574
+    },
+    {
+      "removed": [
+        0,
+        5,
+        7
+      ],
+      "holes": 95,
+      "status": "unsat",
+      "seconds": 0.16022991703357548
+    },
+    {
+      "removed": [
+        0,
+        5,
+        8
+      ],
+      "holes": 118,
+      "status": "unsat",
+      "seconds": 0.20259891694877297
+    },
+    {
+      "removed": [
+        0,
+        5,
+        9
+      ],
+      "holes": 95,
+      "status": "unsat",
+      "seconds": 0.15673337504267693
+    },
+    {
+      "removed": [
+        0,
+        5,
+        10
+      ],
+      "holes": 120,
+      "status": "unsat",
+      "seconds": 0.2162422090768814
+    },
+    {
+      "removed": [
+        0,
+        5,
+        11
+      ],
+      "holes": 99,
+      "status": "unsat",
+      "seconds": 0.18352229101583362
+    },
+    {
+      "removed": [
+        0,
+        5,
+        12
+      ],
+      "holes": 112,
+      "status": "unsat",
+      "seconds": 0.20993020804598927
+    },
+    {
+      "removed": [
+        0,
+        5,
+        13
+      ],
+      "holes": 124,
+      "status": "unsat",
+      "seconds": 0.18574104201979935
+    },
+    {
+      "removed": [
+        0,
+        5,
+        14
+      ],
+      "holes": 120,
+      "status": "unsat",
+      "seconds": 0.1888632079353556
+    },
+    {
+      "removed": [
+        0,
+        5,
+        15
+      ],
+      "holes": 99,
+      "status": "unsat",
+      "seconds": 0.29760116699617356
+    },
+    {
+      "removed": [
+        0,
+        6,
+        7
+      ],
+      "holes": 95,
+      "status": "unsat",
+      "seconds": 0.19572691700886935
+    },
+    {
+      "removed": [
+        0,
+        6,
+        8
+      ],
+      "holes": 116,
+      "status": "unsat",
+      "seconds": 0.21843720797915012
+    },
+    {
+      "removed": [
+        0,
+        6,
+        9
+      ],
+      "holes": 93,
+      "status": "unsat",
+      "seconds": 0.16693520790431648
+    },
+    {
+      "removed": [
+        0,
+        6,
+        10
+      ],
+      "holes": 118,
+      "status": "unsat",
+      "seconds": 0.21161229209974408
+    },
+    {
+      "removed": [
+        0,
+        6,
+        11
+      ],
+      "holes": 97,
+      "status": "unsat",
+      "seconds": 0.18273925001267344
+    },
+    {
+      "removed": [
+        0,
+        6,
+        12
+      ],
+      "holes": 110,
+      "status": "unsat",
+      "seconds": 0.17542324995156378
+    },
+    {
+      "removed": [
+        0,
+        6,
+        13
+      ],
+      "holes": 122,
+      "status": "unsat",
+      "seconds": 0.2738887920277193
+    },
+    {
+      "removed": [
+        0,
+        6,
+        14
+      ],
+      "holes": 118,
+      "status": "unsat",
+      "seconds": 0.21546624996699393
+    },
+    {
+      "removed": [
+        0,
+        6,
+        15
+      ],
+      "holes": 100,
+      "status": "unsat",
+      "seconds": 0.206609082990326
+    },
+    {
+      "removed": [
+        0,
+        7,
+        8
+      ],
+      "holes": 89,
+      "status": "unsat",
+      "seconds": 0.23917204095050693
+    },
+    {
+      "removed": [
+        0,
+        7,
+        9
+      ],
+      "holes": 66,
+      "status": "unsat",
+      "seconds": 0.16951183299534023
+    },
+    {
+      "removed": [
+        0,
+        7,
+        10
+      ],
+      "holes": 91,
+      "status": "unsat",
+      "seconds": 0.18390175001695752
+    },
+    {
+      "removed": [
+        0,
+        7,
+        11
+      ],
+      "holes": 70,
+      "status": "unsat",
+      "seconds": 0.15409745799843222
+    },
+    {
+      "removed": [
+        0,
+        7,
+        12
+      ],
+      "holes": 83,
+      "status": "unsat",
+      "seconds": 0.1831022499827668
+    },
+    {
+      "removed": [
+        0,
+        7,
+        13
+      ],
+      "holes": 95,
+      "status": "unsat",
+      "seconds": 0.25906929199118167
+    },
+    {
+      "removed": [
+        0,
+        7,
+        14
+      ],
+      "holes": 91,
+      "status": "unsat",
+      "seconds": 0.17234904109500349
+    },
+    {
+      "removed": [
+        0,
+        7,
+        15
+      ],
+      "holes": 96,
+      "status": "unsat",
+      "seconds": 0.13088599999900907
+    },
+    {
+      "removed": [
+        0,
+        8,
+        9
+      ],
+      "holes": 91,
+      "status": "unsat",
+      "seconds": 0.1445720000192523
+    },
+    {
+      "removed": [
+        0,
+        8,
+        10
+      ],
+      "holes": 114,
+      "status": "unsat",
+      "seconds": 0.21747174998745322
+    },
+    {
+      "removed": [
+        0,
+        8,
+        11
+      ],
+      "holes": 96,
+      "status": "unsat",
+      "seconds": 0.20811845792923123
+    },
+    {
+      "removed": [
+        0,
+        8,
+        12
+      ],
+      "holes": 110,
+      "status": "unsat",
+      "seconds": 0.17179520800709724
+    },
+    {
+      "removed": [
+        0,
+        8,
+        13
+      ],
+      "holes": 118,
+      "status": "unsat",
+      "seconds": 0.22302058397326618
+    },
+    {
+      "removed": [
+        0,
+        8,
+        14
+      ],
+      "holes": 114,
+      "status": "unsat",
+      "seconds": 0.18557716603390872
+    },
+    {
+      "removed": [
+        0,
+        8,
+        15
+      ],
+      "holes": 93,
+      "status": "unsat",
+      "seconds": 0.15970208402723074
+    },
+    {
+      "removed": [
+        0,
+        9,
+        10
+      ],
+      "holes": 91,
+      "status": "unsat",
+      "seconds": 0.1348026250489056
+    },
+    {
+      "removed": [
+        0,
+        9,
+        11
+      ],
+      "holes": 100,
+      "status": "unsat",
+      "seconds": 0.17538875003810972
+    },
+    {
+      "removed": [
+        0,
+        9,
+        12
+      ],
+      "holes": 83,
+      "status": "unsat",
+      "seconds": 0.10596812493167818
+    },
+    {
+      "removed": [
+        0,
+        9,
+        13
+      ],
+      "holes": 95,
+      "status": "unsat",
+      "seconds": 0.17036300001200289
+    },
+    {
+      "removed": [
+        0,
+        9,
+        14
+      ],
+      "holes": 91,
+      "status": "unsat",
+      "seconds": 0.12074145895894617
+    },
+    {
+      "removed": [
+        0,
+        9,
+        15
+      ],
+      "holes": 70,
+      "status": "unsat",
+      "seconds": 0.10480666591320187
+    },
+    {
+      "removed": [
+        0,
+        10,
+        11
+      ],
+      "holes": 95,
+      "status": "unsat",
+      "seconds": 0.1528505419846624
+    },
+    {
+      "removed": [
+        0,
+        10,
+        12
+      ],
+      "holes": 112,
+      "status": "unsat",
+      "seconds": 0.16321750008501112
+    },
+    {
+      "removed": [
+        0,
+        10,
+        13
+      ],
+      "holes": 120,
+      "status": "unsat",
+      "seconds": 0.23799591592978686
+    },
+    {
+      "removed": [
+        0,
+        10,
+        14
+      ],
+      "holes": 116,
+      "status": "unsat",
+      "seconds": 0.21565120900049806
+    },
+    {
+      "removed": [
+        0,
+        10,
+        15
+      ],
+      "holes": 95,
+      "status": "unsat",
+      "seconds": 0.14460875000804663
+    },
+    {
+      "removed": [
+        0,
+        11,
+        12
+      ],
+      "holes": 87,
+      "status": "unsat",
+      "seconds": 0.11854687507729977
+    },
+    {
+      "removed": [
+        0,
+        11,
+        13
+      ],
+      "holes": 99,
+      "status": "unsat",
+      "seconds": 0.15743487502913922
+    },
+    {
+      "removed": [
+        0,
+        11,
+        14
+      ],
+      "holes": 95,
+      "status": "unsat",
+      "seconds": 0.1578937079757452
+    },
+    {
+      "removed": [
+        0,
+        11,
+        15
+      ],
+      "holes": 74,
+      "status": "unsat",
+      "seconds": 0.1559691249858588
+    },
+    {
+      "removed": [
+        0,
+        12,
+        13
+      ],
+      "holes": 120,
+      "status": "unsat",
+      "seconds": 0.1915670420276001
+    },
+    {
+      "removed": [
+        0,
+        12,
+        14
+      ],
+      "holes": 112,
+      "status": "unsat",
+      "seconds": 0.20408529206179082
+    },
+    {
+      "removed": [
+        0,
+        12,
+        15
+      ],
+      "holes": 87,
+      "status": "unsat",
+      "seconds": 0.1194139999570325
+    },
+    {
+      "removed": [
+        0,
+        13,
+        14
+      ],
+      "holes": 120,
+      "status": "unsat",
+      "seconds": 0.23215354105923325
+    },
+    {
+      "removed": [
+        0,
+        13,
+        15
+      ],
+      "holes": 99,
+      "status": "unsat",
+      "seconds": 0.15766154101584107
+    },
+    {
+      "removed": [
+        0,
+        14,
+        15
+      ],
+      "holes": 95,
+      "status": "unsat",
+      "seconds": 0.3580353750148788
+    },
+    {
+      "removed": [
+        1,
+        2,
+        3
+      ],
+      "holes": 102,
+      "status": "unsat",
+      "seconds": 0.18847358308266848
+    },
+    {
+      "removed": [
+        1,
+        2,
+        4
+      ],
+      "holes": 108,
+      "status": "unsat",
+      "seconds": 0.1855661669978872
+    },
+    {
+      "removed": [
+        1,
+        2,
+        5
+      ],
+      "holes": 119,
+      "status": "unsat",
+      "seconds": 0.16651170910336077
+    },
+    {
+      "removed": [
+        1,
+        2,
+        6
+      ],
+      "holes": 116,
+      "status": "unsat",
+      "seconds": 0.27604099991731346
+    },
+    {
+      "removed": [
+        1,
+        2,
+        7
+      ],
+      "holes": 87,
+      "status": "unsat",
+      "seconds": 0.17944795894436538
+    },
+    {
+      "removed": [
+        1,
+        2,
+        8
+      ],
+      "holes": 112,
+      "status": "unsat",
+      "seconds": 0.16888899996411055
+    },
+    {
+      "removed": [
+        1,
+        2,
+        9
+      ],
+      "holes": 91,
+      "status": "unsat",
+      "seconds": 0.14382837491575629
+    },
+    {
+      "removed": [
+        1,
+        2,
+        10
+      ],
+      "holes": 119,
+      "status": "unsat",
+      "seconds": 0.1661929580150172
+    },
+    {
+      "removed": [
+        1,
+        2,
+        11
+      ],
+      "holes": 91,
+      "status": "unsat",
+      "seconds": 0.16582616697996855
+    },
+    {
+      "removed": [
+        1,
+        2,
+        12
+      ],
+      "holes": 108,
+      "status": "unsat",
+      "seconds": 0.19050804199650884
+    },
+    {
+      "removed": [
+        1,
+        2,
+        13
+      ],
+      "holes": 116,
+      "status": "unsat",
+      "seconds": 0.2899555000476539
+    },
+    {
+      "removed": [
+        1,
+        2,
+        14
+      ],
+      "holes": 112,
+      "status": "unsat",
+      "seconds": 0.21361724997404963
+    },
+    {
+      "removed": [
+        1,
+        2,
+        15
+      ],
+      "holes": 91,
+      "status": "unsat",
+      "seconds": 0.14874362503178418
+    },
+    {
+      "removed": [
+        1,
+        3,
+        4
+      ],
+      "holes": 96,
+      "status": "unsat",
+      "seconds": 0.17851570900529623
+    },
+    {
+      "removed": [
+        1,
+        3,
+        5
+      ],
+      "holes": 102,
+      "status": "unsat",
+      "seconds": 0.17992337502073497
+    },
+    {
+      "removed": [
+        1,
+        3,
+        6
+      ],
+      "holes": 102,
+      "status": "unsat",
+      "seconds": 0.1835110830143094
+    },
+    {
+      "removed": [
+        1,
+        3,
+        7
+      ],
+      "holes": 76,
+      "status": "unsat",
+      "seconds": 0.11671033292077482
+    },
+    {
+      "removed": [
+        1,
+        3,
+        8
+      ],
+      "holes": 102,
+      "status": "unsat",
+      "seconds": 0.29427933297120035
+    },
+    {
+      "removed": [
+        1,
+        3,
+        9
+      ],
+      "holes": 79,
+      "status": "unsat",
+      "seconds": 0.1095546669093892
+    },
+    {
+      "removed": [
+        1,
+        3,
+        10
+      ],
+      "holes": 102,
+      "status": "unsat",
+      "seconds": 0.18819512496702373
+    },
+    {
+      "removed": [
+        1,
+        3,
+        11
+      ],
+      "holes": 79,
+      "status": "unsat",
+      "seconds": 0.12677654204890132
+    },
+    {
+      "removed": [
+        1,
+        3,
+        12
+      ],
+      "holes": 94,
+      "status": "unsat",
+      "seconds": 0.1677270830841735
+    },
+    {
+      "removed": [
+        1,
+        3,
+        13
+      ],
+      "holes": 102,
+      "status": "unsat",
+      "seconds": 0.16275345790199935
+    },
+    {
+      "removed": [
+        1,
+        3,
+        14
+      ],
+      "holes": 102,
+      "status": "unsat",
+      "seconds": 0.19535274989902973
+    },
+    {
+      "removed": [
+        1,
+        3,
+        15
+      ],
+      "holes": 80,
+      "status": "unsat",
+      "seconds": 0.10157975007314235
+    },
+    {
+      "removed": [
+        1,
+        4,
+        5
+      ],
+      "holes": 108,
+      "status": "unsat",
+      "seconds": 0.10749129205942154
+    },
+    {
+      "removed": [
+        1,
+        4,
+        6
+      ],
+      "holes": 104,
+      "status": "unsat",
+      "seconds": 0.10498833400197327
+    },
+    {
+      "removed": [
+        1,
+        4,
+        7
+      ],
+      "holes": 79,
+      "status": "unsat",
+      "seconds": 0.10272150009404868
+    },
+    {
+      "removed": [
+        1,
+        4,
+        8
+      ],
+      "holes": 100,
+      "status": "unsat",
+      "seconds": 0.13367937493603677
+    },
+    {
+      "removed": [
+        1,
+        4,
+        9
+      ],
+      "holes": 79,
+      "status": "unsat",
+      "seconds": 0.11687637504655868
+    },
+    {
+      "removed": [
+        1,
+        4,
+        10
+      ],
+      "holes": 104,
+      "status": "unsat",
+      "seconds": 0.151012958958745
+    },
+    {
+      "removed": [
+        1,
+        4,
+        11
+      ],
+      "holes": 79,
+      "status": "unsat",
+      "seconds": 0.13718983391299844
+    },
+    {
+      "removed": [
+        1,
+        4,
+        12
+      ],
+      "holes": 96,
+      "status": "unsat",
+      "seconds": 0.11235962505452335
+    },
+    {
+      "removed": [
+        1,
+        4,
+        13
+      ],
+      "holes": 104,
+      "status": "unsat",
+      "seconds": 0.14266587502788752
+    },
+    {
+      "removed": [
+        1,
+        4,
+        14
+      ],
+      "holes": 100,
+      "status": "unsat",
+      "seconds": 0.1400112499250099
+    },
+    {
+      "removed": [
+        1,
+        4,
+        15
+      ],
+      "holes": 79,
+      "status": "unsat",
+      "seconds": 0.10598704195581377
+    },
+    {
+      "removed": [
+        1,
+        5,
+        6
+      ],
+      "holes": 112,
+      "status": "unsat",
+      "seconds": 0.18593079200945795
+    },
+    {
+      "removed": [
+        1,
+        5,
+        7
+      ],
+      "holes": 87,
+      "status": "unsat",
+      "seconds": 0.11603954096790403
+    },
+    {
+      "removed": [
+        1,
+        5,
+        8
+      ],
+      "holes": 112,
+      "status": "unsat",
+      "seconds": 0.17072995798662305
+    },
+    {
+      "removed": [
+        1,
+        5,
+        9
+      ],
+      "holes": 91,
+      "status": "unsat",
+      "seconds": 0.10863224999047816
+    },
+    {
+      "removed": [
+        1,
+        5,
+        10
+      ],
+      "holes": 116,
+      "status": "unsat",
+      "seconds": 0.17105545802041888
+    },
+    {
+      "removed": [
+        1,
+        5,
+        11
+      ],
+      "holes": 91,
+      "status": "unsat",
+      "seconds": 0.11812741693574935
+    },
+    {
+      "removed": [
+        1,
+        5,
+        12
+      ],
+      "holes": 108,
+      "status": "unsat",
+      "seconds": 0.15753629198297858
+    },
+    {
+      "removed": [
+        1,
+        5,
+        13
+      ],
+      "holes": 116,
+      "status": "unsat",
+      "seconds": 0.1687468329910189
+    },
+    {
+      "removed": [
+        1,
+        5,
+        14
+      ],
+      "holes": 112,
+      "status": "unsat",
+      "seconds": 0.13568841700907797
+    },
+    {
+      "removed": [
+        1,
+        5,
+        15
+      ],
+      "holes": 91,
+      "status": "unsat",
+      "seconds": 0.10103937506210059
+    },
+    {
+      "removed": [
+        1,
+        6,
+        7
+      ],
+      "holes": 83,
+      "status": "unsat",
+      "seconds": 0.1208526249974966
+    },
+    {
+      "removed": [
+        1,
+        6,
+        8
+      ],
+      "holes": 108,
+      "status": "unsat",
+      "seconds": 0.12583495897706598
+    },
+    {
+      "removed": [
+        1,
+        6,
+        9
+      ],
+      "holes": 87,
+      "status": "unsat",
+      "seconds": 0.1513133749831468
+    },
+    {
+      "removed": [
+        1,
+        6,
+        10
+      ],
+      "holes": 112,
+      "status": "unsat",
+      "seconds": 0.14040483406279236
+    },
+    {
+      "removed": [
+        1,
+        6,
+        11
+      ],
+      "holes": 87,
+      "status": "unsat",
+      "seconds": 0.11073125002440065
+    },
+    {
+      "removed": [
+        1,
+        6,
+        12
+      ],
+      "holes": 104,
+      "status": "unsat",
+      "seconds": 0.2696407090406865
+    },
+    {
+      "removed": [
+        1,
+        6,
+        13
+      ],
+      "holes": 112,
+      "status": "unsat",
+      "seconds": 0.25448579201474786
+    },
+    {
+      "removed": [
+        1,
+        6,
+        14
+      ],
+      "holes": 108,
+      "status": "unsat",
+      "seconds": 0.25485979206860065
+    },
+    {
+      "removed": [
+        1,
+        6,
+        15
+      ],
+      "holes": 87,
+      "status": "unsat",
+      "seconds": 0.23191624996252358
+    },
+    {
+      "removed": [
+        1,
+        7,
+        8
+      ],
+      "holes": 83,
+      "status": "unsat",
+      "seconds": 0.1945722090313211
+    },
+    {
+      "removed": [
+        1,
+        7,
+        9
+      ],
+      "holes": 62,
+      "status": "unsat",
+      "seconds": 0.11903837497811764
+    },
+    {
+      "removed": [
+        1,
+        7,
+        10
+      ],
+      "holes": 87,
+      "status": "unsat",
+      "seconds": 0.2352247079834342
+    },
+    {
+      "removed": [
+        1,
+        7,
+        11
+      ],
+      "holes": 62,
+      "status": "unsat",
+      "seconds": 0.17515224998351187
+    },
+    {
+      "removed": [
+        1,
+        7,
+        12
+      ],
+      "holes": 79,
+      "status": "unsat",
+      "seconds": 0.15969512495212257
+    },
+    {
+      "removed": [
+        1,
+        7,
+        13
+      ],
+      "holes": 87,
+      "status": "unsat",
+      "seconds": 0.24208795803133398
+    },
+    {
+      "removed": [
+        1,
+        7,
+        14
+      ],
+      "holes": 83,
+      "status": "unsat",
+      "seconds": 0.20383637491613626
+    },
+    {
+      "removed": [
+        1,
+        7,
+        15
+      ],
+      "holes": 88,
+      "status": "unsat",
+      "seconds": 0.25740775000303984
+    },
+    {
+      "removed": [
+        1,
+        8,
+        9
+      ],
+      "holes": 87,
+      "status": "unsat",
+      "seconds": 0.25001425005029887
+    },
+    {
+      "removed": [
+        1,
+        8,
+        10
+      ],
+      "holes": 112,
+      "status": "unsat",
+      "seconds": 0.34616225003264844
+    },
+    {
+      "removed": [
+        1,
+        8,
+        11
+      ],
+      "holes": 87,
+      "status": "unsat",
+      "seconds": 0.23350912507157773
+    },
+    {
+      "removed": [
+        1,
+        8,
+        12
+      ],
+      "holes": 108,
+      "status": "unsat",
+      "seconds": 0.32104374992195517
+    },
+    {
+      "removed": [
+        1,
+        8,
+        13
+      ],
+      "holes": 115,
+      "status": "unsat",
+      "seconds": 0.3835799579974264
+    },
+    {
+      "removed": [
+        1,
+        8,
+        14
+      ],
+      "holes": 108,
+      "status": "unsat",
+      "seconds": 0.20244012493640184
+    },
+    {
+      "removed": [
+        1,
+        8,
+        15
+      ],
+      "holes": 87,
+      "status": "unsat",
+      "seconds": 0.1993626659968868
+    },
+    {
+      "removed": [
+        1,
+        9,
+        10
+      ],
+      "holes": 91,
+      "status": "unsat",
+      "seconds": 0.22590258298441768
+    },
+    {
+      "removed": [
+        1,
+        9,
+        11
+      ],
+      "holes": 96,
+      "status": "unsat",
+      "seconds": 0.2713129170006141
+    },
+    {
+      "removed": [
+        1,
+        9,
+        12
+      ],
+      "holes": 83,
+      "status": "unsat",
+      "seconds": 0.19464550004340708
+    },
+    {
+      "removed": [
+        1,
+        9,
+        13
+      ],
+      "holes": 91,
+      "status": "unsat",
+      "seconds": 0.5077099159825593
+    },
+    {
+      "removed": [
+        1,
+        9,
+        14
+      ],
+      "holes": 87,
+      "status": "unsat",
+      "seconds": 0.5617924170801416
+    },
+    {
+      "removed": [
+        1,
+        9,
+        15
+      ],
+      "holes": 66,
+      "status": "unsat",
+      "seconds": 0.27085437497589737
+    },
+    {
+      "removed": [
+        1,
+        10,
+        11
+      ],
+      "holes": 91,
+      "status": "unsat",
+      "seconds": 0.49927775003015995
+    },
+    {
+      "removed": [
+        1,
+        10,
+        12
+      ],
+      "holes": 112,
+      "status": "unsat",
+      "seconds": 1.415264582959935
+    },
+    {
+      "removed": [
+        1,
+        10,
+        13
+      ],
+      "holes": 116,
+      "status": "unsat",
+      "seconds": 2.6793123750248924
+    },
+    {
+      "removed": [
+        1,
+        10,
+        14
+      ],
+      "holes": 115,
+      "status": "unsat",
+      "seconds": 4.43365962500684
+    },
+    {
+      "removed": [
+        1,
+        10,
+        15
+      ],
+      "holes": 91,
+      "status": "unsat",
+      "seconds": 2.2878129590535536
+    },
+    {
+      "removed": [
+        1,
+        11,
+        12
+      ],
+      "holes": 83,
+      "status": "unsat",
+      "seconds": 1.896515665925108
+    },
+    {
+      "removed": [
+        1,
+        11,
+        13
+      ],
+      "holes": 91,
+      "status": "unsat",
+      "seconds": 1.434838333982043
+    },
+    {
+      "removed": [
+        1,
+        11,
+        14
+      ],
+      "holes": 87,
+      "status": "unsat",
+      "seconds": 1.0728787500411272
+    },
+    {
+      "removed": [
+        1,
+        11,
+        15
+      ],
+      "holes": 66,
+      "status": "unsat",
+      "seconds": 0.6957895419327542
+    },
+    {
+      "removed": [
+        1,
+        12,
+        13
+      ],
+      "holes": 112,
+      "status": "unsat",
+      "seconds": 1.5738872499205172
+    },
+    {
+      "removed": [
+        1,
+        12,
+        14
+      ],
+      "holes": 108,
+      "status": "unsat",
+      "seconds": 0.7658959589898586
+    },
+    {
+      "removed": [
+        1,
+        12,
+        15
+      ],
+      "holes": 83,
+      "status": "unsat",
+      "seconds": 0.8013284170301631
+    },
+    {
+      "removed": [
+        1,
+        13,
+        14
+      ],
+      "holes": 112,
+      "status": "unsat",
+      "seconds": 0.8018538330215961
+    },
+    {
+      "removed": [
+        1,
+        13,
+        15
+      ],
+      "holes": 91,
+      "status": "unsat",
+      "seconds": 0.8761853330070153
+    },
+    {
+      "removed": [
+        1,
+        14,
+        15
+      ],
+      "holes": 87,
+      "status": "unsat",
+      "seconds": 0.911449708044529
+    },
+    {
+      "removed": [
+        2,
+        3,
+        4
+      ],
+      "holes": 106,
+      "status": "unsat",
+      "seconds": 0.7644384580198675
+    },
+    {
+      "removed": [
+        2,
+        3,
+        5
+      ],
+      "holes": 111,
+      "status": "unsat",
+      "seconds": 0.8466005419613793
+    },
+    {
+      "removed": [
+        2,
+        3,
+        6
+      ],
+      "holes": 108,
+      "status": "unsat",
+      "seconds": 0.8865119999973103
+    },
+    {
+      "removed": [
+        2,
+        3,
+        7
+      ],
+      "holes": 81,
+      "status": "unsat",
+      "seconds": 0.3991998330457136
+    },
+    {
+      "removed": [
+        2,
+        3,
+        8
+      ],
+      "holes": 104,
+      "status": "unsat",
+      "seconds": 0.9341131249675527
+    },
+    {
+      "removed": [
+        2,
+        3,
+        9
+      ],
+      "holes": 81,
+      "status": "unsat",
+      "seconds": 0.5263600420439616
+    },
+    {
+      "removed": [
+        2,
+        3,
+        10
+      ],
+      "holes": 107,
+      "status": "unsat",
+      "seconds": 1.36616633401718
+    },
+    {
+      "removed": [
+        2,
+        3,
+        11
+      ],
+      "holes": 85,
+      "status": "unsat",
+      "seconds": 0.47203050006646663
+    },
+    {
+      "removed": [
+        2,
+        3,
+        12
+      ],
+      "holes": 96,
+      "status": "unsat",
+      "seconds": 0.5263185420772061
+    },
+    {
+      "removed": [
+        2,
+        3,
+        13
+      ],
+      "holes": 108,
+      "status": "unsat",
+      "seconds": 0.29557958303485066
+    },
+    {
+      "removed": [
+        2,
+        3,
+        14
+      ],
+      "holes": 108,
+      "status": "unsat",
+      "seconds": 0.4422636670060456
+    },
+    {
+      "removed": [
+        2,
+        3,
+        15
+      ],
+      "holes": 85,
+      "status": "unsat",
+      "seconds": 0.25276808394119143
+    },
+    {
+      "removed": [
+        2,
+        4,
+        5
+      ],
+      "holes": 127,
+      "status": "unsat",
+      "seconds": 0.5268162499414757
+    },
+    {
+      "removed": [
+        2,
+        4,
+        6
+      ],
+      "holes": 120,
+      "status": "unsat",
+      "seconds": 0.6149567919783294
+    },
+    {
+      "removed": [
+        2,
+        4,
+        7
+      ],
+      "holes": 95,
+      "status": "unsat",
+      "seconds": 0.34123658400494605
+    },
+    {
+      "removed": [
+        2,
+        4,
+        8
+      ],
+      "holes": 116,
+      "status": "unsat",
+      "seconds": 0.540804750053212
+    },
+    {
+      "removed": [
+        2,
+        4,
+        9
+      ],
+      "holes": 91,
+      "status": "unsat",
+      "seconds": 0.5290302500361577
+    },
+    {
+      "removed": [
+        2,
+        4,
+        10
+      ],
+      "holes": 119,
+      "status": "unsat",
+      "seconds": 0.46489345899317414
+    },
+    {
+      "removed": [
+        2,
+        4,
+        11
+      ],
+      "holes": 95,
+      "status": "unsat",
+      "seconds": 0.4563433330040425
+    },
+    {
+      "removed": [
+        2,
+        4,
+        12
+      ],
+      "holes": 108,
+      "status": "unsat",
+      "seconds": 0.41186104097869247
+    },
+    {
+      "removed": [
+        2,
+        4,
+        13
+      ],
+      "holes": 120,
+      "status": "unsat",
+      "seconds": 0.28548841702286154
+    },
+    {
+      "removed": [
+        2,
+        4,
+        14
+      ],
+      "holes": 116,
+      "status": "unsat",
+      "seconds": 0.650044500012882
+    },
+    {
+      "removed": [
+        2,
+        4,
+        15
+      ],
+      "holes": 95,
+      "status": "unsat",
+      "seconds": 0.3902988329064101
+    },
+    {
+      "removed": [
+        2,
+        5,
+        6
+      ],
+      "holes": 127,
+      "status": "unsat",
+      "seconds": 0.3540658330311999
+    },
+    {
+      "removed": [
+        2,
+        5,
+        7
+      ],
+      "holes": 104,
+      "status": "unsat",
+      "seconds": 0.5497715000528842
+    },
+    {
+      "removed": [
+        2,
+        5,
+        8
+      ],
+      "holes": 123,
+      "status": "unsat",
+      "seconds": 0.4652218749979511
+    },
+    {
+      "removed": [
+        2,
+        5,
+        9
+      ],
+      "holes": 102,
+      "status": "unsat",
+      "seconds": 0.2643391250167042
+    },
+    {
+      "removed": [
+        2,
+        5,
+        10
+      ],
+      "holes": 130,
+      "status": "unsat",
+      "seconds": 0.16410958406049758
+    },
+    {
+      "removed": [
+        2,
+        5,
+        11
+      ],
+      "holes": 106,
+      "status": "unsat",
+      "seconds": 0.20959308405872434
+    },
+    {
+      "removed": [
+        2,
+        5,
+        12
+      ],
+      "holes": 119,
+      "status": "unsat",
+      "seconds": 0.29760962491855025
+    },
+    {
+      "removed": [
+        2,
+        5,
+        13
+      ],
+      "holes": 131,
+      "status": "unsat",
+      "seconds": 0.2722185830352828
+    },
+    {
+      "removed": [
+        2,
+        5,
+        14
+      ],
+      "holes": 127,
+      "status": "unsat",
+      "seconds": 0.2103232080116868
+    },
+    {
+      "removed": [
+        2,
+        5,
+        15
+      ],
+      "holes": 109,
+      "status": "unsat",
+      "seconds": 0.18828858295455575
+    },
+    {
+      "removed": [
+        2,
+        6,
+        7
+      ],
+      "holes": 95,
+      "status": "unsat",
+      "seconds": 0.2004125420935452
+    },
+    {
+      "removed": [
+        2,
+        6,
+        8
+      ],
+      "holes": 116,
+      "status": "unsat",
+      "seconds": 0.40246312506496906
+    },
+    {
+      "removed": [
+        2,
+        6,
+        9
+      ],
+      "holes": 95,
+      "status": "unsat",
+      "seconds": 0.22723541699815542
+    },
+    {
+      "removed": [
+        2,
+        6,
+        10
+      ],
+      "holes": 123,
+      "status": "unsat",
+      "seconds": 0.32205120800063014
+    },
+    {
+      "removed": [
+        2,
+        6,
+        11
+      ],
+      "holes": 99,
+      "status": "unsat",
+      "seconds": 0.366515584057197
+    },
+    {
+      "removed": [
+        2,
+        6,
+        12
+      ],
+      "holes": 112,
+      "status": "unsat",
+      "seconds": 0.209759125020355
+    },
+    {
+      "removed": [
+        2,
+        6,
+        13
+      ],
+      "holes": 124,
+      "status": "unsat",
+      "seconds": 0.3196688749594614
+    },
+    {
+      "removed": [
+        2,
+        6,
+        14
+      ],
+      "holes": 120,
+      "status": "unsat",
+      "seconds": 0.30219537497032434
+    },
+    {
+      "removed": [
+        2,
+        6,
+        15
+      ],
+      "holes": 99,
+      "status": "unsat",
+      "seconds": 0.13109037501271814
+    },
+    {
+      "removed": [
+        2,
+        7,
+        8
+      ],
+      "holes": 91,
+      "status": "unsat",
+      "seconds": 0.1584645410766825
+    },
+    {
+      "removed": [
+        2,
+        7,
+        9
+      ],
+      "holes": 70,
+      "status": "unsat",
+      "seconds": 0.12441520905122161
+    },
+    {
+      "removed": [
+        2,
+        7,
+        10
+      ],
+      "holes": 98,
+      "status": "unsat",
+      "seconds": 0.1831646249629557
+    },
+    {
+      "removed": [
+        2,
+        7,
+        11
+      ],
+      "holes": 74,
+      "status": "unsat",
+      "seconds": 0.16375499998684973
+    },
+    {
+      "removed": [
+        2,
+        7,
+        12
+      ],
+      "holes": 87,
+      "status": "unsat",
+      "seconds": 0.25017725001089275
+    },
+    {
+      "removed": [
+        2,
+        7,
+        13
+      ],
+      "holes": 99,
+      "status": "unsat",
+      "seconds": 0.16952787502668798
+    },
+    {
+      "removed": [
+        2,
+        7,
+        14
+      ],
+      "holes": 95,
+      "status": "unsat",
+      "seconds": 0.19188408309128135
+    },
+    {
+      "removed": [
+        2,
+        7,
+        15
+      ],
+      "holes": 100,
+      "status": "unsat",
+      "seconds": 0.25171012501232326
+    },
+    {
+      "removed": [
+        2,
+        8,
+        9
+      ],
+      "holes": 91,
+      "status": "unsat",
+      "seconds": 0.3645895830122754
+    },
+    {
+      "removed": [
+        2,
+        8,
+        10
+      ],
+      "holes": 119,
+      "status": "unsat",
+      "seconds": 0.2807788329664618
+    },
+    {
+      "removed": [
+        2,
+        8,
+        11
+      ],
+      "holes": 95,
+      "status": "unsat",
+      "seconds": 0.16085295798256993
+    },
+    {
+      "removed": [
+        2,
+        8,
+        12
+      ],
+      "holes": 112,
+      "status": "unsat",
+      "seconds": 0.22172308305744082
+    },
+    {
+      "removed": [
+        2,
+        8,
+        13
+      ],
+      "holes": 120,
+      "status": "unsat",
+      "seconds": 0.4673670419724658
+    },
+    {
+      "removed": [
+        2,
+        8,
+        14
+      ],
+      "holes": 116,
+      "status": "unsat",
+      "seconds": 0.2304862500168383
+    },
+    {
+      "removed": [
+        2,
+        8,
+        15
+      ],
+      "holes": 95,
+      "status": "unsat",
+      "seconds": 0.24353837501257658
+    },
+    {
+      "removed": [
+        2,
+        9,
+        10
+      ],
+      "holes": 100,
+      "status": "unsat",
+      "seconds": 0.3647796669974923
+    },
+    {
+      "removed": [
+        2,
+        9,
+        11
+      ],
+      "holes": 104,
+      "status": "unsat",
+      "seconds": 0.32076329202391207
+    },
+    {
+      "removed": [
+        2,
+        9,
+        12
+      ],
+      "holes": 87,
+      "status": "unsat",
+      "seconds": 0.3302893330110237
+    },
+    {
+      "removed": [
+        2,
+        9,
+        13
+      ],
+      "holes": 99,
+      "status": "unsat",
+      "seconds": 0.3633050420321524
+    },
+    {
+      "removed": [
+        2,
+        9,
+        14
+      ],
+      "holes": 95,
+      "status": "unsat",
+      "seconds": 0.2778522080043331
+    },
+    {
+      "removed": [
+        2,
+        9,
+        15
+      ],
+      "holes": 74,
+      "status": "unsat",
+      "seconds": 0.1290995409945026
+    },
+    {
+      "removed": [
+        2,
+        10,
+        11
+      ],
+      "holes": 105,
+      "status": "unsat",
+      "seconds": 0.17747112503275275
+    },
+    {
+      "removed": [
+        2,
+        10,
+        12
+      ],
+      "holes": 119,
+      "status": "unsat",
+      "seconds": 0.2876635829452425
+    },
+    {
+      "removed": [
+        2,
+        10,
+        13
+      ],
+      "holes": 127,
+      "status": "unsat",
+      "seconds": 0.3449307909468189
+    },
+    {
+      "removed": [
+        2,
+        10,
+        14
+      ],
+      "holes": 123,
+      "status": "unsat",
+      "seconds": 0.23882170801516622
+    },
+    {
+      "removed": [
+        2,
+        10,
+        15
+      ],
+      "holes": 102,
+      "status": "unsat",
+      "seconds": 0.18411362497135997
+    },
+    {
+      "removed": [
+        2,
+        11,
+        12
+      ],
+      "holes": 91,
+      "status": "unsat",
+      "seconds": 0.22243841597810388
+    },
+    {
+      "removed": [
+        2,
+        11,
+        13
+      ],
+      "holes": 103,
+      "status": "unsat",
+      "seconds": 0.2386082080192864
+    },
+    {
+      "removed": [
+        2,
+        11,
+        14
+      ],
+      "holes": 99,
+      "status": "unsat",
+      "seconds": 0.3725280410144478
+    },
+    {
+      "removed": [
+        2,
+        11,
+        15
+      ],
+      "holes": 78,
+      "status": "unsat",
+      "seconds": 0.1455321250250563
+    },
+    {
+      "removed": [
+        2,
+        12,
+        13
+      ],
+      "holes": 120,
+      "status": "unsat",
+      "seconds": 0.3964559999294579
+    },
+    {
+      "removed": [
+        2,
+        12,
+        14
+      ],
+      "holes": 120,
+      "status": "unsat",
+      "seconds": 0.3298142090206966
+    },
+    {
+      "removed": [
+        2,
+        12,
+        15
+      ],
+      "holes": 91,
+      "status": "unsat",
+      "seconds": 0.20376329205464572
+    },
+    {
+      "removed": [
+        2,
+        13,
+        14
+      ],
+      "holes": 124,
+      "status": "unsat",
+      "seconds": 0.28936729102861136
+    },
+    {
+      "removed": [
+        2,
+        13,
+        15
+      ],
+      "holes": 103,
+      "status": "unsat",
+      "seconds": 0.42277829092927277
+    },
+    {
+      "removed": [
+        2,
+        14,
+        15
+      ],
+      "holes": 99,
+      "status": "unsat",
+      "seconds": 0.20447358302772045
+    },
+    {
+      "removed": [
+        3,
+        4,
+        5
+      ],
+      "holes": 110,
+      "status": "unsat",
+      "seconds": 0.23417770792730153
+    },
+    {
+      "removed": [
+        3,
+        4,
+        6
+      ],
+      "holes": 110,
+      "status": "unsat",
+      "seconds": 0.24666329205501825
+    },
+    {
+      "removed": [
+        3,
+        4,
+        7
+      ],
+      "holes": 83,
+      "status": "unsat",
+      "seconds": 0.20401633298024535
+    },
+    {
+      "removed": [
+        3,
+        4,
+        8
+      ],
+      "holes": 102,
+      "status": "unsat",
+      "seconds": 0.2193257079925388
+    },
+    {
+      "removed": [
+        3,
+        4,
+        9
+      ],
+      "holes": 80,
+      "status": "unsat",
+      "seconds": 0.1351978749735281
+    },
+    {
+      "removed": [
+        3,
+        4,
+        10
+      ],
+      "holes": 102,
+      "status": "unsat",
+      "seconds": 0.2076010419987142
+    },
+    {
+      "removed": [
+        3,
+        4,
+        11
+      ],
+      "holes": 84,
+      "status": "unsat",
+      "seconds": 0.17267775000073016
+    },
+    {
+      "removed": [
+        3,
+        4,
+        12
+      ],
+      "holes": 94,
+      "status": "unsat",
+      "seconds": 0.21055420895572752
+    },
+    {
+      "removed": [
+        3,
+        4,
+        13
+      ],
+      "holes": 106,
+      "status": "unsat",
+      "seconds": 0.20711025001946837
+    },
+    {
+      "removed": [
+        3,
+        4,
+        14
+      ],
+      "holes": 106,
+      "status": "unsat",
+      "seconds": 0.19632716698106378
+    },
+    {
+      "removed": [
+        3,
+        4,
+        15
+      ],
+      "holes": 83,
+      "status": "unsat",
+      "seconds": 0.18042191700078547
+    },
+    {
+      "removed": [
+        3,
+        5,
+        6
+      ],
+      "holes": 115,
+      "status": "unsat",
+      "seconds": 0.40757458400912583
+    },
+    {
+      "removed": [
+        3,
+        5,
+        7
+      ],
+      "holes": 85,
+      "status": "unsat",
+      "seconds": 0.20039499993436038
+    },
+    {
+      "removed": [
+        3,
+        5,
+        8
+      ],
+      "holes": 108,
+      "status": "unsat",
+      "seconds": 0.21579004102386534
+    },
+    {
+      "removed": [
+        3,
+        5,
+        9
+      ],
+      "holes": 85,
+      "status": "unsat",
+      "seconds": 0.1795373340137303
+    },
+    {
+      "removed": [
+        3,
+        5,
+        10
+      ],
+      "holes": 108,
+      "status": "unsat",
+      "seconds": 0.2906381250359118
+    },
+    {
+      "removed": [
+        3,
+        5,
+        11
+      ],
+      "holes": 89,
+      "status": "unsat",
+      "seconds": 0.2489237500121817
+    },
+    {
+      "removed": [
+        3,
+        5,
+        12
+      ],
+      "holes": 100,
+      "status": "unsat",
+      "seconds": 0.17089158296585083
+    },
+    {
+      "removed": [
+        3,
+        5,
+        13
+      ],
+      "holes": 112,
+      "status": "unsat",
+      "seconds": 0.16774745797738433
+    },
+    {
+      "removed": [
+        3,
+        5,
+        14
+      ],
+      "holes": 112,
+      "status": "unsat",
+      "seconds": 0.20062633301131427
+    },
+    {
+      "removed": [
+        3,
+        5,
+        15
+      ],
+      "holes": 89,
+      "status": "unsat",
+      "seconds": 0.23569545801728964
+    },
+    {
+      "removed": [
+        3,
+        6,
+        7
+      ],
+      "holes": 85,
+      "status": "unsat",
+      "seconds": 0.12055545905604959
+    },
+    {
+      "removed": [
+        3,
+        6,
+        8
+      ],
+      "holes": 108,
+      "status": "unsat",
+      "seconds": 0.2109262499725446
+    },
+    {
+      "removed": [
+        3,
+        6,
+        9
+      ],
+      "holes": 85,
+      "status": "unsat",
+      "seconds": 0.12708587502129376
+    },
+    {
+      "removed": [
+        3,
+        6,
+        10
+      ],
+      "holes": 108,
+      "status": "unsat",
+      "seconds": 0.16343183408025652
+    },
+    {
+      "removed": [
+        3,
+        6,
+        11
+      ],
+      "holes": 89,
+      "status": "unsat",
+      "seconds": 0.09988883300684392
+    },
+    {
+      "removed": [
+        3,
+        6,
+        12
+      ],
+      "holes": 100,
+      "status": "unsat",
+      "seconds": 0.25560616597067565
+    },
+    {
+      "removed": [
+        3,
+        6,
+        13
+      ],
+      "holes": 112,
+      "status": "unsat",
+      "seconds": 0.19965562503784895
+    },
+    {
+      "removed": [
+        3,
+        6,
+        14
+      ],
+      "holes": 112,
+      "status": "unsat",
+      "seconds": 0.18077404203359038
+    },
+    {
+      "removed": [
+        3,
+        6,
+        15
+      ],
+      "holes": 89,
+      "status": "unsat",
+      "seconds": 0.12382120895199478
+    },
+    {
+      "removed": [
+        3,
+        7,
+        8
+      ],
+      "holes": 81,
+      "status": "unsat",
+      "seconds": 0.24631612503435463
+    },
+    {
+      "removed": [
+        3,
+        7,
+        9
+      ],
+      "holes": 58,
+      "status": "unsat",
+      "seconds": 0.10457229206804186
+    },
+    {
+      "removed": [
+        3,
+        7,
+        10
+      ],
+      "holes": 81,
+      "status": "unsat",
+      "seconds": 0.20055033301468939
+    },
+    {
+      "removed": [
+        3,
+        7,
+        11
+      ],
+      "holes": 62,
+      "status": "unsat",
+      "seconds": 0.1040069580776617
+    },
+    {
+      "removed": [
+        3,
+        7,
+        12
+      ],
+      "holes": 73,
+      "status": "unsat",
+      "seconds": 0.13391183409839869
+    },
+    {
+      "removed": [
+        3,
+        7,
+        13
+      ],
+      "holes": 85,
+      "status": "unsat",
+      "seconds": 0.11045633303001523
+    },
+    {
+      "removed": [
+        3,
+        7,
+        14
+      ],
+      "holes": 85,
+      "status": "unsat",
+      "seconds": 0.13494666700717062
+    },
+    {
+      "removed": [
+        3,
+        7,
+        15
+      ],
+      "holes": 88,
+      "status": "unsat",
+      "seconds": 0.11272670794278383
+    },
+    {
+      "removed": [
+        3,
+        8,
+        9
+      ],
+      "holes": 81,
+      "status": "unsat",
+      "seconds": 0.16615091694984585
+    },
+    {
+      "removed": [
+        3,
+        8,
+        10
+      ],
+      "holes": 107,
+      "status": "unsat",
+      "seconds": 0.2284672079840675
+    },
+    {
+      "removed": [
+        3,
+        8,
+        11
+      ],
+      "holes": 85,
+      "status": "unsat",
+      "seconds": 0.2334250418934971
+    },
+    {
+      "removed": [
+        3,
+        8,
+        12
+      ],
+      "holes": 100,
+      "status": "unsat",
+      "seconds": 0.20335204200819135
+    },
+    {
+      "removed": [
+        3,
+        8,
+        13
+      ],
+      "holes": 108,
+      "status": "unsat",
+      "seconds": 0.19469633302651346
+    },
+    {
+      "removed": [
+        3,
+        8,
+        14
+      ],
+      "holes": 108,
+      "status": "unsat",
+      "seconds": 0.20374920801259577
+    },
+    {
+      "removed": [
+        3,
+        8,
+        15
+      ],
+      "holes": 85,
+      "status": "unsat",
+      "seconds": 0.17861466598697007
+    },
+    {
+      "removed": [
+        3,
+        9,
+        10
+      ],
+      "holes": 81,
+      "status": "unsat",
+      "seconds": 0.13969924999400973
+    },
+    {
+      "removed": [
+        3,
+        9,
+        11
+      ],
+      "holes": 92,
+      "status": "unsat",
+      "seconds": 0.14272600004915148
+    },
+    {
+      "removed": [
+        3,
+        9,
+        12
+      ],
+      "holes": 73,
+      "status": "unsat",
+      "seconds": 0.12352070794440806
+    },
+    {
+      "removed": [
+        3,
+        9,
+        13
+      ],
+      "holes": 85,
+      "status": "unsat",
+      "seconds": 0.09939891600515693
+    },
+    {
+      "removed": [
+        3,
+        9,
+        14
+      ],
+      "holes": 85,
+      "status": "unsat",
+      "seconds": 0.14528620906639844
+    },
+    {
+      "removed": [
+        3,
+        9,
+        15
+      ],
+      "holes": 62,
+      "status": "unsat",
+      "seconds": 0.10557841707486659
+    },
+    {
+      "removed": [
+        3,
+        10,
+        11
+      ],
+      "holes": 85,
+      "status": "unsat",
+      "seconds": 0.2016564579680562
+    },
+    {
+      "removed": [
+        3,
+        10,
+        12
+      ],
+      "holes": 100,
+      "status": "unsat",
+      "seconds": 0.19402416702359915
+    },
+    {
+      "removed": [
+        3,
+        10,
+        13
+      ],
+      "holes": 108,
+      "status": "unsat",
+      "seconds": 0.2929315420333296
+    },
+    {
+      "removed": [
+        3,
+        10,
+        14
+      ],
+      "holes": 108,
+      "status": "unsat",
+      "seconds": 0.13777862500865012
+    },
+    {
+      "removed": [
+        3,
+        10,
+        15
+      ],
+      "holes": 85,
+      "status": "unsat",
+      "seconds": 0.18155262502841651
+    },
+    {
+      "removed": [
+        3,
+        11,
+        12
+      ],
+      "holes": 77,
+      "status": "unsat",
+      "seconds": 0.14974237489514053
+    },
+    {
+      "removed": [
+        3,
+        11,
+        13
+      ],
+      "holes": 89,
+      "status": "unsat",
+      "seconds": 0.14105295797344297
+    },
+    {
+      "removed": [
+        3,
+        11,
+        14
+      ],
+      "holes": 89,
+      "status": "unsat",
+      "seconds": 0.13247266702819616
+    },
+    {
+      "removed": [
+        3,
+        11,
+        15
+      ],
+      "holes": 66,
+      "status": "unsat",
+      "seconds": 0.11181212496012449
+    },
+    {
+      "removed": [
+        3,
+        12,
+        13
+      ],
+      "holes": 104,
+      "status": "unsat",
+      "seconds": 0.18191229098010808
+    },
+    {
+      "removed": [
+        3,
+        12,
+        14
+      ],
+      "holes": 104,
+      "status": "unsat",
+      "seconds": 0.19061970803886652
+    },
+    {
+      "removed": [
+        3,
+        12,
+        15
+      ],
+      "holes": 77,
+      "status": "unsat",
+      "seconds": 0.19319162506144494
+    },
+    {
+      "removed": [
+        3,
+        13,
+        14
+      ],
+      "holes": 116,
+      "status": "unsat",
+      "seconds": 0.2973314579576254
+    },
+    {
+      "removed": [
+        3,
+        13,
+        15
+      ],
+      "holes": 89,
+      "status": "unsat",
+      "seconds": 0.12739154195878655
+    },
+    {
+      "removed": [
+        3,
+        14,
+        15
+      ],
+      "holes": 89,
+      "status": "unsat",
+      "seconds": 0.14593766606412828
+    },
+    {
+      "removed": [
+        4,
+        5,
+        6
+      ],
+      "holes": 124,
+      "status": "unsat",
+      "seconds": 0.19109266705345362
+    },
+    {
+      "removed": [
+        4,
+        5,
+        7
+      ],
+      "holes": 99,
+      "status": "unsat",
+      "seconds": 0.3128767079906538
+    },
+    {
+      "removed": [
+        4,
+        5,
+        8
+      ],
+      "holes": 116,
+      "status": "unsat",
+      "seconds": 0.25569529202766716
+    },
+    {
+      "removed": [
+        4,
+        5,
+        9
+      ],
+      "holes": 95,
+      "status": "unsat",
+      "seconds": 0.1510594580322504
+    },
+    {
+      "removed": [
+        4,
+        5,
+        10
+      ],
+      "holes": 120,
+      "status": "unsat",
+      "seconds": 0.17766095895785838
+    },
+    {
+      "removed": [
+        4,
+        5,
+        11
+      ],
+      "holes": 99,
+      "status": "unsat",
+      "seconds": 0.17014608392491937
+    },
+    {
+      "removed": [
+        4,
+        5,
+        12
+      ],
+      "holes": 112,
+      "status": "unsat",
+      "seconds": 0.27674016694072634
+    },
+    {
+      "removed": [
+        4,
+        5,
+        13
+      ],
+      "holes": 124,
+      "status": "unsat",
+      "seconds": 0.2192879170179367
+    },
+    {
+      "removed": [
+        4,
+        5,
+        14
+      ],
+      "holes": 124,
+      "status": "unsat",
+      "seconds": 0.15836833301000297
+    },
+    {
+      "removed": [
+        4,
+        5,
+        15
+      ],
+      "holes": 99,
+      "status": "unsat",
+      "seconds": 0.15210570790804923
+    },
+    {
+      "removed": [
+        4,
+        6,
+        7
+      ],
+      "holes": 95,
+      "status": "unsat",
+      "seconds": 0.1322365830419585
+    },
+    {
+      "removed": [
+        4,
+        6,
+        8
+      ],
+      "holes": 112,
+      "status": "unsat",
+      "seconds": 0.23119804204907268
+    },
+    {
+      "removed": [
+        4,
+        6,
+        9
+      ],
+      "holes": 91,
+      "status": "unsat",
+      "seconds": 0.14140129100997
+    },
+    {
+      "removed": [
+        4,
+        6,
+        10
+      ],
+      "holes": 116,
+      "status": "unsat",
+      "seconds": 0.1552703749621287
+    },
+    {
+      "removed": [
+        4,
+        6,
+        11
+      ],
+      "holes": 95,
+      "status": "unsat",
+      "seconds": 0.14307600003667176
+    },
+    {
+      "removed": [
+        4,
+        6,
+        12
+      ],
+      "holes": 108,
+      "status": "unsat",
+      "seconds": 0.14156975003425032
+    },
+    {
+      "removed": [
+        4,
+        6,
+        13
+      ],
+      "holes": 124,
+      "status": "unsat",
+      "seconds": 0.19327074999455363
+    },
+    {
+      "removed": [
+        4,
+        6,
+        14
+      ],
+      "holes": 116,
+      "status": "unsat",
+      "seconds": 0.24165833299048245
+    },
+    {
+      "removed": [
+        4,
+        6,
+        15
+      ],
+      "holes": 95,
+      "status": "unsat",
+      "seconds": 0.15740154194645584
+    },
+    {
+      "removed": [
+        4,
+        7,
+        8
+      ],
+      "holes": 87,
+      "status": "unsat",
+      "seconds": 0.10354229202494025
+    },
+    {
+      "removed": [
+        4,
+        7,
+        9
+      ],
+      "holes": 66,
+      "status": "unsat",
+      "seconds": 0.2231609160080552
+    },
+    {
+      "removed": [
+        4,
+        7,
+        10
+      ],
+      "holes": 91,
+      "status": "unsat",
+      "seconds": 0.12060279096476734
+    },
+    {
+      "removed": [
+        4,
+        7,
+        11
+      ],
+      "holes": 70,
+      "status": "unsat",
+      "seconds": 0.07252899999730289
+    },
+    {
+      "removed": [
+        4,
+        7,
+        12
+      ],
+      "holes": 83,
+      "status": "unsat",
+      "seconds": 0.12688958295620978
+    },
+    {
+      "removed": [
+        4,
+        7,
+        13
+      ],
+      "holes": 95,
+      "status": "unsat",
+      "seconds": 0.12486291700042784
+    },
+    {
+      "removed": [
+        4,
+        7,
+        14
+      ],
+      "holes": 91,
+      "status": "unsat",
+      "seconds": 0.1938608749769628
+    },
+    {
+      "removed": [
+        4,
+        7,
+        15
+      ],
+      "holes": 96,
+      "status": "unsat",
+      "seconds": 0.2154422920430079
+    },
+    {
+      "removed": [
+        4,
+        8,
+        9
+      ],
+      "holes": 83,
+      "status": "unsat",
+      "seconds": 0.1066881250590086
+    },
+    {
+      "removed": [
+        4,
+        8,
+        10
+      ],
+      "holes": 108,
+      "status": "unsat",
+      "seconds": 0.15641979197971523
+    },
+    {
+      "removed": [
+        4,
+        8,
+        11
+      ],
+      "holes": 87,
+      "status": "unsat",
+      "seconds": 0.11022854107432067
+    },
+    {
+      "removed": [
+        4,
+        8,
+        12
+      ],
+      "holes": 104,
+      "status": "unsat",
+      "seconds": 0.20372029196005315
+    },
+    {
+      "removed": [
+        4,
+        8,
+        13
+      ],
+      "holes": 112,
+      "status": "unsat",
+      "seconds": 0.25555254193022847
+    },
+    {
+      "removed": [
+        4,
+        8,
+        14
+      ],
+      "holes": 108,
+      "status": "unsat",
+      "seconds": 0.16501033306121826
+    },
+    {
+      "removed": [
+        4,
+        8,
+        15
+      ],
+      "holes": 87,
+      "status": "unsat",
+      "seconds": 0.1439667500089854
+    },
+    {
+      "removed": [
+        4,
+        9,
+        10
+      ],
+      "holes": 87,
+      "status": "unsat",
+      "seconds": 0.11794770800042897
+    },
+    {
+      "removed": [
+        4,
+        9,
+        11
+      ],
+      "holes": 96,
+      "status": "unsat",
+      "seconds": 0.1240536249242723
+    },
+    {
+      "removed": [
+        4,
+        9,
+        12
+      ],
+      "holes": 79,
+      "status": "unsat",
+      "seconds": 0.12864858389366418
+    },
+    {
+      "removed": [
+        4,
+        9,
+        13
+      ],
+      "holes": 91,
+      "status": "unsat",
+      "seconds": 0.16611645894590765
+    },
+    {
+      "removed": [
+        4,
+        9,
+        14
+      ],
+      "holes": 87,
+      "status": "unsat",
+      "seconds": 0.13628420897293836
+    },
+    {
+      "removed": [
+        4,
+        9,
+        15
+      ],
+      "holes": 66,
+      "status": "unsat",
+      "seconds": 0.08956691704224795
+    },
+    {
+      "removed": [
+        4,
+        10,
+        11
+      ],
+      "holes": 91,
+      "status": "unsat",
+      "seconds": 0.13964020798448473
+    },
+    {
+      "removed": [
+        4,
+        10,
+        12
+      ],
+      "holes": 108,
+      "status": "unsat",
+      "seconds": 0.13218549999874085
+    },
+    {
+      "removed": [
+        4,
+        10,
+        13
+      ],
+      "holes": 116,
+      "status": "unsat",
+      "seconds": 0.14149287506006658
+    },
+    {
+      "removed": [
+        4,
+        10,
+        14
+      ],
+      "holes": 112,
+      "status": "unsat",
+      "seconds": 0.12959470797795802
+    },
+    {
+      "removed": [
+        4,
+        10,
+        15
+      ],
+      "holes": 91,
+      "status": "unsat",
+      "seconds": 0.14880354097113013
+    },
+    {
+      "removed": [
+        4,
+        11,
+        12
+      ],
+      "holes": 83,
+      "status": "unsat",
+      "seconds": 0.20243408402893692
+    },
+    {
+      "removed": [
+        4,
+        11,
+        13
+      ],
+      "holes": 95,
+      "status": "unsat",
+      "seconds": 0.13465799996629357
+    },
+    {
+      "removed": [
+        4,
+        11,
+        14
+      ],
+      "holes": 91,
+      "status": "unsat",
+      "seconds": 0.14001262502279133
+    },
+    {
+      "removed": [
+        4,
+        11,
+        15
+      ],
+      "holes": 70,
+      "status": "unsat",
+      "seconds": 0.08783958398271352
+    },
+    {
+      "removed": [
+        4,
+        12,
+        13
+      ],
+      "holes": 112,
+      "status": "unsat",
+      "seconds": 0.13439583301078528
+    },
+    {
+      "removed": [
+        4,
+        12,
+        14
+      ],
+      "holes": 108,
+      "status": "unsat",
+      "seconds": 0.15027012501377612
+    },
+    {
+      "removed": [
+        4,
+        12,
+        15
+      ],
+      "holes": 83,
+      "status": "unsat",
+      "seconds": 0.10881191701628268
+    },
+    {
+      "removed": [
+        4,
+        13,
+        14
+      ],
+      "holes": 116,
+      "status": "unsat",
+      "seconds": 0.20395791705232114
+    },
+    {
+      "removed": [
+        4,
+        13,
+        15
+      ],
+      "holes": 95,
+      "status": "unsat",
+      "seconds": 0.12999133300036192
+    },
+    {
+      "removed": [
+        4,
+        14,
+        15
+      ],
+      "holes": 91,
+      "status": "unsat",
+      "seconds": 0.10606008290778846
+    },
+    {
+      "removed": [
+        5,
+        6,
+        7
+      ],
+      "holes": 99,
+      "status": "unsat",
+      "seconds": 0.11675504210870713
+    },
+    {
+      "removed": [
+        5,
+        6,
+        8
+      ],
+      "holes": 120,
+      "status": "unsat",
+      "seconds": 0.16828095796518028
+    },
+    {
+      "removed": [
+        5,
+        6,
+        9
+      ],
+      "holes": 99,
+      "status": "unsat",
+      "seconds": 0.11556941701564938
+    },
+    {
+      "removed": [
+        5,
+        6,
+        10
+      ],
+      "holes": 124,
+      "status": "unsat",
+      "seconds": 0.2033555000089109
+    },
+    {
+      "removed": [
+        5,
+        6,
+        11
+      ],
+      "holes": 103,
+      "status": "unsat",
+      "seconds": 0.3441367089981213
+    },
+    {
+      "removed": [
+        5,
+        6,
+        12
+      ],
+      "holes": 116,
+      "status": "unsat",
+      "seconds": 0.21617795899510384
+    },
+    {
+      "removed": [
+        5,
+        6,
+        13
+      ],
+      "holes": 128,
+      "status": "unsat",
+      "seconds": 0.20966900000348687
+    },
+    {
+      "removed": [
+        5,
+        6,
+        14
+      ],
+      "holes": 124,
+      "status": "unsat",
+      "seconds": 0.18830241705290973
+    },
+    {
+      "removed": [
+        5,
+        6,
+        15
+      ],
+      "holes": 103,
+      "status": "unsat",
+      "seconds": 0.23628995893523097
+    },
+    {
+      "removed": [
+        5,
+        7,
+        8
+      ],
+      "holes": 95,
+      "status": "unsat",
+      "seconds": 0.20480541698634624
+    },
+    {
+      "removed": [
+        5,
+        7,
+        9
+      ],
+      "holes": 74,
+      "status": "unsat",
+      "seconds": 0.14395966695155948
+    },
+    {
+      "removed": [
+        5,
+        7,
+        10
+      ],
+      "holes": 99,
+      "status": "unsat",
+      "seconds": 0.14129612501710653
+    },
+    {
+      "removed": [
+        5,
+        7,
+        11
+      ],
+      "holes": 78,
+      "status": "unsat",
+      "seconds": 0.10870162502396852
+    },
+    {
+      "removed": [
+        5,
+        7,
+        12
+      ],
+      "holes": 91,
+      "status": "unsat",
+      "seconds": 0.12338062492199242
+    },
+    {
+      "removed": [
+        5,
+        7,
+        13
+      ],
+      "holes": 103,
+      "status": "unsat",
+      "seconds": 0.2337718749186024
+    },
+    {
+      "removed": [
+        5,
+        7,
+        14
+      ],
+      "holes": 99,
+      "status": "unsat",
+      "seconds": 0.16565295809414238
+    },
+    {
+      "removed": [
+        5,
+        7,
+        15
+      ],
+      "holes": 104,
+      "status": "unsat",
+      "seconds": 0.14105912495870143
+    },
+    {
+      "removed": [
+        5,
+        8,
+        9
+      ],
+      "holes": 95,
+      "status": "unsat",
+      "seconds": 0.1282650000648573
+    },
+    {
+      "removed": [
+        5,
+        8,
+        10
+      ],
+      "holes": 120,
+      "status": "unsat",
+      "seconds": 0.1380847500404343
+    },
+    {
+      "removed": [
+        5,
+        8,
+        11
+      ],
+      "holes": 99,
+      "status": "unsat",
+      "seconds": 0.11704045895021409
+    },
+    {
+      "removed": [
+        5,
+        8,
+        12
+      ],
+      "holes": 120,
+      "status": "unsat",
+      "seconds": 0.17742745799478143
+    },
+    {
+      "removed": [
+        5,
+        8,
+        13
+      ],
+      "holes": 124,
+      "status": "unsat",
+      "seconds": 0.22413533402141184
+    },
+    {
+      "removed": [
+        5,
+        8,
+        14
+      ],
+      "holes": 120,
+      "status": "unsat",
+      "seconds": 0.17070991708897054
+    },
+    {
+      "removed": [
+        5,
+        8,
+        15
+      ],
+      "holes": 99,
+      "status": "unsat",
+      "seconds": 0.11585566599387676
+    },
+    {
+      "removed": [
+        5,
+        9,
+        10
+      ],
+      "holes": 99,
+      "status": "unsat",
+      "seconds": 0.11783183400984854
+    },
+    {
+      "removed": [
+        5,
+        9,
+        11
+      ],
+      "holes": 108,
+      "status": "unsat",
+      "seconds": 0.13777537504211068
+    },
+    {
+      "removed": [
+        5,
+        9,
+        12
+      ],
+      "holes": 91,
+      "status": "unsat",
+      "seconds": 0.12910041597206146
+    },
+    {
+      "removed": [
+        5,
+        9,
+        13
+      ],
+      "holes": 103,
+      "status": "unsat",
+      "seconds": 0.20952245802618563
+    },
+    {
+      "removed": [
+        5,
+        9,
+        14
+      ],
+      "holes": 99,
+      "status": "unsat",
+      "seconds": 0.11666991596575826
+    },
+    {
+      "removed": [
+        5,
+        9,
+        15
+      ],
+      "holes": 78,
+      "status": "unsat",
+      "seconds": 0.13602595799602568
+    },
+    {
+      "removed": [
+        5,
+        10,
+        11
+      ],
+      "holes": 103,
+      "status": "unsat",
+      "seconds": 0.1425862079486251
+    },
+    {
+      "removed": [
+        5,
+        10,
+        12
+      ],
+      "holes": 120,
+      "status": "unsat",
+      "seconds": 0.13706466602161527
+    },
+    {
+      "removed": [
+        5,
+        10,
+        13
+      ],
+      "holes": 128,
+      "status": "unsat",
+      "seconds": 0.14957620901986957
+    },
+    {
+      "removed": [
+        5,
+        10,
+        14
+      ],
+      "holes": 124,
+      "status": "unsat",
+      "seconds": 0.15190995810553432
+    },
+    {
+      "removed": [
+        5,
+        10,
+        15
+      ],
+      "holes": 103,
+      "status": "unsat",
+      "seconds": 0.1624020830495283
+    },
+    {
+      "removed": [
+        5,
+        11,
+        12
+      ],
+      "holes": 95,
+      "status": "unsat",
+      "seconds": 0.10547720803879201
+    },
+    {
+      "removed": [
+        5,
+        11,
+        13
+      ],
+      "holes": 107,
+      "status": "unsat",
+      "seconds": 0.14013974997214973
+    },
+    {
+      "removed": [
+        5,
+        11,
+        14
+      ],
+      "holes": 103,
+      "status": "unsat",
+      "seconds": 0.12765670905355364
+    },
+    {
+      "removed": [
+        5,
+        11,
+        15
+      ],
+      "holes": 82,
+      "status": "unsat",
+      "seconds": 0.08681054192129523
+    },
+    {
+      "removed": [
+        5,
+        12,
+        13
+      ],
+      "holes": 124,
+      "status": "unsat",
+      "seconds": 0.12092716607730836
+    },
+    {
+      "removed": [
+        5,
+        12,
+        14
+      ],
+      "holes": 120,
+      "status": "unsat",
+      "seconds": 0.1259829580085352
+    },
+    {
+      "removed": [
+        5,
+        12,
+        15
+      ],
+      "holes": 95,
+      "status": "unsat",
+      "seconds": 0.11301341594662517
+    },
+    {
+      "removed": [
+        5,
+        13,
+        14
+      ],
+      "holes": 128,
+      "status": "unsat",
+      "seconds": 0.24364137498196214
+    },
+    {
+      "removed": [
+        5,
+        13,
+        15
+      ],
+      "holes": 107,
+      "status": "unsat",
+      "seconds": 0.13499154208693653
+    },
+    {
+      "removed": [
+        5,
+        14,
+        15
+      ],
+      "holes": 103,
+      "status": "unsat",
+      "seconds": 0.12044991704169661
+    },
+    {
+      "removed": [
+        6,
+        7,
+        8
+      ],
+      "holes": 91,
+      "status": "unsat",
+      "seconds": 0.09907683392520994
+    },
+    {
+      "removed": [
+        6,
+        7,
+        9
+      ],
+      "holes": 70,
+      "status": "unsat",
+      "seconds": 0.07339712500106543
+    },
+    {
+      "removed": [
+        6,
+        7,
+        10
+      ],
+      "holes": 95,
+      "status": "unsat",
+      "seconds": 0.09749904193449765
+    },
+    {
+      "removed": [
+        6,
+        7,
+        11
+      ],
+      "holes": 74,
+      "status": "unsat",
+      "seconds": 0.0800891249673441
+    },
+    {
+      "removed": [
+        6,
+        7,
+        12
+      ],
+      "holes": 87,
+      "status": "unsat",
+      "seconds": 0.10595366603229195
+    },
+    {
+      "removed": [
+        6,
+        7,
+        13
+      ],
+      "holes": 99,
+      "status": "unsat",
+      "seconds": 0.10996849997900426
+    },
+    {
+      "removed": [
+        6,
+        7,
+        14
+      ],
+      "holes": 95,
+      "status": "unsat",
+      "seconds": 0.172631207969971
+    },
+    {
+      "removed": [
+        6,
+        7,
+        15
+      ],
+      "holes": 100,
+      "status": "unsat",
+      "seconds": 0.10890758305322379
+    },
+    {
+      "removed": [
+        6,
+        8,
+        9
+      ],
+      "holes": 91,
+      "status": "unsat",
+      "seconds": 0.15645975002553314
+    },
+    {
+      "removed": [
+        6,
+        8,
+        10
+      ],
+      "holes": 116,
+      "status": "unsat",
+      "seconds": 0.14462462498340756
+    },
+    {
+      "removed": [
+        6,
+        8,
+        11
+      ],
+      "holes": 95,
+      "status": "unsat",
+      "seconds": 0.13911208300851285
+    },
+    {
+      "removed": [
+        6,
+        8,
+        12
+      ],
+      "holes": 112,
+      "status": "unsat",
+      "seconds": 0.18001649994403124
+    },
+    {
+      "removed": [
+        6,
+        8,
+        13
+      ],
+      "holes": 120,
+      "status": "unsat",
+      "seconds": 0.2608196249930188
+    },
+    {
+      "removed": [
+        6,
+        8,
+        14
+      ],
+      "holes": 116,
+      "status": "unsat",
+      "seconds": 0.23477545799687505
+    },
+    {
+      "removed": [
+        6,
+        8,
+        15
+      ],
+      "holes": 95,
+      "status": "unsat",
+      "seconds": 0.16843820794019848
+    },
+    {
+      "removed": [
+        6,
+        9,
+        10
+      ],
+      "holes": 95,
+      "status": "unsat",
+      "seconds": 0.1519479169510305
+    },
+    {
+      "removed": [
+        6,
+        9,
+        11
+      ],
+      "holes": 104,
+      "status": "unsat",
+      "seconds": 0.1389799170428887
+    },
+    {
+      "removed": [
+        6,
+        9,
+        12
+      ],
+      "holes": 87,
+      "status": "unsat",
+      "seconds": 0.1834737090393901
+    },
+    {
+      "removed": [
+        6,
+        9,
+        13
+      ],
+      "holes": 99,
+      "status": "unsat",
+      "seconds": 0.16776191699318588
+    },
+    {
+      "removed": [
+        6,
+        9,
+        14
+      ],
+      "holes": 95,
+      "status": "unsat",
+      "seconds": 0.13980829203501344
+    },
+    {
+      "removed": [
+        6,
+        9,
+        15
+      ],
+      "holes": 74,
+      "status": "unsat",
+      "seconds": 0.10542262496892363
+    },
+    {
+      "removed": [
+        6,
+        10,
+        11
+      ],
+      "holes": 99,
+      "status": "unsat",
+      "seconds": 0.11883658391889185
+    },
+    {
+      "removed": [
+        6,
+        10,
+        12
+      ],
+      "holes": 120,
+      "status": "unsat",
+      "seconds": 0.1273058750666678
+    },
+    {
+      "removed": [
+        6,
+        10,
+        13
+      ],
+      "holes": 124,
+      "status": "unsat",
+      "seconds": 0.17331974999979138
+    },
+    {
+      "removed": [
+        6,
+        10,
+        14
+      ],
+      "holes": 120,
+      "status": "unsat",
+      "seconds": 0.15995716594625264
+    },
+    {
+      "removed": [
+        6,
+        10,
+        15
+      ],
+      "holes": 99,
+      "status": "unsat",
+      "seconds": 0.17288145795464516
+    },
+    {
+      "removed": [
+        6,
+        11,
+        12
+      ],
+      "holes": 91,
+      "status": "unsat",
+      "seconds": 0.10987791698426008
+    },
+    {
+      "removed": [
+        6,
+        11,
+        13
+      ],
+      "holes": 103,
+      "status": "unsat",
+      "seconds": 0.12893541692756116
+    },
+    {
+      "removed": [
+        6,
+        11,
+        14
+      ],
+      "holes": 99,
+      "status": "unsat",
+      "seconds": 0.11859120801091194
+    },
+    {
+      "removed": [
+        6,
+        11,
+        15
+      ],
+      "holes": 78,
+      "status": "unsat",
+      "seconds": 0.09527470904868096
+    },
+    {
+      "removed": [
+        6,
+        12,
+        13
+      ],
+      "holes": 120,
+      "status": "unsat",
+      "seconds": 0.137107125017792
+    },
+    {
+      "removed": [
+        6,
+        12,
+        14
+      ],
+      "holes": 116,
+      "status": "unsat",
+      "seconds": 0.1561600409913808
+    },
+    {
+      "removed": [
+        6,
+        12,
+        15
+      ],
+      "holes": 91,
+      "status": "unsat",
+      "seconds": 0.19917320902459323
+    },
+    {
+      "removed": [
+        6,
+        13,
+        14
+      ],
+      "holes": 124,
+      "status": "unsat",
+      "seconds": 0.17602262494619936
+    },
+    {
+      "removed": [
+        6,
+        13,
+        15
+      ],
+      "holes": 103,
+      "status": "unsat",
+      "seconds": 0.17672945791855454
+    },
+    {
+      "removed": [
+        6,
+        14,
+        15
+      ],
+      "holes": 99,
+      "status": "unsat",
+      "seconds": 0.18672683299519122
+    },
+    {
+      "removed": [
+        7,
+        8,
+        9
+      ],
+      "holes": 66,
+      "status": "unsat",
+      "seconds": 0.15369724994525313
+    },
+    {
+      "removed": [
+        7,
+        8,
+        10
+      ],
+      "holes": 91,
+      "status": "unsat",
+      "seconds": 0.2040453749941662
+    },
+    {
+      "removed": [
+        7,
+        8,
+        11
+      ],
+      "holes": 70,
+      "status": "unsat",
+      "seconds": 0.132786332978867
+    },
+    {
+      "removed": [
+        7,
+        8,
+        12
+      ],
+      "holes": 87,
+      "status": "unsat",
+      "seconds": 0.1508037499152124
+    },
+    {
+      "removed": [
+        7,
+        8,
+        13
+      ],
+      "holes": 95,
+      "status": "unsat",
+      "seconds": 0.1627181249205023
+    },
+    {
+      "removed": [
+        7,
+        8,
+        14
+      ],
+      "holes": 91,
+      "status": "unsat",
+      "seconds": 0.09944487502798438
+    },
+    {
+      "removed": [
+        7,
+        8,
+        15
+      ],
+      "holes": 96,
+      "status": "unsat",
+      "seconds": 0.10446566599421203
+    },
+    {
+      "removed": [
+        7,
+        9,
+        10
+      ],
+      "holes": 70,
+      "status": "unsat",
+      "seconds": 0.07937370904255658
+    },
+    {
+      "removed": [
+        7,
+        9,
+        11
+      ],
+      "holes": 79,
+      "status": "unsat",
+      "seconds": 0.12533970805816352
+    },
+    {
+      "removed": [
+        7,
+        9,
+        12
+      ],
+      "holes": 62,
+      "status": "unsat",
+      "seconds": 0.08633983298204839
+    },
+    {
+      "removed": [
+        7,
+        9,
+        13
+      ],
+      "holes": 74,
+      "status": "unsat",
+      "seconds": 0.14162129198666662
+    },
+    {
+      "removed": [
+        7,
+        9,
+        14
+      ],
+      "holes": 70,
+      "status": "unsat",
+      "seconds": 0.10037216695491225
+    },
+    {
+      "removed": [
+        7,
+        9,
+        15
+      ],
+      "holes": 75,
+      "status": "unsat",
+      "seconds": 0.11353870900347829
+    },
+    {
+      "removed": [
+        7,
+        10,
+        11
+      ],
+      "holes": 74,
+      "status": "unsat",
+      "seconds": 0.10581962496507913
+    },
+    {
+      "removed": [
+        7,
+        10,
+        12
+      ],
+      "holes": 91,
+      "status": "unsat",
+      "seconds": 0.10346775001380593
+    },
+    {
+      "removed": [
+        7,
+        10,
+        13
+      ],
+      "holes": 99,
+      "status": "unsat",
+      "seconds": 0.13025779195595533
+    },
+    {
+      "removed": [
+        7,
+        10,
+        14
+      ],
+      "holes": 95,
+      "status": "unsat",
+      "seconds": 0.12785454106051475
+    },
+    {
+      "removed": [
+        7,
+        10,
+        15
+      ],
+      "holes": 100,
+      "status": "unsat",
+      "seconds": 0.1370522080687806
+    },
+    {
+      "removed": [
+        7,
+        11,
+        12
+      ],
+      "holes": 66,
+      "status": "unsat",
+      "seconds": 0.09996170899830759
+    },
+    {
+      "removed": [
+        7,
+        11,
+        13
+      ],
+      "holes": 78,
+      "status": "unsat",
+      "seconds": 0.14473779208492488
+    },
+    {
+      "removed": [
+        7,
+        11,
+        14
+      ],
+      "holes": 74,
+      "status": "unsat",
+      "seconds": 0.1159797920845449
+    },
+    {
+      "removed": [
+        7,
+        11,
+        15
+      ],
+      "holes": 79,
+      "status": "unsat",
+      "seconds": 0.14473295805510134
+    },
+    {
+      "removed": [
+        7,
+        12,
+        13
+      ],
+      "holes": 95,
+      "status": "unsat",
+      "seconds": 0.1798215419985354
+    },
+    {
+      "removed": [
+        7,
+        12,
+        14
+      ],
+      "holes": 91,
+      "status": "unsat",
+      "seconds": 0.16328933299519122
+    },
+    {
+      "removed": [
+        7,
+        12,
+        15
+      ],
+      "holes": 96,
+      "status": "unsat",
+      "seconds": 0.17016979097388685
+    },
+    {
+      "removed": [
+        7,
+        13,
+        14
+      ],
+      "holes": 99,
+      "status": "unsat",
+      "seconds": 0.3020938339177519
+    },
+    {
+      "removed": [
+        7,
+        13,
+        15
+      ],
+      "holes": 104,
+      "status": "unsat",
+      "seconds": 0.18071562505792826
+    },
+    {
+      "removed": [
+        7,
+        14,
+        15
+      ],
+      "holes": 100,
+      "status": "unsat",
+      "seconds": 0.14288529194891453
+    },
+    {
+      "removed": [
+        8,
+        9,
+        10
+      ],
+      "holes": 91,
+      "status": "unsat",
+      "seconds": 0.12641516607254744
+    },
+    {
+      "removed": [
+        8,
+        9,
+        11
+      ],
+      "holes": 100,
+      "status": "unsat",
+      "seconds": 0.12313087505754083
+    },
+    {
+      "removed": [
+        8,
+        9,
+        12
+      ],
+      "holes": 87,
+      "status": "unsat",
+      "seconds": 0.09214933402836323
+    },
+    {
+      "removed": [
+        8,
+        9,
+        13
+      ],
+      "holes": 95,
+      "status": "unsat",
+      "seconds": 0.09481383301317692
+    },
+    {
+      "removed": [
+        8,
+        9,
+        14
+      ],
+      "holes": 91,
+      "status": "unsat",
+      "seconds": 0.14608866593334824
+    },
+    {
+      "removed": [
+        8,
+        9,
+        15
+      ],
+      "holes": 70,
+      "status": "unsat",
+      "seconds": 0.08572429197374731
+    },
+    {
+      "removed": [
+        8,
+        10,
+        11
+      ],
+      "holes": 95,
+      "status": "unsat",
+      "seconds": 0.14514620800036937
+    },
+    {
+      "removed": [
+        8,
+        10,
+        12
+      ],
+      "holes": 116,
+      "status": "unsat",
+      "seconds": 0.1555774169974029
+    },
+    {
+      "removed": [
+        8,
+        10,
+        13
+      ],
+      "holes": 120,
+      "status": "unsat",
+      "seconds": 0.15600583306513727
+    },
+    {
+      "removed": [
+        8,
+        10,
+        14
+      ],
+      "holes": 116,
+      "status": "unsat",
+      "seconds": 0.14868229196872562
+    },
+    {
+      "removed": [
+        8,
+        10,
+        15
+      ],
+      "holes": 95,
+      "status": "unsat",
+      "seconds": 0.15229562495369464
+    },
+    {
+      "removed": [
+        8,
+        11,
+        12
+      ],
+      "holes": 91,
+      "status": "unsat",
+      "seconds": 0.1505319169955328
+    },
+    {
+      "removed": [
+        8,
+        11,
+        13
+      ],
+      "holes": 99,
+      "status": "unsat",
+      "seconds": 0.14017220900859684
+    },
+    {
+      "removed": [
+        8,
+        11,
+        14
+      ],
+      "holes": 95,
+      "status": "unsat",
+      "seconds": 0.11994074995163828
+    },
+    {
+      "removed": [
+        8,
+        11,
+        15
+      ],
+      "holes": 74,
+      "status": "unsat",
+      "seconds": 0.10313779197167605
+    },
+    {
+      "removed": [
+        8,
+        12,
+        13
+      ],
+      "holes": 120,
+      "status": "unsat",
+      "seconds": 0.1347813749453053
+    },
+    {
+      "removed": [
+        8,
+        12,
+        14
+      ],
+      "holes": 116,
+      "status": "unsat",
+      "seconds": 0.13780637504532933
+    },
+    {
+      "removed": [
+        8,
+        12,
+        15
+      ],
+      "holes": 91,
+      "status": "unsat",
+      "seconds": 0.1518134999787435
+    },
+    {
+      "removed": [
+        8,
+        13,
+        14
+      ],
+      "holes": 120,
+      "status": "unsat",
+      "seconds": 0.2084332499653101
+    },
+    {
+      "removed": [
+        8,
+        13,
+        15
+      ],
+      "holes": 99,
+      "status": "unsat",
+      "seconds": 0.12540420808363706
+    },
+    {
+      "removed": [
+        8,
+        14,
+        15
+      ],
+      "holes": 95,
+      "status": "unsat",
+      "seconds": 0.1425507499370724
+    },
+    {
+      "removed": [
+        9,
+        10,
+        11
+      ],
+      "holes": 104,
+      "status": "unsat",
+      "seconds": 0.126985999988392
+    },
+    {
+      "removed": [
+        9,
+        10,
+        12
+      ],
+      "holes": 91,
+      "status": "unsat",
+      "seconds": 0.10638920799829066
+    },
+    {
+      "removed": [
+        9,
+        10,
+        13
+      ],
+      "holes": 99,
+      "status": "unsat",
+      "seconds": 0.1201249168952927
+    },
+    {
+      "removed": [
+        9,
+        10,
+        14
+      ],
+      "holes": 95,
+      "status": "unsat",
+      "seconds": 0.14801870798692107
+    },
+    {
+      "removed": [
+        9,
+        10,
+        15
+      ],
+      "holes": 74,
+      "status": "unsat",
+      "seconds": 0.1014900419395417
+    },
+    {
+      "removed": [
+        9,
+        11,
+        12
+      ],
+      "holes": 96,
+      "status": "unsat",
+      "seconds": 0.17750479106325656
+    },
+    {
+      "removed": [
+        9,
+        11,
+        13
+      ],
+      "holes": 108,
+      "status": "unsat",
+      "seconds": 0.17027550004422665
+    },
+    {
+      "removed": [
+        9,
+        11,
+        14
+      ],
+      "holes": 104,
+      "status": "unsat",
+      "seconds": 0.09981620800681412
+    },
+    {
+      "removed": [
+        9,
+        11,
+        15
+      ],
+      "holes": 83,
+      "status": "unsat",
+      "seconds": 0.10171258402988315
+    },
+    {
+      "removed": [
+        9,
+        12,
+        13
+      ],
+      "holes": 95,
+      "status": "unsat",
+      "seconds": 0.11052045889664441
+    },
+    {
+      "removed": [
+        9,
+        12,
+        14
+      ],
+      "holes": 91,
+      "status": "unsat",
+      "seconds": 0.11645537498407066
+    },
+    {
+      "removed": [
+        9,
+        12,
+        15
+      ],
+      "holes": 66,
+      "status": "unsat",
+      "seconds": 0.10943562490865588
+    },
+    {
+      "removed": [
+        9,
+        13,
+        14
+      ],
+      "holes": 99,
+      "status": "unsat",
+      "seconds": 0.16148545895703137
+    },
+    {
+      "removed": [
+        9,
+        13,
+        15
+      ],
+      "holes": 78,
+      "status": "unsat",
+      "seconds": 0.1354832500219345
+    },
+    {
+      "removed": [
+        9,
+        14,
+        15
+      ],
+      "holes": 74,
+      "status": "unsat",
+      "seconds": 0.15421958407387137
+    },
+    {
+      "removed": [
+        10,
+        11,
+        12
+      ],
+      "holes": 95,
+      "status": "unsat",
+      "seconds": 0.12945683300495148
+    },
+    {
+      "removed": [
+        10,
+        11,
+        13
+      ],
+      "holes": 103,
+      "status": "unsat",
+      "seconds": 0.15009766607545316
+    },
+    {
+      "removed": [
+        10,
+        11,
+        14
+      ],
+      "holes": 99,
+      "status": "unsat",
+      "seconds": 0.10362850001547486
+    },
+    {
+      "removed": [
+        10,
+        11,
+        15
+      ],
+      "holes": 78,
+      "status": "unsat",
+      "seconds": 0.09176654100883752
+    },
+    {
+      "removed": [
+        10,
+        12,
+        13
+      ],
+      "holes": 124,
+      "status": "unsat",
+      "seconds": 0.21977800002787262
+    },
+    {
+      "removed": [
+        10,
+        12,
+        14
+      ],
+      "holes": 120,
+      "status": "unsat",
+      "seconds": 0.1986607500584796
+    },
+    {
+      "removed": [
+        10,
+        12,
+        15
+      ],
+      "holes": 95,
+      "status": "unsat",
+      "seconds": 0.12811058294028044
+    },
+    {
+      "removed": [
+        10,
+        13,
+        14
+      ],
+      "holes": 124,
+      "status": "unsat",
+      "seconds": 0.14289491705130786
+    },
+    {
+      "removed": [
+        10,
+        13,
+        15
+      ],
+      "holes": 103,
+      "status": "unsat",
+      "seconds": 0.11659087496809661
+    },
+    {
+      "removed": [
+        10,
+        14,
+        15
+      ],
+      "holes": 99,
+      "status": "unsat",
+      "seconds": 0.10683758300729096
+    },
+    {
+      "removed": [
+        11,
+        12,
+        13
+      ],
+      "holes": 99,
+      "status": "unsat",
+      "seconds": 0.13064154202584177
+    },
+    {
+      "removed": [
+        11,
+        12,
+        14
+      ],
+      "holes": 95,
+      "status": "unsat",
+      "seconds": 0.12410199991427362
+    },
+    {
+      "removed": [
+        11,
+        12,
+        15
+      ],
+      "holes": 70,
+      "status": "unsat",
+      "seconds": 0.12883454200346023
+    },
+    {
+      "removed": [
+        11,
+        13,
+        14
+      ],
+      "holes": 103,
+      "status": "unsat",
+      "seconds": 0.12708754104096442
+    },
+    {
+      "removed": [
+        11,
+        13,
+        15
+      ],
+      "holes": 82,
+      "status": "unsat",
+      "seconds": 0.12591599998995662
+    },
+    {
+      "removed": [
+        11,
+        14,
+        15
+      ],
+      "holes": 78,
+      "status": "unsat",
+      "seconds": 0.09854174999054521
+    },
+    {
+      "removed": [
+        12,
+        13,
+        14
+      ],
+      "holes": 124,
+      "status": "unsat",
+      "seconds": 0.14530508406460285
+    },
+    {
+      "removed": [
+        12,
+        13,
+        15
+      ],
+      "holes": 99,
+      "status": "unsat",
+      "seconds": 0.13199174997862428
+    },
+    {
+      "removed": [
+        12,
+        14,
+        15
+      ],
+      "holes": 95,
+      "status": "unsat",
+      "seconds": 0.15933333290740848
+    },
+    {
+      "removed": [
+        13,
+        14,
+        15
+      ],
+      "holes": 103,
+      "status": "unsat",
+      "seconds": 0.2031281249364838
+    }
+  ],
+  "seconds": 134.0468399169622,
+  "counts": {
+    "sat": 0,
+    "unsat": 560,
+    "unknown": 0
+  },
+  "z3_version": "5.1.0"
+}

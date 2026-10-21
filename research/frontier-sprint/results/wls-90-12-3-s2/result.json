@@ -1,0 +1,57 @@
+{
+  "instance": [
+    90,
+    12,
+    3
+  ],
+  "input": "research/frontier-sprint/results/wls-90-12-3-s1/best.json",
+  "input_sha256": "6486a335f280d4358009bc0c20e7be978d8a60cf7e6493912c2e21c66848ed58",
+  "initial_check": {
+    "valid": true,
+    "v": 90,
+    "k": 12,
+    "t": 3,
+    "blocks": 679,
+    "covered": 117480,
+    "required": 117480,
+    "uncovered": 0
+  },
+  "input_verify_seconds": 0.4218594590201974,
+  "executable_sha256": "7a9d138469afca21a78d143063dd78eb5e69d72732ac0c43a7a837f5a205d670",
+  "command": [
+    "/Users/colkitt/discover-work/incubatedPilots/covering-design/session-covering-design/frontier-sprint/wls2-check",
+    "90",
+    "12",
+    "3",
+    "679",
+    "720",
+    "1644407116",
+    "/Users/colkitt/discover-work/incubatedPilots/covering-design/start-covering-design/research/frontier-sprint/results/wls-90-12-3-s2/start.txt",
+    "7",
+    "0.05",
+    "1"
+  ],
+  "seed": 1644407116,
+  "budget_seconds": 720,
+  "elapsed_seconds": 720.2393573749578,
+  "comparison_upper": 679,
+  "comparison_scope": "Pinned van Staden 2026-10-19 published list; live-table reconfirmation required",
+  "best_blocks": 678,
+  "delta_vs_published": 1,
+  "best_witness": "research/frontier-sprint/results/wls-90-12-3-s2/best.json",
+  "best_witness_sha256": "4924fe6149cd2a87f856c4c072c338ef5717c659406304c9ff21fa30a24eae71",
+  "best_verify": {
+    "valid": true,
+    "v": 90,
+    "k": 12,
+    "t": 3,
+    "blocks": 678,
+    "covered": 117480,
+    "required": 117480,
+    "uncovered": 0
+  },
+  "best_verify_seconds": 0.10935149993747473,
+  "complete_outputs_verified": 2,
+  "source": "WynandVStaden/covering-design-records@970a68752d01ca5aa04129bebbb92e1b268c947e",
+  "accepted_frontier_changed": false
+}

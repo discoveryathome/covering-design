@@ -1,0 +1,5 @@
+{
+  "invalid_control_rejected": true,
+  "mutation": "remove last block from 272 witness",
+  "reason": "uncovered 29/17296 subsets; first=(3, 6, 9)"
+}

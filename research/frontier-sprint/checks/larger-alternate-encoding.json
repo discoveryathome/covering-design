@@ -1,0 +1,56 @@
+[
+  {
+    "input": "research/frontier-sprint/results/13-6-3-r4.json",
+    "input_sha256": "76dfc695ee72fe3ab7f7d24c5d983c50e98c886521796094215b51ca6886e0ae",
+    "instance": [
+      13,
+      6,
+      3
+    ],
+    "checked": 2,
+    "counts": {
+      "sat": 0,
+      "unsat": 0,
+      "unknown": 2
+    },
+    "seconds": 62.86802391696256,
+    "algorithm": "z3-all-k-set-selection",
+    "separate_author_review": false
+  },
+  {
+    "input": "research/frontier-sprint/results/16-7-3-r4.json",
+    "input_sha256": "620ff94cced43cb6a13274fd85e17ccac9e2ff2254bb0868bac343623a7a88a0",
+    "instance": [
+      16,
+      7,
+      3
+    ],
+    "checked": 2,
+    "counts": {
+      "sat": 0,
+      "unsat": 0,
+      "unknown": 2
+    },
+    "seconds": 75.16711975005455,
+    "algorithm": "z3-all-k-set-selection",
+    "separate_author_review": false
+  },
+  {
+    "input": "research/frontier-sprint/results/18-9-3-r4.json",
+    "input_sha256": "9d60ad69daa92a3b097a0c63ed5b1db806cf1db8d92af1c5b25982e6cee6810b",
+    "instance": [
+      18,
+      9,
+      3
+    ],
+    "checked": 2,
+    "counts": {
+      "sat": 0,
+      "unsat": 0,
+      "unknown": 2
+    },
+    "seconds": 169.49004341708496,
+    "algorithm": "z3-all-k-set-selection",
+    "separate_author_review": false
+  }
+]

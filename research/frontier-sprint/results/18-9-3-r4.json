@@ -1,0 +1,379 @@
+{
+  "instance": [
+    18,
+    9,
+    3
+  ],
+  "incumbent_blocks": 16,
+  "input": "research/initial-sweep/data/archive-18-9-3.json",
+  "input_sha256": "8de29578a1ec5ba55a2cd1fcb9bc930a08a48ff11cc2741461e29f3e6ebb4cf5",
+  "seed": "4ab3d4d0142a4bb506f6bea2245d1be4",
+  "derived_seed": 1644407115,
+  "remove": 4,
+  "replace_at_most": 3,
+  "timeout_ms": 5000,
+  "planned": 32,
+  "total_deletion_sets": 1820,
+  "method": "z3-point-membership",
+  "trials": [
+    {
+      "removed": [
+        0,
+        3,
+        14,
+        15
+      ],
+      "holes": 129,
+      "status": "unsat",
+      "seconds": 0.404679459054023
+    },
+    {
+      "removed": [
+        1,
+        3,
+        10,
+        15
+      ],
+      "holes": 124,
+      "status": "unsat",
+      "seconds": 0.23226862493902445
+    },
+    {
+      "removed": [
+        1,
+        6,
+        12,
+        15
+      ],
+      "holes": 123,
+      "status": "unsat",
+      "seconds": 0.24540925002656877
+    },
+    {
+      "removed": [
+        3,
+        6,
+        11,
+        14
+      ],
+      "holes": 133,
+      "status": "unsat",
+      "seconds": 0.2639401670312509
+    },
+    {
+      "removed": [
+        2,
+        4,
+        12,
+        13
+      ],
+      "holes": 156,
+      "status": "unsat",
+      "seconds": 0.23967379098758101
+    },
+    {
+      "removed": [
+        3,
+        5,
+        9,
+        11
+      ],
+      "holes": 136,
+      "status": "unsat",
+      "seconds": 0.22303700004704297
+    },
+    {
+      "removed": [
+        5,
+        10,
+        11,
+        15
+      ],
+      "holes": 122,
+      "status": "unsat",
+      "seconds": 0.24943066597916186
+    },
+    {
+      "removed": [
+        3,
+        6,
+        7,
+        8
+      ],
+      "holes": 125,
+      "status": "unsat",
+      "seconds": 0.35699587501585484
+    },
+    {
+      "removed": [
+        0,
+        1,
+        2,
+        13
+      ],
+      "holes": 156,
+      "status": "unsat",
+      "seconds": 0.2814478329382837
+    },
+    {
+      "removed": [
+        7,
+        9,
+        11,
+        14
+      ],
+      "holes": 119,
+      "status": "unsat",
+      "seconds": 0.2569300829200074
+    },
+    {
+      "removed": [
+        3,
+        11,
+        12,
+        15
+      ],
+      "holes": 98,
+      "status": "unsat",
+      "seconds": 0.2849985419306904
+    },
+    {
+      "removed": [
+        0,
+        4,
+        6,
+        7
+      ],
+      "holes": 140,
+      "status": "unsat",
+      "seconds": 0.3167579580331221
+    },
+    {
+      "removed": [
+        0,
+        2,
+        7,
+        8
+      ],
+      "holes": 129,
+      "status": "unsat",
+      "seconds": 0.3610682499129325
+    },
+    {
+      "removed": [
+        4,
+        8,
+        9,
+        10
+      ],
+      "holes": 123,
+      "status": "unsat",
+      "seconds": 0.2069280840223655
+    },
+    {
+      "removed": [
+        0,
+        6,
+        10,
+        11
+      ],
+      "holes": 137,
+      "status": "unsat",
+      "seconds": 0.2625424169236794
+    },
+    {
+      "removed": [
+        1,
+        8,
+        10,
+        12
+      ],
+      "holes": 156,
+      "status": "unsat",
+      "seconds": 0.2840914169792086
+    },
+    {
+      "removed": [
+        3,
+        6,
+        11,
+        15
+      ],
+      "holes": 110,
+      "status": "unsat",
+      "seconds": 0.24323725001886487
+    },
+    {
+      "removed": [
+        3,
+        5,
+        10,
+        11
+      ],
+      "holes": 129,
+      "status": "unsat",
+      "seconds": 0.5044385829241946
+    },
+    {
+      "removed": [
+        7,
+        10,
+        12,
+        15
+      ],
+      "holes": 140,
+      "status": "unsat",
+      "seconds": 0.5067017079563811
+    },
+    {
+      "removed": [
+        2,
+        4,
+        6,
+        8
+      ],
+      "holes": 160,
+      "status": "unsat",
+      "seconds": 0.5020099999383092
+    },
+    {
+      "removed": [
+        1,
+        5,
+        8,
+        12
+      ],
+      "holes": 156,
+      "status": "unsat",
+      "seconds": 0.6966495000524446
+    },
+    {
+      "removed": [
+        2,
+        3,
+        8,
+        14
+      ],
+      "holes": 148,
+      "status": "unsat",
+      "seconds": 1.9744996670633554
+    },
+    {
+      "removed": [
+        1,
+        6,
+        8,
+        12
+      ],
+      "holes": 148,
+      "status": "unsat",
+      "seconds": 2.7805109589826316
+    },
+    {
+      "removed": [
+        0,
+        7,
+        8,
+        9
+      ],
+      "holes": 106,
+      "status": "unsat",
+      "seconds": 5.680745542049408
+    },
+    {
+      "removed": [
+        1,
+        5,
+        7,
+        10
+      ],
+      "holes": 131,
+      "status": "unsat",
+      "seconds": 2.3266398750711232
+    },
+    {
+      "removed": [
+        0,
+        7,
+        8,
+        13
+      ],
+      "holes": 133,
+      "status": "unsat",
+      "seconds": 2.0729724999982864
+    },
+    {
+      "removed": [
+        2,
+        3,
+        5,
+        10
+      ],
+      "holes": 154,
+      "status": "unsat",
+      "seconds": 1.7562103339005262
+    },
+    {
+      "removed": [
+        10,
+        11,
+        12,
+        14
+      ],
+      "holes": 139,
+      "status": "unsat",
+      "seconds": 1.1441747079370543
+    },
+    {
+      "removed": [
+        1,
+        2,
+        6,
+        8
+      ],
+      "holes": 156,
+      "status": "unsat",
+      "seconds": 0.9289434999227524
+    },
+    {
+      "removed": [
+        7,
+        8,
+        9,
+        10
+      ],
+      "holes": 106,
+      "status": "unsat",
+      "seconds": 0.8541812909534201
+    },
+    {
+      "removed": [
+        6,
+        7,
+        10,
+        14
+      ],
+      "holes": 135,
+      "status": "unsat",
+      "seconds": 1.0225386670790613
+    },
+    {
+      "removed": [
+        1,
+        6,
+        8,
+        14
+      ],
+      "holes": 148,
+      "status": "unsat",
+      "seconds": 1.1169009580044076
+    }
+  ],
+  "seconds": 28.61545720801223,
+  "counts": {
+    "sat": 0,
+    "unsat": 32,
+    "unknown": 0
+  },
+  "z3_version": "5.1.0"
+}

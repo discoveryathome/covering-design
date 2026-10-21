@@ -1,0 +1,20 @@
+[
+  {
+    "input": "research/frontier-sprint/results/13-6-3-r4-all.json",
+    "input_sha256": "85828037825c0fe1fb9d0a24252cec8cc64b6dec175aedae264952630cf8d6d1",
+    "instance": [
+      13,
+      6,
+      3
+    ],
+    "checked": 5985,
+    "counts": {
+      "sat": 0,
+      "unsat": 5985,
+      "unknown": 0
+    },
+    "seconds": 289.76305583294015,
+    "algorithm": "all-k-set-three-enumeration",
+    "separate_author_review": false
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "input": "research/frontier-sprint/results/13-6-3-r3.json",
+    "input_sha256": "4fdd0032a7d8bc7ff2a0f86e4c0453d23a85aca1d6e2463240e86f558b2611a3",
+    "instance": [
+      13,
+      6,
+      3
+    ],
+    "checked": 1330,
+    "counts": {
+      "sat": 0,
+      "unsat": 1330,
+      "unknown": 0
+    },
+    "seconds": 2.5267985420068726,
+    "algorithm": "all-k-set-coverer-intersection",
+    "separate_author_review": false
+  },
+  {
+    "input": "research/frontier-sprint/results/16-7-3-r3.json",
+    "input_sha256": "cba2c6b8daf3f68cb77bc540e65256e892ea0806993c75cb3df44f2e03d5ea10",
+    "instance": [
+      16,
+      7,
+      3
+    ],
+    "checked": 2024,
+    "counts": {
+      "sat": 0,
+      "unsat": 2024,
+      "unknown": 0
+    },
+    "seconds": 17.814710291917436,
+    "algorithm": "all-k-set-coverer-intersection",
+    "separate_author_review": false
+  }
+]

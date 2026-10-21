@@ -1,0 +1,28 @@
+[
+  {
+    "v": 48,
+    "k": 9,
+    "t": 3,
+    "blocks": 272,
+    "lower_bound": 224,
+    "current_published_upper": 273,
+    "current_audit_date": "2026-10-20",
+    "witness": "research/frontier-sprint/witnesses/proposed-48-9-3-272.json",
+    "sha256": "b4093e632c9e974a484a642f6467a7199b44eeb2112378e2f10ce0209f9382bd",
+    "status": "LOCAL proposal; exact coverage checked by two implementations; novelty against audited sources; separate reviewer and acceptance pending",
+    "attribution": "Local continuation using Wynand van Staden wls2 at 970a68752d01ca5aa04129bebbb92e1b268c947e; starts from a local replay of the same published method on the LJCR archive witness. No new algorithm claimed."
+  },
+  {
+    "v": 90,
+    "k": 12,
+    "t": 3,
+    "blocks": 678,
+    "lower_bound": 548,
+    "current_published_upper": 679,
+    "current_audit_date": "2026-10-20",
+    "witness": "research/frontier-sprint/witnesses/proposed-90-12-3-678.json",
+    "sha256": "4924fe6149cd2a87f856c4c072c338ef5717c659406304c9ff21fa30a24eae71",
+    "status": "LOCAL proposal; exact coverage checked by two implementations; novelty against audited sources; separate reviewer and acceptance pending",
+    "attribution": "Local continuation using Wynand van Staden wls2 at 970a68752d01ca5aa04129bebbb92e1b268c947e; starts from a local replay of the same published method on the LJCR archive witness. No new algorithm claimed."
+  }
+]

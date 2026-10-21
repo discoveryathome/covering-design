@@ -1,0 +1,6 @@
+{"blocks": 7, "covered": 21, "k": 3, "lower_bound": 7, "required": 21, "t": 2, "uncovered": 0, "v": 7, "valid": true}
+{"blocks": 43, "covered": 364, "k": 5, "lower_bound": 37, "required": 364, "t": 3, "uncovered": 0, "v": 14, "valid": true}
+{"blocks": 55, "covered": 455, "k": 5, "lower_bound": 54, "required": 455, "t": 3, "uncovered": 0, "v": 15, "valid": true}
+{"blocks": 65, "covered": 560, "k": 5, "lower_bound": 61, "required": 560, "t": 3, "uncovered": 0, "v": 16, "valid": true}
+{"blocks": 21, "covered": 286, "k": 6, "lower_bound": 18, "required": 286, "t": 3, "uncovered": 0, "v": 13, "valid": true}
+PASS: 5 record witnesses, 5 baseline witnesses, Fano optimum, and verifier controls

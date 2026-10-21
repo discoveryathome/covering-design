@@ -1,0 +1,228 @@
+{
+  "schema": "discover-catalog/v0",
+  "priority_revision": 1,
+  "assessed_on": "2026-10-20",
+  "priority_log": "discover/priority-log.md",
+  "status": "LOCAL proposal; four concrete tasks, no live claims or intake",
+  "tracks": [
+    {
+      "id": "search",
+      "weight": 35,
+      "useful_outcome": "Smaller exactly verified constructions, or reproducible bounded failures.",
+      "tasks": [
+        {
+          "id": "search-repair",
+          "question": "Can removal and repair of an archived cover beat its block count?",
+          "starting_points": [
+            "witnesses/ljcr/14-5-3.json",
+            "covering/search.py",
+            "docs/LITERATURE.md#construction-methods"
+          ],
+          "methods": [
+            "delete-repair",
+            "simulated-annealing"
+          ],
+          "acceptance_gate": "Candidate passes the independent verifier at strictly fewer blocks than its audited incumbent. Retain input hashes, seed, budget, and unsuccessful attempts. Novelty requires successor/literature audit.",
+          "first_step": {
+            "command": [
+              "python3",
+              "-m",
+              "covering.records",
+              "check_row",
+              "--v",
+              "14",
+              "--k",
+              "5",
+              "--t",
+              "3"
+            ],
+            "expected": "valid=true, blocks=43, covered=required=364",
+            "scope": "positive control only; does not complete the research task"
+          },
+          "first_experiment": "Start with (14,5,3), target <=42; remove 2-4 blocks, search replacement blocks with a fixed seed and 10-minute cap. Record uncovered-triple score and every accepted witness.",
+          "bottleneck_link": "DISCOVERY.md#bottleneck",
+          "allowed_variations": [
+            "Change one instance or method at a time; record seed and budget; keep evidence local."
+          ],
+          "scope_change_triggers": [
+            "Stop if the current record was already improved; update audit notes first.",
+            "A restricted search failure or timeout cannot justify a global lower bound."
+          ],
+          "overlap_terms": [
+            "search-repair",
+            "covering-design",
+            "v-k-t"
+          ],
+          "claim_kind": [
+            "exact"
+          ],
+          "rows": {
+            "open": true
+          }
+        }
+      ]
+    },
+    {
+      "id": "lower-bounds",
+      "weight": 25,
+      "useful_outcome": "Trace a stronger existing bound or produce a complete proof.",
+      "tasks": [
+        {
+          "id": "trace-bound",
+          "question": "What proves the archive-reported lower bound 20 for C(13,6,3), and can it be strengthened?",
+          "starting_points": [
+            "docs/LOWER_BOUNDS.md",
+            "data/ljcr-selected.json",
+            "https://arxiv.org/html/1706.06825v2"
+          ],
+          "methods": [
+            "literature-proof-trace",
+            "exact-set-cover-formulation"
+          ],
+          "acceptance_gate": "Specific theorem/page and checked hypotheses with a written derivation; a new exclusion requires complete instance coverage, sound symmetry justification, and independently replayable proof certificates. Solver status UNKNOWN is no bound.",
+          "first_step": {
+            "command": [
+              "python3",
+              "-m",
+              "covering.records",
+              "bounds"
+            ],
+            "expected": "(13,6,3) Schonheim=18, archive_reported_lower_bound=20; Fano=7",
+            "scope": "positive control only; does not complete the research task"
+          },
+          "first_experiment": "Trace the reduction through C(12,5,2), locate the original theorem proving its lower bound, check all hypotheses, and write a complete derivation. If using SAT, first validate the full encoding on small controls.",
+          "bottleneck_link": "DISCOVERY.md#bottleneck",
+          "allowed_variations": [
+            "Change one instance or method at a time; record seed and budget; keep evidence local."
+          ],
+          "scope_change_triggers": [
+            "Stop if the current record was already improved; update audit notes first.",
+            "A restricted search failure or timeout cannot justify a global lower bound."
+          ],
+          "overlap_terms": [
+            "trace-bound",
+            "covering-design",
+            "v-k-t"
+          ],
+          "claim_kind": [
+            "argument"
+          ],
+          "rows": {
+            "open": true,
+            "where": {
+              "v": 13,
+              "k": 6,
+              "t": 3
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "construction-audit",
+      "weight": 20,
+      "useful_outcome": "A dated, source-pinned frontier that does not mistake old upper bounds for optima.",
+      "tasks": [
+        {
+          "id": "audit-current-records",
+          "question": "Are these five frozen LJCR cells still the best known, and do their attribution histories match?",
+          "starting_points": [
+            "data/ljcr-github-selected.json",
+            "data/ljcr-selected.json",
+            "docs/LITERATURE.md",
+            "https://coveringrepository.com/"
+          ],
+          "methods": [
+            "archive-successor-comparison"
+          ],
+          "acceptance_gate": "Dated per-cell citations; any new construction passes the verifier; unsupported optimality claims are marked unverified. Preserve archived and current values separately.",
+          "first_step": {
+            "command": [
+              "python3",
+              "-m",
+              "covering.records",
+              "audit"
+            ],
+            "expected": "Five archive rows match their metadata and all witnesses verify; successor confirmation pending",
+            "scope": "positive control only; does not complete the research task"
+          },
+          "first_experiment": "Compare pinned 2022 GitHub metadata with Zenodo v1.2, then manually check the successor (v,k,t,m=t) cells or source-linked newer papers. Save source URLs, dates, and any permitted new witness. Do not bypass access controls or purchase data.",
+          "bottleneck_link": "DISCOVERY.md#bottleneck",
+          "allowed_variations": [
+            "Change one instance or method at a time; record seed and budget; keep evidence local."
+          ],
+          "scope_change_triggers": [
+            "Stop if the current record was already improved; update audit notes first.",
+            "A restricted search failure or timeout cannot justify a global lower bound."
+          ],
+          "overlap_terms": [
+            "audit-current-records",
+            "covering-design",
+            "v-k-t"
+          ],
+          "claim_kind": [
+            "exact"
+          ],
+          "rows": {
+            "open": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "independent-verification",
+      "weight": 20,
+      "useful_outcome": "Different code and independent review of witnesses and table binding.",
+      "tasks": [
+        {
+          "id": "verify-independently",
+          "question": "Can a reviewer independently validate all five rows without using the search incidence masks?",
+          "starting_points": [
+            "covering/verify.py",
+            "data/records.json",
+            "tests/test_verify.py",
+            "docs/VERIFICATION.md"
+          ],
+          "methods": [
+            "second-language-checker",
+            "direct-pair-and-triple-enumeration"
+          ],
+          "acceptance_gate": "Every row agrees, all deliberate invalid cases fail, and a separately authored report identifies reviewer and implementation independence. Do not claim independently-checked on the basis of two same-session implementations.",
+          "first_step": {
+            "command": [
+              "python3",
+              "-m",
+              "unittest",
+              "discover",
+              "-s",
+              "tests",
+              "-v"
+            ],
+            "expected": "8 tests pass, including six negative fixtures and exhaustive C(5,3,2) subfamilies",
+            "scope": "positive control only; does not complete the research task"
+          },
+          "first_experiment": "Write a checker in a second language or independently from the definition. Check every archived witness and mutate one label, remove one block, and alter one record value to ensure rejection. Record the exact commit and hashes.",
+          "bottleneck_link": "DISCOVERY.md#bottleneck",
+          "allowed_variations": [
+            "Change one instance or method at a time; record seed and budget; keep evidence local."
+          ],
+          "scope_change_triggers": [
+            "Stop if the current record was already improved; update audit notes first.",
+            "A restricted search failure or timeout cannot justify a global lower bound."
+          ],
+          "overlap_terms": [
+            "verify-independently",
+            "covering-design",
+            "v-k-t"
+          ],
+          "claim_kind": [
+            "exact"
+          ],
+          "rows": {
+            "open": false
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,130 @@
+{
+  "started_at": "2026-10-20T06:24:19.216708+00:00",
+  "base": "56a58d459f9d560e92995b14cd2141bdc18ea417",
+  "seed": "4ab3d4d0142a4bb506f6bea2245d1be4",
+  "scope": "LOCAL follow-up: current-record audit, exact multi-block repair, launch decision",
+  "planned_search": "Complete 3-delete/2-add neighborhoods on three pinned covers, then bounded seeded 4-delete/3-add exact repairs. Separate checker replay reserved.",
+  "frontier_changes": "none; all results proposed only",
+  "current_record_audit": [
+    {
+      "instance": [
+        75,
+        10,
+        5
+      ],
+      "active_upper": 166568,
+      "active_lower_reported": 69810,
+      "author": "Evandro De Simone",
+      "date": "2026-06-02",
+      "notes": "No method given in visible table",
+      "history": "https://coveringrepository.com/history.aspx?id=114565",
+      "observed_via": "Chrome public form V=75 K=10 T=5 M=5",
+      "prior_proposal": 166692
+    },
+    {
+      "instance": [
+        81,
+        11,
+        5
+      ],
+      "active_upper": 148485,
+      "active_lower_reported": 55846,
+      "author": "Known design, view notes ->",
+      "date": "2026-09-18",
+      "notes": "Dynamic programming construction",
+      "history": "https://coveringrepository.com/history.aspx?id=114635",
+      "free_download": "https://coveringrepository.com/download_system.aspx?id=220499",
+      "observed_via": "Chrome public form V=81 K=11 T=5 M=5",
+      "prior_proposal": 148511
+    }
+  ],
+  "phase_2": {
+    "registered_at": "2026-10-20T06:42:34.307872+00:00",
+    "reason": "New primary source discovered during audit: weighted search on recent larger incumbents. This is an adaptive target/method choice, not part of the initial small-cover experiment.",
+    "method": "Pinned external wls2 with -DCHECK; validated frozen archive warm starts; 360 seconds per target; then one fixed 720-second continuation. No further budget extension.",
+    "targets": [
+      [
+        48,
+        9,
+        3
+      ],
+      [
+        70,
+        12,
+        3
+      ],
+      [
+        90,
+        12,
+        3
+      ]
+    ],
+    "comparison_bounds": [
+      273,
+      337,
+      679
+    ],
+    "comparison_reconfirmed": "research/frontier-sprint/data/current-selected-counts.json",
+    "stage_1_seeds": [
+      287374570,
+      542097520,
+      1644407115
+    ],
+    "stage_2_seeds": [
+      287374571,
+      542097521,
+      1644407116
+    ],
+    "stage_2_inputs": "Each stage_1 best.json; two match current counts, (70,12,3) starts three above current.",
+    "planned_search_cpu_minutes": 54,
+    "shared_load": "Three weighted searches may run concurrently; other SMT/checker jobs also share machine. Timings are not comparative benchmarks.",
+    "source_sha256": "452dcfae99dc74b4d43f20743415136869c8eee722ed7009207356909d82da6d",
+    "compile": [
+      "clang++",
+      "-O3",
+      "-std=c++17",
+      "-DCHECK",
+      "research/frontier-sprint/tools/vendor/wls2.cpp",
+      "-o",
+      "PATH/wls2-check"
+    ]
+  },
+  "environment": {
+    "python": "3.14.6 (main, Jun 10 2026, 10:03:53) [Clang 21.0.0 (clang-2100.0.123.102)]",
+    "platform": "Darwin arm64",
+    "z3": "5.1.0",
+    "note": "macOS arm64; shared CPU load; no timing comparison across methods"
+  },
+  "accepted_frontier_sha256": "a75ff202707fbe15a952494e407bd6c9094bef179586658682e940661eefd3ef",
+  "search_completed_at": "2026-10-20T06:55:56.507227+00:00",
+  "final_weighted_results": [
+    {
+      "instance": [
+        48,
+        9,
+        3
+      ],
+      "blocks": 272,
+      "comparison": 273
+    },
+    {
+      "instance": [
+        70,
+        12,
+        3
+      ],
+      "blocks": 338,
+      "comparison": 337
+    },
+    {
+      "instance": [
+        90,
+        12,
+        3
+      ],
+      "blocks": 678,
+      "comparison": 679
+    }
+  ],
+  "final_phase": "Search stopped. Remaining work: exact cross-checks, artifact integrity, fresh-copy replay and handoff."
+}

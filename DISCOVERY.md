@@ -1,5 +1,18 @@
 # Research question and evidence
 
+**Follow-up evidence (20 October 2026):**
+[`research/frontier-sprint/README.md`](research/frontier-sprint/README.md) supplies
+the current-record audit, focused stronger-search experiments and launch assessment.
+The successor's public ordinary count export is now accessible through the web
+reader. All three earlier large archive improvements have already been surpassed.
+Catalogue revision 2 supersedes the attack priorities and weights below. Original
+accepted rows, exact verifier and historical results remain unchanged.
+
+The follow-up found author-checked proposals C(48,9,3)<=272 and C(90,12,3)<=678,
+below the audited published 273 and 679. Its scientific-fit recommendation is
+LAUNCH for the larger t=3 track. The proposals require separate review; this does
+not open donor intake, approve publication, or change the accepted frontier.
+
 Minimize |B| for B a family of distinct k-subsets of {1,...,v} with every t-subset
 contained in at least one block, 1 <= t <= k <= v, multiplicity requirement one.
 The optimum is C(v,k,t). Repeated blocks can always be removed, so restricting

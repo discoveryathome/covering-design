@@ -1,0 +1,22 @@
+{
+  "source": ".",
+  "conformant": false,
+  "problems": [
+    "discover.json $.maintainers: needs at least 1 items"
+  ],
+  "conventions": {
+    "catalog": true,
+    "priority_log": true,
+    "coordination": "manifest has no `coordination` channel",
+    "reproduce": true,
+    "ledger": true,
+    "packages": true
+  },
+  "warnings": [],
+  "manifest_origin": "discover.json",
+  "table": {
+    "rows": 5,
+    "open": 4
+  },
+  "license": "LICENSE"
+}

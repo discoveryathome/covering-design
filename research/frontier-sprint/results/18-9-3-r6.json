@@ -1,0 +1,923 @@
+{
+  "instance": [
+    18,
+    9,
+    3
+  ],
+  "incumbent_blocks": 16,
+  "input": "research/initial-sweep/data/archive-18-9-3.json",
+  "input_sha256": "8de29578a1ec5ba55a2cd1fcb9bc930a08a48ff11cc2741461e29f3e6ebb4cf5",
+  "seed": "4ab3d4d0142a4bb506f6bea2245d1be4",
+  "derived_seed": 1644407115,
+  "remove": 6,
+  "replace_at_most": 5,
+  "timeout_ms": 5000,
+  "planned": 64,
+  "total_deletion_sets": 8008,
+  "method": "z3-point-membership",
+  "trials": [
+    {
+      "removed": [
+        1,
+        3,
+        5,
+        8,
+        10,
+        12
+      ],
+      "holes": 242,
+      "status": "unknown",
+      "seconds": 5.439636084018275,
+      "reason": "timeout"
+    },
+    {
+      "removed": [
+        2,
+        4,
+        5,
+        6,
+        13,
+        15
+      ],
+      "holes": 241,
+      "status": "unknown",
+      "seconds": 5.276979416958056,
+      "reason": "timeout"
+    },
+    {
+      "removed": [
+        0,
+        4,
+        6,
+        7,
+        8,
+        13
+      ],
+      "holes": 226,
+      "status": "unknown",
+      "seconds": 5.380990665988065,
+      "reason": "timeout"
+    },
+    {
+      "removed": [
+        1,
+        2,
+        5,
+        6,
+        10,
+        11
+      ],
+      "holes": 232,
+      "status": "unknown",
+      "seconds": 5.318026749999262,
+      "reason": "timeout"
+    },
+    {
+      "removed": [
+        0,
+        1,
+        4,
+        6,
+        7,
+        10
+      ],
+      "holes": 220,
+      "status": "unknown",
+      "seconds": 5.3027758749667555,
+      "reason": "timeout"
+    },
+    {
+      "removed": [
+        2,
+        6,
+        7,
+        8,
+        9,
+        15
+      ],
+      "holes": 191,
+      "status": "unknown",
+      "seconds": 5.420052375062369,
+      "reason": "timeout"
+    },
+    {
+      "removed": [
+        0,
+        2,
+        4,
+        9,
+        11,
+        12
+      ],
+      "holes": 212,
+      "status": "unknown",
+      "seconds": 5.260294166975655,
+      "reason": "timeout"
+    },
+    {
+      "removed": [
+        1,
+        3,
+        4,
+        11,
+        13,
+        15
+      ],
+      "holes": 184,
+      "status": "unknown",
+      "seconds": 5.2007983749499545,
+      "reason": "timeout"
+    },
+    {
+      "removed": [
+        4,
+        7,
+        9,
+        10,
+        12,
+        13
+      ],
+      "holes": 190,
+      "status": "unknown",
+      "seconds": 5.228785916930065,
+      "reason": "timeout"
+    },
+    {
+      "removed": [
+        1,
+        4,
+        8,
+        11,
+        12,
+        13
+      ],
+      "holes": 211,
+      "status": "unknown",
+      "seconds": 5.3952785830479115,
+      "reason": "timeout"
+    },
+    {
+      "removed": [
+        2,
+        6,
+        10,
+        11,
+        12,
+        13
+      ],
+      "holes": 233,
+      "status": "unknown",
+      "seconds": 5.324512540944852,
+      "reason": "timeout"
+    },
+    {
+      "removed": [
+        0,
+        3,
+        4,
+        6,
+        11,
+        14
+      ],
+      "holes": 223,
+      "status": "unknown",
+      "seconds": 5.318371084053069,
+      "reason": "timeout"
+    },
+    {
+      "removed": [
+        0,
+        1,
+        2,
+        6,
+        13,
+        15
+      ],
+      "holes": 224,
+      "status": "unknown",
+      "seconds": 5.377719415933825,
+      "reason": "timeout"
+    },
+    {
+      "removed": [
+        1,
+        8,
+        9,
+        11,
+        12,
+        14
+      ],
+      "holes": 224,
+      "status": "unknown",
+      "seconds": 5.297330874949694,
+      "reason": "timeout"
+    },
+    {
+      "removed": [
+        8,
+        9,
+        10,
+        11,
+        13,
+        15
+      ],
+      "holes": 203,
+      "status": "unknown",
+      "seconds": 5.365922458004206,
+      "reason": "timeout"
+    },
+    {
+      "removed": [
+        4,
+        5,
+        6,
+        10,
+        12,
+        13
+      ],
+      "holes": 256,
+      "status": "unknown",
+      "seconds": 5.307259500026703,
+      "reason": "timeout"
+    },
+    {
+      "removed": [
+        1,
+        3,
+        9,
+        10,
+        11,
+        15
+      ],
+      "holes": 196,
+      "status": "unknown",
+      "seconds": 5.187727292068303,
+      "reason": "timeout"
+    },
+    {
+      "removed": [
+        2,
+        5,
+        8,
+        9,
+        13,
+        15
+      ],
+      "holes": 204,
+      "status": "unknown",
+      "seconds": 5.233803416020237,
+      "reason": "timeout"
+    },
+    {
+      "removed": [
+        1,
+        3,
+        5,
+        8,
+        10,
+        15
+      ],
+      "holes": 216,
+      "status": "unknown",
+      "seconds": 5.94376974995248,
+      "reason": "timeout"
+    },
+    {
+      "removed": [
+        2,
+        5,
+        6,
+        7,
+        12,
+        15
+      ],
+      "holes": 229,
+      "status": "unknown",
+      "seconds": 5.795461041969247,
+      "reason": "timeout"
+    },
+    {
+      "removed": [
+        0,
+        2,
+        4,
+        7,
+        8,
+        14
+      ],
+      "holes": 217,
+      "status": "unknown",
+      "seconds": 5.95740362489596,
+      "reason": "timeout"
+    },
+    {
+      "removed": [
+        5,
+        6,
+        8,
+        9,
+        13,
+        15
+      ],
+      "holes": 198,
+      "status": "unknown",
+      "seconds": 5.294343750108965,
+      "reason": "timeout"
+    },
+    {
+      "removed": [
+        3,
+        8,
+        9,
+        10,
+        12,
+        15
+      ],
+      "holes": 185,
+      "status": "unknown",
+      "seconds": 5.87795599992387,
+      "reason": "timeout"
+    },
+    {
+      "removed": [
+        2,
+        6,
+        8,
+        11,
+        13,
+        15
+      ],
+      "holes": 198,
+      "status": "unknown",
+      "seconds": 5.448026416008361,
+      "reason": "timeout"
+    },
+    {
+      "removed": [
+        0,
+        5,
+        8,
+        10,
+        14,
+        15
+      ],
+      "holes": 217,
+      "status": "unknown",
+      "seconds": 6.042280625086278,
+      "reason": "timeout"
+    },
+    {
+      "removed": [
+        0,
+        5,
+        6,
+        8,
+        9,
+        10
+      ],
+      "holes": 217,
+      "status": "unknown",
+      "seconds": 5.754999666940421,
+      "reason": "timeout"
+    },
+    {
+      "removed": [
+        0,
+        1,
+        4,
+        9,
+        12,
+        13
+      ],
+      "holes": 211,
+      "status": "unknown",
+      "seconds": 5.9560041250661016,
+      "reason": "timeout"
+    },
+    {
+      "removed": [
+        0,
+        1,
+        3,
+        5,
+        6,
+        12
+      ],
+      "holes": 236,
+      "status": "unknown",
+      "seconds": 5.820258417050354,
+      "reason": "timeout"
+    },
+    {
+      "removed": [
+        1,
+        2,
+        4,
+        12,
+        14,
+        15
+      ],
+      "holes": 211,
+      "status": "unknown",
+      "seconds": 5.925690583069809,
+      "reason": "timeout"
+    },
+    {
+      "removed": [
+        2,
+        5,
+        6,
+        9,
+        10,
+        11
+      ],
+      "holes": 240,
+      "status": "unknown",
+      "seconds": 6.313076499965973,
+      "reason": "timeout"
+    },
+    {
+      "removed": [
+        2,
+        6,
+        7,
+        11,
+        12,
+        14
+      ],
+      "holes": 194,
+      "status": "unknown",
+      "seconds": 6.143922875053249,
+      "reason": "timeout"
+    },
+    {
+      "removed": [
+        1,
+        4,
+        7,
+        11,
+        14,
+        15
+      ],
+      "holes": 183,
+      "status": "unknown",
+      "seconds": 5.692896207910962,
+      "reason": "timeout"
+    },
+    {
+      "removed": [
+        1,
+        2,
+        3,
+        7,
+        8,
+        13
+      ],
+      "holes": 211,
+      "status": "unknown",
+      "seconds": 5.838120125001296,
+      "reason": "timeout"
+    },
+    {
+      "removed": [
+        1,
+        2,
+        6,
+        7,
+        11,
+        15
+      ],
+      "holes": 195,
+      "status": "unknown",
+      "seconds": 5.560818083933555,
+      "reason": "timeout"
+    },
+    {
+      "removed": [
+        1,
+        4,
+        8,
+        10,
+        14,
+        15
+      ],
+      "holes": 206,
+      "status": "unknown",
+      "seconds": 5.559164458070882,
+      "reason": "timeout"
+    },
+    {
+      "removed": [
+        4,
+        6,
+        10,
+        11,
+        13,
+        15
+      ],
+      "holes": 202,
+      "status": "unknown",
+      "seconds": 5.635989125003107,
+      "reason": "timeout"
+    },
+    {
+      "removed": [
+        0,
+        2,
+        5,
+        7,
+        12,
+        14
+      ],
+      "holes": 220,
+      "status": "unknown",
+      "seconds": 5.752706750063226,
+      "reason": "timeout"
+    },
+    {
+      "removed": [
+        1,
+        3,
+        7,
+        11,
+        12,
+        15
+      ],
+      "holes": 185,
+      "status": "unknown",
+      "seconds": 5.766867042053491,
+      "reason": "timeout"
+    },
+    {
+      "removed": [
+        1,
+        3,
+        7,
+        9,
+        14,
+        15
+      ],
+      "holes": 189,
+      "status": "unknown",
+      "seconds": 5.838666333002038,
+      "reason": "timeout"
+    },
+    {
+      "removed": [
+        1,
+        5,
+        6,
+        7,
+        11,
+        15
+      ],
+      "holes": 191,
+      "status": "unknown",
+      "seconds": 5.749826500075869,
+      "reason": "timeout"
+    },
+    {
+      "removed": [
+        3,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "holes": 215,
+      "status": "unknown",
+      "seconds": 5.7525007909862325,
+      "reason": "timeout"
+    },
+    {
+      "removed": [
+        2,
+        6,
+        9,
+        11,
+        12,
+        15
+      ],
+      "holes": 195,
+      "status": "unknown",
+      "seconds": 5.760976958088577,
+      "reason": "timeout"
+    },
+    {
+      "removed": [
+        0,
+        4,
+        6,
+        9,
+        13,
+        15
+      ],
+      "holes": 203,
+      "status": "unknown",
+      "seconds": 6.0151292911032215,
+      "reason": "timeout"
+    },
+    {
+      "removed": [
+        0,
+        6,
+        7,
+        10,
+        13,
+        14
+      ],
+      "holes": 219,
+      "status": "unknown",
+      "seconds": 6.047692458028905,
+      "reason": "timeout"
+    },
+    {
+      "removed": [
+        2,
+        5,
+        8,
+        11,
+        13,
+        15
+      ],
+      "holes": 208,
+      "status": "unknown",
+      "seconds": 6.116734999930486,
+      "reason": "timeout"
+    },
+    {
+      "removed": [
+        0,
+        1,
+        4,
+        7,
+        13,
+        15
+      ],
+      "holes": 212,
+      "status": "unknown",
+      "seconds": 6.2624664169270545,
+      "reason": "timeout"
+    },
+    {
+      "removed": [
+        4,
+        5,
+        8,
+        9,
+        11,
+        12
+      ],
+      "holes": 220,
+      "status": "unknown",
+      "seconds": 6.2217821249505505,
+      "reason": "timeout"
+    },
+    {
+      "removed": [
+        2,
+        5,
+        7,
+        12,
+        13,
+        14
+      ],
+      "holes": 232,
+      "status": "unknown",
+      "seconds": 5.9089299159822986,
+      "reason": "timeout"
+    },
+    {
+      "removed": [
+        0,
+        4,
+        5,
+        8,
+        10,
+        11
+      ],
+      "holes": 224,
+      "status": "unknown",
+      "seconds": 6.001069582998753,
+      "reason": "timeout"
+    },
+    {
+      "removed": [
+        2,
+        4,
+        7,
+        11,
+        14,
+        15
+      ],
+      "holes": 199,
+      "status": "unknown",
+      "seconds": 6.039973250008188,
+      "reason": "timeout"
+    },
+    {
+      "removed": [
+        3,
+        4,
+        5,
+        11,
+        14,
+        15
+      ],
+      "holes": 201,
+      "status": "unknown",
+      "seconds": 5.774995459010825,
+      "reason": "timeout"
+    },
+    {
+      "removed": [
+        2,
+        6,
+        9,
+        10,
+        13,
+        15
+      ],
+      "holes": 203,
+      "status": "unknown",
+      "seconds": 5.731413417030126,
+      "reason": "timeout"
+    },
+    {
+      "removed": [
+        0,
+        1,
+        7,
+        9,
+        10,
+        15
+      ],
+      "holes": 191,
+      "status": "unknown",
+      "seconds": 6.436215250054374,
+      "reason": "timeout"
+    },
+    {
+      "removed": [
+        0,
+        3,
+        8,
+        9,
+        12,
+        14
+      ],
+      "holes": 210,
+      "status": "unknown",
+      "seconds": 6.349678625003435,
+      "reason": "timeout"
+    },
+    {
+      "removed": [
+        0,
+        5,
+        6,
+        7,
+        10,
+        12
+      ],
+      "holes": 219,
+      "status": "unknown",
+      "seconds": 6.273184500052594,
+      "reason": "timeout"
+    },
+    {
+      "removed": [
+        0,
+        2,
+        3,
+        4,
+        7,
+        10
+      ],
+      "holes": 221,
+      "status": "unknown",
+      "seconds": 6.371149249956943,
+      "reason": "timeout"
+    },
+    {
+      "removed": [
+        0,
+        5,
+        6,
+        9,
+        10,
+        13
+      ],
+      "holes": 221,
+      "status": "unknown",
+      "seconds": 5.923845375073142,
+      "reason": "timeout"
+    },
+    {
+      "removed": [
+        1,
+        2,
+        3,
+        9,
+        10,
+        14
+      ],
+      "holes": 220,
+      "status": "unknown",
+      "seconds": 6.265869457973167,
+      "reason": "timeout"
+    },
+    {
+      "removed": [
+        2,
+        3,
+        5,
+        10,
+        11,
+        14
+      ],
+      "holes": 222,
+      "status": "unknown",
+      "seconds": 8.776319417054765,
+      "reason": "timeout"
+    },
+    {
+      "removed": [
+        5,
+        6,
+        9,
+        11,
+        12,
+        14
+      ],
+      "holes": 233,
+      "status": "unknown",
+      "seconds": 5.821509790956043,
+      "reason": "timeout"
+    },
+    {
+      "removed": [
+        2,
+        5,
+        7,
+        9,
+        12,
+        15
+      ],
+      "holes": 204,
+      "status": "unknown",
+      "seconds": 6.211418416001834,
+      "reason": "timeout"
+    },
+    {
+      "removed": [
+        0,
+        1,
+        10,
+        12,
+        14,
+        15
+      ],
+      "holes": 219,
+      "status": "unknown",
+      "seconds": 6.135220000054687,
+      "reason": "timeout"
+    },
+    {
+      "removed": [
+        2,
+        4,
+        9,
+        11,
+        12,
+        13
+      ],
+      "holes": 220,
+      "status": "unknown",
+      "seconds": 5.930437332950532,
+      "reason": "timeout"
+    },
+    {
+      "removed": [
+        1,
+        6,
+        7,
+        9,
+        10,
+        14
+      ],
+      "holes": 189,
+      "status": "unknown",
+      "seconds": 5.882068583043292,
+      "reason": "timeout"
+    }
+  ],
+  "seconds": 371.38288558402564,
+  "counts": {
+    "sat": 0,
+    "unsat": 0,
+    "unknown": 64
+  },
+  "z3_version": "5.1.0"
+}

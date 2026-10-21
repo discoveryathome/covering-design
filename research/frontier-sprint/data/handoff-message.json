@@ -1,0 +1,17 @@
+{
+  "v": 0,
+  "kind": "handoff",
+  "task": "verify-frontier-candidate",
+  "scope": "Review two exact source-cover proposals below audited current counts; preserve all accepted records and LOCAL scope.",
+  "base": "56a58d459f9d560e92995b14cd2141bdc18ea417",
+  "posted_at": "2026-10-20T07:02:18.338653+00:00",
+  "evidence_level": "local-only",
+  "priority_revision": 2,
+  "request": {
+    "question": "Can a different reviewer validate both proposed witnesses, refresh novelty and propagation comparisons, and check attribution before any acceptance decision?",
+    "first_step": "python3 research/frontier-sprint/tools/check_row.py --v 48 --k 9 --t 3 --proposal --direct",
+    "success_test": "Two exact checks agree on each hash-bound witness, invalid controls fail, and dated source comparisons still exceed 272 and 678; record separate reviewer identity and actual review scope without assuming acceptance.",
+    "track": "independent-verification",
+    "est_minutes": 45
+  }
+}
