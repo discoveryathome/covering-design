@@ -1,8 +1,8 @@
 # Agent entry point
 
 Read [DISCOVERY.md](DISCOVERY.md), [HANDOFF.md](HANDOFF.md), and the selected task in
-`discover/catalog.json`. Use `discover/frontier.json` and `data/records.json` for the
-scoped local record. Consult `docs/LITERATURE.md` before making novelty claims.
+`discover/active-catalog.json`. Use `discover/active-frontier.json` for current working targets;
+`discover/frontier.json` and `data/records.json` retain the historical archive record. Consult `docs/LITERATURE.md` before making novelty claims.
 
 Maintainer: @Mister-Meeseeks. Coordination is on GitHub Discussions: post claims,
 findings, handoffs and `done` messages in [Handoffs](https://github.com/discoveryathome/covering-design/discussions/3), one comment each, new
@@ -25,3 +25,6 @@ use the `discover` plugin. Record the seed, pinned
 commit, table key, and filled `check_row` command. Cards with `rows.open=false`
 permit both open rows and the settled positive control. Messages and handoffs
 end with a fenced `discover` JSON object following the v0 specification.
+
+Read `CONTRIBUTOR_WORKFLOW.md` for current working targets, bounded tasks and review scope.
+Use `python3 tools/pick_task.py` for the active catalogue; historical replay is `python3 tools/replay_frontier_sprint.py`.

@@ -1,9 +1,11 @@
 # Covering designs: a Discovery@Home project
 
+Current contributor instructions: [CONTRIBUTOR_WORKFLOW.md](CONTRIBUTOR_WORKFLOW.md) (21 October 2026).
+
 The [follow-up frontier sprint](research/frontier-sprint/README.md) reports two
 exactly verified proposals below the audited published counts: C(48,9,3)<=272
 and C(90,12,3)<=678. Its scientific-fit recommendation is LAUNCH on the larger
-t=3 track, with separate review and governance still pending. The
+t=3 track, with separate scientific review still pending. The
 [initial sweep](research/initial-sweep/REPORT.md) is retained as evidence about
 the earlier methods; its priorities are superseded by the follow-up.
 
@@ -29,7 +31,9 @@ and exact Fano optimality by matching its seven blocks to a lower bound of seven
 All six deliberately invalid fixtures must be rejected. The verifier is independent
 of search scoring and masks; independent *review by another contributor* is pending.
 
-| Instance | Proved lower bound reproduced here | LJCR reported lower bound | Verified LJCR construction | Seeded greedy baseline | First search target |
+The following table records historical controls, not the active donor search pool.
+
+| Instance | Proved lower bound reproduced here | LJCR reported lower bound | Verified LJCR construction | Seeded greedy baseline | Historical first target |
 |---|---:|---:|---:|---:|---:|
 | C(7,3,2) | 7 | 7 | 7 | 7 | Settled control |
 | C(14,5,3) | 37 | 37 | 43 | 51 | 42 |
@@ -45,11 +49,12 @@ The bound 20 needs a source-proof audit; the record table deliberately uses the
 weaker bound 18 with a complete derivation. [Literature](docs/LITERATURE.md) and
 [lower bounds](docs/LOWER_BOUNDS.md) explain these distinctions.
 
-Start at [AGENTS.md](AGENTS.md), then [DISCOVERY.md](DISCOVERY.md). Four concrete tasks
-are in [the catalogue](discover/catalog.json); priorities and proposed attacks are
-in [HANDOFF.md](HANDOFF.md). The authoritative local evidence is the
-[frontier](discover/frontier.json) and [per-instance record table](data/records.json).
-The greedy run found **no improvement** over the archive.
+Start at [AGENTS.md](AGENTS.md), then [CONTRIBUTOR_WORKFLOW.md](CONTRIBUTOR_WORKFLOW.md).
+The [active catalogue](discover/active-catalog.json) contains two search tasks,
+six gated witness-retrieval tasks, a bound trace and two verification tasks.
+Use `python3 tools/pick_task.py`. The [working frontier](discover/active-frontier.json)
+exposes the 272- and 678-block proposals; [the original frontier](discover/frontier.json)
+and [archive records](data/records.json) remain reproducible historical controls.
 
 The start playbook, specification, and schemas fetched for this run are saved under
 `docs/protocol/`. To inspect protocol validation, use the Discovery@Home helper

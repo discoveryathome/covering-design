@@ -21,9 +21,9 @@
     "contributing": "CONTRIBUTING.md",
     "brief": "docs/BRIEF.md"
   },
-  "frontier": "discover/frontier.json",
-  "catalog": "discover/catalog.json",
-  "priority_log": "discover/priority-log.md",
+  "frontier": "discover/active-frontier.json",
+  "catalog": "discover/active-catalog.json",
+  "priority_log": "discover/active-priority-log.md",
   "ledger": "discover/review-ledger.md",
   "packages": "research/*/",
   "session": {
@@ -80,5 +80,13 @@
       "proposals": 4,
       "feedback": 5
     }
+  },
+  "picker": {
+    "command": [
+      "python3",
+      "tools/pick_task.py",
+      "--seed",
+      "{seed}"
+    ]
   }
 }

@@ -1,0 +1,24 @@
+{
+  "project": "covering-design",
+  "date": "2026-10-21",
+  "base_commit": "ace467620cec621405b6caf3fa3eab457f21d44f",
+  "remote_main_at_fetch": "ce0d4a1b12470cefe4ba80fefa2079db483a4e0a",
+  "base_includes_open_launch_pr": "https://github.com/discoveryathome/covering-design/pull/1",
+  "assessment_scope": "Coordinator code/document review and executed local checks; not an independent cold contributor study or external scientific signoff",
+  "recommendation": "Second anchor, with a deliberately limited search pool",
+  "finding": "Two strong proposals were available, but historical metadata remained the default frontier. The launch documentation changes also broke the frozen sprint manifest. Six other shortlisted cells lack witnesses matching their published counts.",
+  "changes": [
+    "Added an active frontier exposing the known 272- and 678-block proposals as working upper bounds, preserving their unaccepted evidence status.",
+    "Added an active catalogue with separate search tasks for the two ready cells and six explicit retrieval tasks for gated cells; original catalogue and evidence bindings are untouched.",
+    "Preserved hash-verified original documents and added an isolated historical replay, so launch documentation can evolve without weakening the original integrity checks."
+  ],
+  "validation": "Original five-row verifier/tests passed; full sprint replay checked 88 witnesses and bound the recorded 9,931 finite-neighborhood decisions (not a fresh exhaustive rerun of all neighborhoods); direct coverage checks passed for both proposals; 120 picker draws and schema validation passed.",
+  "next_step": "A separate scientific reviewer must inspect both witnesses, attribution and a fresh source/propagation audit. Resolve the six current-witness retrieval tasks before broadening search traffic.",
+  "external_acceptance_test": "Independent witness and novelty decisions scoped to the actual sources; current-count witness, provenance and parent recipe for each additional cell before activation.",
+  "remote_writes": false,
+  "active_task_first_steps": {
+    "checked": 11,
+    "passed": 11,
+    "note": "Asteroid commands used an existing pinned environment instead of a cold install; see command receipts."
+  }
+}
