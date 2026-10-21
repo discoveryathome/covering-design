@@ -52,12 +52,16 @@ in [HANDOFF.md](HANDOFF.md). The authoritative local evidence is the
 The greedy run found **no improvement** over the archive.
 
 The start playbook, specification, and schemas fetched for this run are saved under
-`docs/protocol/`. The verified helper lives outside this repository at
-`../session-covering-design/discover.pyz`. To inspect protocol validation:
+`docs/protocol/`. To inspect protocol validation, use the Discovery@Home helper
+(https://discoveryathome.org/cli/latest.json names the current file and its SHA-256),
+or the `discover` plugin:
 
 ```sh
-python3 ../session-covering-design/discover.pyz validate .
+python3 discover-<sha12>.pyz validate .
 ```
+
+Coordination is on [GitHub Discussions](https://github.com/discoveryathome/covering-design/discussions):
+claims, findings and handoffs in *Handoffs*.
 
 `results/protocol-validation.txt` is the transcript from the local-proposal period, when
 `maintainers` was intentionally empty; the manifest now names the maintainer.

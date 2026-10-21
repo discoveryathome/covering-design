@@ -25,7 +25,7 @@ or independent replication. Search speed and a smaller heuristic defect alone
 are not record improvements. Verification profile: exact certificate. Lower-bound
 arguments require their own proof review; this pilot provides no formal proof kernel.
 
-The user supplied the objective and LOCAL scope explicitly. The operational
+The user supplied the objective and (originally) LOCAL scope explicitly. The operational
 interpretation and evidence standard are recorded in `docs/BRIEF.md`; no additional
 interview was needed to invent or approve governance choices.
 
@@ -69,7 +69,7 @@ solver establishes nothing about the unrestricted minimum. Restricted-family
 exclusions must say exactly which family they exclude. Asymptotic existence results
 for fixed k,t and v tending to infinity do not determine these small cells.
 
-# Review, credit, and local operation
+# Review, credit, and coordination
 
 Maintainer: @Mister-Meeseeks (from 2026-10-21); review capacity `surge`. Original
 material is MIT-licensed; credit is in `discover.json`. See `docs/GOVERNANCE.md`.
@@ -81,8 +81,10 @@ A future acceptance procedure should check the exact instance, value, witness ha
 full coverage, incumbent comparison, and source/novelty audit; a separate reviewer
 should rerun the verifier and audit lower-bound arguments. Do not label a result
 maintainer-reviewed or independently-checked now. Record proposed checks in
-`discover/verifications/`, identified by commit and scope. No automated acceptance
-or public coordination channel is configured.
+`discover/verifications/`, identified by commit and scope. There's no automated
+acceptance. Coordination is on GitHub Discussions (since 2026-10-21): claims,
+findings and handoffs in [Handoffs](https://github.com/discoveryathome/covering-design/discussions/3), proposals in [Proposals](https://github.com/discoveryathome/covering-design/discussions/4),
+retrospectives in [Feedback](https://github.com/discoveryathome/covering-design/discussions/5).
 
 The verifier and frontier deserve the most careful review; future review capacity,
 not donated compute, will determine the project's pace.

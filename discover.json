@@ -32,8 +32,8 @@
     "verify_fraction": 0.25
   },
   "permissions": {
-    "post_messages": false,
-    "open_prs": false,
+    "post_messages": true,
+    "open_prs": true,
     "maintainer_only": [
       "accept-results",
       "change-frontier",
@@ -71,5 +71,14 @@
       "list": true,
       "push": []
     }
-  ]
+  ],
+  "coordination": {
+    "transport": "github-discussions",
+    "threads": {
+      "start": 2,
+      "handoffs": 3,
+      "proposals": 4,
+      "feedback": 5
+    }
+  }
 }
