@@ -18,10 +18,9 @@ Keep proposed research results under `research/<task-id>/`, with input hashes, s
 budget, exact command, witness, check output, and scoped conclusions. Leave accepted
 frontier changes to the maintainer. Do not import search code into the verifier.
 
-Use executed randomness for task choice: the Discovery@Home helper supports
-`pick . --seed HEX32 --count 1` without live GitHub access. Get it from
-https://discoveryathome.org/cli/latest.json (the file name and SHA-256 to check), or
-use the `discover` plugin. Record the seed, pinned
+Use executed randomness for task choice: the project's own picker,
+`python3 tools/pick_task.py --seed HEX32` (the manifest's `picker`), draws from the active
+catalogue; the Discovery@Home helper defers to it. Record the seed, pinned
 commit, table key, and filled `check_row` command. Cards with `rows.open=false`
 permit both open rows and the settled positive control. Messages and handoffs
 end with a fenced `discover` JSON object following the v0 specification.
