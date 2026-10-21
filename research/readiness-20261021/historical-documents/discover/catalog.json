@@ -1,0 +1,323 @@
+{
+  "schema": "discover-catalog/v0",
+  "priority_revision": 2,
+  "assessed_on": "2026-10-20",
+  "priority_log": "discover/priority-log.md",
+  "status": "LOCAL incubation. Launch decision and gates: research/frontier-sprint/LAUNCH_READINESS.md. No donor intake or accepted-frontier changes.",
+  "tracks": [
+    {
+      "id": "search",
+      "weight": 35,
+      "useful_outcome": "A new source cover or a precisely registered, reproducible method comparison.",
+      "tasks": [
+        {
+          "allowed_variations": [
+            "Stay LOCAL. Record input hash, seed, exact budget, method parameters and tested neighborhood before running.",
+            "Use a new method, new nonisomorphic incumbent, or disjoint registered work unit. Do not extend exhausted restarts under a new label."
+          ],
+          "scope_change_triggers": [
+            "Stop novelty claims if a fresh successor/literature/propagation audit gives an equal or better construction.",
+            "UNKNOWN or a restricted exclusion never implies a global lower bound."
+          ],
+          "bottleneck_link": "research/frontier-sprint/LAUNCH_READINESS.md",
+          "overlap_terms": [
+            "covering-design",
+            "frontier-sprint",
+            "v-k-t"
+          ],
+          "id": "frontier-cluster-repair",
+          "question": "Can overlap-guided joint repair improve a source covering at the audited live frontier?",
+          "starting_points": [
+            "research/frontier-sprint/SHORTLIST.md",
+            "research/frontier-sprint/data/shortlist.json",
+            "research/frontier-sprint/tools/repair.py",
+            "research/frontier-sprint/experiment-ledger.json"
+          ],
+          "methods": [
+            "private-subset-cluster-deletion",
+            "exact-restricted-repair",
+            "weighted-diversification"
+          ],
+          "acceptance_gate": "Beat research_upper_to_beat, the smaller of the audited published count and verified local proposals. Candidate must pass two separate exact checkers and a fresh current-record/propagation audit. Historical gains, equal-count matches and implementation work are classified separately.",
+          "first_step": {
+            "command": [
+              "python3",
+              "research/frontier-sprint/tools/check_row.py",
+              "--v",
+              "48",
+              "--k",
+              "9",
+              "--t",
+              "3"
+            ],
+            "expected": "valid=true, blocks=272, current_published_upper=273; proposed result remains unaccepted. Inspect the latest research_upper_to_beat before searching.",
+            "scope": "Environment/positive control only; not a research discovery"
+          },
+          "first_experiment": "On the pinned local 272-block (48,9,3) proposal, target <=271 and register at most 128 six-block deletion clusters connected by shared/private triples, not uniform random deletions. Try five replacements with a 5-second SAT cap per cluster, total <=20 minutes including setup/checking. Record all cluster indices, UNKNOWNs and exact formulas. Compare against a disjoint uniform-cluster control. Stop after the registered work unit; do not count source propagation as additional discoveries.",
+          "claim_kind": [
+            "exact"
+          ],
+          "existing_checks": [
+            {
+              "scope": "Historical sweep and current-record audit; old strict 3-for-2 neighborhoods already closed for three pinned small covers.",
+              "evidence": "research/frontier-sprint/README.md",
+              "remaining": "Only new scoped work units; inspect experiment ledger first.",
+              "status": "author-checked local evidence",
+              "source_commit": "56a58d459f9d560e92995b14cd2141bdc18ea417",
+              "frontier_sha256": "a75ff202707fbe15a952494e407bd6c9094bef179586658682e940661eefd3ef"
+            }
+          ],
+          "requires": {
+            "ram_gb": 2,
+            "disk_gb": 1,
+            "note": "Python 3.10+; Z3 optional for exact repair; C++17 compiler for the pinned weighted-search baseline. Core verifier remains stdlib-only."
+          }
+        }
+      ]
+    },
+    {
+      "id": "lower-bounds",
+      "weight": 20,
+      "useful_outcome": "Trace or prove a bound relevant to a live source cell.",
+      "tasks": [
+        {
+          "allowed_variations": [
+            "Stay LOCAL. Record input hash, seed, exact budget, method parameters and tested neighborhood before running.",
+            "Use a new method, new nonisomorphic incumbent, or disjoint registered work unit. Do not extend exhausted restarts under a new label."
+          ],
+          "scope_change_triggers": [
+            "Stop novelty claims if a fresh successor/literature/propagation audit gives an equal or better construction.",
+            "UNKNOWN or a restricted exclusion never implies a global lower bound."
+          ],
+          "bottleneck_link": "research/frontier-sprint/LAUNCH_READINESS.md",
+          "overlap_terms": [
+            "covering-design",
+            "frontier-sprint",
+            "v-k-t"
+          ],
+          "id": "trace-live-bound",
+          "question": "What proves the archive-reported bound 275 for C(70,12,3), beyond the replayed nested bound 257?",
+          "starting_points": [
+            "research/frontier-sprint/data/shortlist.json",
+            "research/frontier-sprint/data/archive-metadata-selected.json",
+            "docs/LOWER_BOUNDS.md",
+            "https://arxiv.org/html/1706.06825v2"
+          ],
+          "methods": [
+            "literature-proof-trace",
+            "integer-counting"
+          ],
+          "acceptance_gate": "Give a specific theorem and checked hypotheses or a complete proof. A repository lower column or solver timeout is not a proof.",
+          "first_step": {
+            "command": [
+              "python3",
+              "research/frontier-sprint/tools/check_row.py",
+              "--v",
+              "48",
+              "--k",
+              "9",
+              "--t",
+              "3"
+            ],
+            "expected": "valid=true, blocks=272, current_published_upper=273; proposed result remains unaccepted. Inspect the latest research_upper_to_beat before searching.",
+            "scope": "Environment/positive control only; not a research discovery"
+          },
+          "first_experiment": "Trace whether a proved C(69,11,2)>=47 yields ceil(70*47/12)=275; locate the actual lower-bound proof and check its exact assumptions. If it fails, retain 257 as the locally established bound and document the missing citation. Do not launch an unrestricted SAT proof run before validating its encoding on known small cases.",
+          "claim_kind": [
+            "argument"
+          ],
+          "existing_checks": [
+            {
+              "scope": "Historical sweep and current-record audit; old strict 3-for-2 neighborhoods already closed for three pinned small covers.",
+              "evidence": "research/frontier-sprint/README.md",
+              "remaining": "Only new scoped work units; inspect experiment ledger first.",
+              "status": "author-checked local evidence",
+              "source_commit": "56a58d459f9d560e92995b14cd2141bdc18ea417",
+              "frontier_sha256": "a75ff202707fbe15a952494e407bd6c9094bef179586658682e940661eefd3ef"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "construction-audit",
+      "weight": 20,
+      "useful_outcome": "Current witnesses and propagation provenance, rather than historical rediscoveries.",
+      "tasks": [
+        {
+          "allowed_variations": [
+            "Stay LOCAL. Record input hash, seed, exact budget, method parameters and tested neighborhood before running.",
+            "Use a new method, new nonisomorphic incumbent, or disjoint registered work unit. Do not extend exhausted restarts under a new label."
+          ],
+          "scope_change_triggers": [
+            "Stop novelty claims if a fresh successor/literature/propagation audit gives an equal or better construction.",
+            "UNKNOWN or a restricted exclusion never implies a global lower bound."
+          ],
+          "bottleneck_link": "research/frontier-sprint/LAUNCH_READINESS.md",
+          "overlap_terms": [
+            "covering-design",
+            "frontier-sprint",
+            "v-k-t"
+          ],
+          "id": "refresh-live-incumbents",
+          "question": "Can every shortlisted current count be bound to a permitted downloadable witness and an actual source recipe?",
+          "starting_points": [
+            "research/frontier-sprint/CURRENT_RECORD_AUDIT.md",
+            "research/frontier-sprint/data/current-selected-counts.json",
+            "research/frontier-sprint/data/shortlist.json",
+            "https://coveringrepository.com/download.aspx"
+          ],
+          "methods": [
+            "successor-witness-audit",
+            "component-propagation-audit"
+          ],
+          "acceptance_gate": "Date the export and actual per-cell witness, preserve author/license/parent provenance, and verify complete coverage. Never attach an old witness to a smaller current count.",
+          "first_step": {
+            "command": [
+              "python3",
+              "research/frontier-sprint/tools/check_row.py",
+              "--v",
+              "48",
+              "--k",
+              "9",
+              "--t",
+              "3"
+            ],
+            "expected": "valid=true, blocks=272, current_published_upper=273; proposed result remains unaccepted. Inspect the latest research_upper_to_beat before searching.",
+            "scope": "Environment/positive control only; not a research discovery"
+          },
+          "first_experiment": "Resolve the missing current (48,11,3) 142-block witness first, then the other gated shortlist rows. Use the public m=t form/free links or a permission-compatible source. No paid access, messages, publication or access-control bypass. Record inaccessible files precisely. Refresh the three large historical-improvement comparisons without re-claiming them.",
+          "claim_kind": [
+            "exact"
+          ],
+          "existing_checks": [
+            {
+              "scope": "Historical sweep and current-record audit; old strict 3-for-2 neighborhoods already closed for three pinned small covers.",
+              "evidence": "research/frontier-sprint/README.md",
+              "remaining": "Only new scoped work units; inspect experiment ledger first.",
+              "status": "author-checked local evidence",
+              "source_commit": "56a58d459f9d560e92995b14cd2141bdc18ea417",
+              "frontier_sha256": "a75ff202707fbe15a952494e407bd6c9094bef179586658682e940661eefd3ef"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "independent-verification",
+      "weight": 25,
+      "useful_outcome": "Separate-contributor review of witnesses and finite exclusions.",
+      "tasks": [
+        {
+          "allowed_variations": [
+            "Stay LOCAL. Record input hash, seed, exact budget, method parameters and tested neighborhood before running.",
+            "Use a new method, new nonisomorphic incumbent, or disjoint registered work unit. Do not extend exhausted restarts under a new label."
+          ],
+          "scope_change_triggers": [
+            "Stop novelty claims if a fresh successor/literature/propagation audit gives an equal or better construction.",
+            "UNKNOWN or a restricted exclusion never implies a global lower bound."
+          ],
+          "bottleneck_link": "research/frontier-sprint/LAUNCH_READINESS.md",
+          "overlap_terms": [
+            "covering-design",
+            "frontier-sprint",
+            "v-k-t"
+          ],
+          "id": "verify-frontier-candidate",
+          "question": "Can a separate contributor reproduce the strongest local weighted-search witnesses with an independently authored checker?",
+          "starting_points": [
+            "research/frontier-sprint/results",
+            "covering/verify.py",
+            "research/initial-sweep/tools/verify_rank.py",
+            "research/initial-sweep/tools/verify_matrix.cpp"
+          ],
+          "methods": [
+            "independent-exact-containment",
+            "colex-coverage-replay"
+          ],
+          "acceptance_gate": "Bind instance, count and hash; check all t-subsets and invalid controls. Mark separate-contributor review only after a different reviewer actually completes it. A valid witness alone does not establish novelty.",
+          "first_step": {
+            "command": [
+              "python3",
+              "research/frontier-sprint/tools/check_row.py",
+              "--v",
+              "48",
+              "--k",
+              "9",
+              "--t",
+              "3",
+              "--direct"
+            ],
+            "expected": "valid=true, blocks=272, current_published_upper=273; proposed result remains unaccepted. Inspect the latest research_upper_to_beat before searching.",
+            "scope": "Environment/positive control only; not a research discovery"
+          },
+          "first_experiment": "Start with the 272-block (48,9,3) and 678-block (90,12,3) proposals. Check every required triple with separately authored code, bind hashes/counts/parameters, reject a removed-block control, and refresh both published comparisons. Only a different reviewer can supply separate-contributor review.",
+          "claim_kind": [
+            "exact"
+          ],
+          "existing_checks": [
+            {
+              "scope": "Historical sweep and current-record audit; old strict 3-for-2 neighborhoods already closed for three pinned small covers.",
+              "evidence": "research/frontier-sprint/README.md",
+              "remaining": "Only new scoped work units; inspect experiment ledger first.",
+              "status": "author-checked local evidence",
+              "source_commit": "56a58d459f9d560e92995b14cd2141bdc18ea417",
+              "frontier_sha256": "a75ff202707fbe15a952494e407bd6c9094bef179586658682e940661eefd3ef"
+            }
+          ]
+        },
+        {
+          "allowed_variations": [
+            "Stay LOCAL. Record input hash, seed, exact budget, method parameters and tested neighborhood before running.",
+            "Use a new method, new nonisomorphic incumbent, or disjoint registered work unit. Do not extend exhausted restarts under a new label."
+          ],
+          "scope_change_triggers": [
+            "Stop novelty claims if a fresh successor/literature/propagation audit gives an equal or better construction.",
+            "UNKNOWN or a restricted exclusion never implies a global lower bound."
+          ],
+          "bottleneck_link": "research/frontier-sprint/LAUNCH_READINESS.md",
+          "overlap_terms": [
+            "covering-design",
+            "frontier-sprint",
+            "v-k-t"
+          ],
+          "id": "replay-exact-neighborhoods",
+          "question": "Can a separate reviewer confirm the finite deletion-repair exclusions without trusting the search masks or SMT status?",
+          "starting_points": [
+            "research/frontier-sprint/tools/check_neighborhoods.py",
+            "research/frontier-sprint/tools/controls.py",
+            "research/frontier-sprint/checks",
+            "research/frontier-sprint/METHODS.md"
+          ],
+          "methods": [
+            "complete-neighborhood-enumeration",
+            "positive-negative-calibration"
+          ],
+          "acceptance_gate": "Recompute holes from survivors and exhaust every registered replacement. State the exact witness hash and move radius; no claim about equal-size paths, other incumbents, or global optimality. Preserve UNKNOWN as unresolved.",
+          "first_step": {
+            "command": [
+              "python3",
+              "research/frontier-sprint/tools/controls.py"
+            ],
+            "expected": "all_agree=true for all 1024 small hole families; known SAT and UNSAT controls pass.",
+            "scope": "Environment/positive control only; not a research discovery"
+          },
+          "first_experiment": "Replay the full 5985-row (13,6,3) 4-for-3 census using --enumerate-three into a NEW output file. A different reviewer should inspect enumeration completeness and input binding. After agreement, move to a genuinely untested neighborhood, not another seed of this census.",
+          "claim_kind": [
+            "exact"
+          ],
+          "existing_checks": [
+            {
+              "scope": "Historical sweep and current-record audit; old strict 3-for-2 neighborhoods already closed for three pinned small covers.",
+              "evidence": "research/frontier-sprint/README.md",
+              "remaining": "Only new scoped work units; inspect experiment ledger first.",
+              "status": "author-checked local evidence",
+              "source_commit": "56a58d459f9d560e92995b14cd2141bdc18ea417",
+              "frontier_sha256": "a75ff202707fbe15a952494e407bd6c9094bef179586658682e940661eefd3ef"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

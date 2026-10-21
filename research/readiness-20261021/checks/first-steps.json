@@ -1,0 +1,188 @@
+[
+  {
+    "task": "frontier-cluster-repair-48-9-3",
+    "command": [
+      "python3",
+      "research/frontier-sprint/tools/check_row.py",
+      "--v",
+      "48",
+      "--k",
+      "9",
+      "--t",
+      "3",
+      "--proposal",
+      "--direct"
+    ],
+    "interpreter_substitution": false,
+    "returncode": 0,
+    "seconds": 0.7394573329947889,
+    "output": "{\"audit_date\": \"2026-10-20\", \"blocks\": 272, \"comparison\": \"below-audited-count-novelty-review-required\", \"covered\": 17296, \"current_published_upper\": 273, \"current_source\": \"https://coveringrepository.com/download_archive_vkt.aspx\", \"k\": 9, \"required\": 17296, \"seconds\": 0.6412987499497831, \"separate_author_review\": false, \"t\": 3, \"uncovered\": 0, \"v\": 48, \"valid\": true, \"witness\": \"/Users/colkitt/discover-work/incubatedPilots/readiness-20261021/covering-design/research/frontier-sprint/witnesses/proposed-48-9-3-272.json\", \"witness_sha256\": \"b4093e632c9e974a484a642f6467a7199b44eeb2112378e2f10ce0209f9382bd\"}\n"
+  },
+  {
+    "task": "frontier-cluster-repair-90-12-3",
+    "command": [
+      "python3",
+      "research/frontier-sprint/tools/check_row.py",
+      "--v",
+      "90",
+      "--k",
+      "12",
+      "--t",
+      "3",
+      "--proposal",
+      "--direct"
+    ],
+    "interpreter_substitution": false,
+    "returncode": 0,
+    "seconds": 10.272201374988072,
+    "output": "{\"audit_date\": \"2026-10-20\", \"blocks\": 678, \"comparison\": \"below-audited-count-novelty-review-required\", \"covered\": 117480, \"current_published_upper\": 679, \"current_source\": \"https://coveringrepository.com/download_archive_vkt.aspx\", \"k\": 12, \"required\": 117480, \"seconds\": 10.130935415974818, \"separate_author_review\": false, \"t\": 3, \"uncovered\": 0, \"v\": 90, \"valid\": true, \"witness\": \"/Users/colkitt/discover-work/incubatedPilots/readiness-20261021/covering-design/research/frontier-sprint/witnesses/proposed-90-12-3-678.json\", \"witness_sha256\": \"4924fe6149cd2a87f856c4c072c338ef5717c659406304c9ff21fa30a24eae71\"}\n"
+  },
+  {
+    "task": "trace-live-bound",
+    "command": [
+      "python3",
+      "research/frontier-sprint/tools/check_row.py",
+      "--v",
+      "48",
+      "--k",
+      "9",
+      "--t",
+      "3"
+    ],
+    "interpreter_substitution": false,
+    "returncode": 0,
+    "seconds": 0.1072437500115484,
+    "output": "{\"audit_date\": \"2026-10-20\", \"blocks\": 272, \"comparison\": \"below-audited-count-novelty-review-required\", \"covered\": 17296, \"current_published_upper\": 273, \"current_source\": \"https://coveringrepository.com/download_archive_vkt.aspx\", \"k\": 9, \"required\": 17296, \"seconds\": 0.012497792020440102, \"separate_author_review\": false, \"t\": 3, \"uncovered\": 0, \"v\": 48, \"valid\": true, \"witness\": \"/Users/colkitt/discover-work/incubatedPilots/readiness-20261021/covering-design/research/frontier-sprint/results/wls-48-9-3-s2/best.json\", \"witness_sha256\": \"b4093e632c9e974a484a642f6467a7199b44eeb2112378e2f10ce0209f9382bd\"}\n"
+  },
+  {
+    "task": "retrieve-current-70-12-3",
+    "command": [
+      "python3",
+      "research/frontier-sprint/tools/check_row.py",
+      "--v",
+      "48",
+      "--k",
+      "9",
+      "--t",
+      "3"
+    ],
+    "interpreter_substitution": false,
+    "returncode": 0,
+    "seconds": 0.1072437500115484,
+    "output": "{\"audit_date\": \"2026-10-20\", \"blocks\": 272, \"comparison\": \"below-audited-count-novelty-review-required\", \"covered\": 17296, \"current_published_upper\": 273, \"current_source\": \"https://coveringrepository.com/download_archive_vkt.aspx\", \"k\": 9, \"required\": 17296, \"seconds\": 0.012497792020440102, \"separate_author_review\": false, \"t\": 3, \"uncovered\": 0, \"v\": 48, \"valid\": true, \"witness\": \"/Users/colkitt/discover-work/incubatedPilots/readiness-20261021/covering-design/research/frontier-sprint/results/wls-48-9-3-s2/best.json\", \"witness_sha256\": \"b4093e632c9e974a484a642f6467a7199b44eeb2112378e2f10ce0209f9382bd\"}\n"
+  },
+  {
+    "task": "retrieve-current-48-11-3",
+    "command": [
+      "python3",
+      "research/frontier-sprint/tools/check_row.py",
+      "--v",
+      "48",
+      "--k",
+      "9",
+      "--t",
+      "3"
+    ],
+    "interpreter_substitution": false,
+    "returncode": 0,
+    "seconds": 0.1072437500115484,
+    "output": "{\"audit_date\": \"2026-10-20\", \"blocks\": 272, \"comparison\": \"below-audited-count-novelty-review-required\", \"covered\": 17296, \"current_published_upper\": 273, \"current_source\": \"https://coveringrepository.com/download_archive_vkt.aspx\", \"k\": 9, \"required\": 17296, \"seconds\": 0.012497792020440102, \"separate_author_review\": false, \"t\": 3, \"uncovered\": 0, \"v\": 48, \"valid\": true, \"witness\": \"/Users/colkitt/discover-work/incubatedPilots/readiness-20261021/covering-design/research/frontier-sprint/results/wls-48-9-3-s2/best.json\", \"witness_sha256\": \"b4093e632c9e974a484a642f6467a7199b44eeb2112378e2f10ce0209f9382bd\"}\n"
+  },
+  {
+    "task": "retrieve-current-54-13-4",
+    "command": [
+      "python3",
+      "research/frontier-sprint/tools/check_row.py",
+      "--v",
+      "48",
+      "--k",
+      "9",
+      "--t",
+      "3"
+    ],
+    "interpreter_substitution": false,
+    "returncode": 0,
+    "seconds": 0.1072437500115484,
+    "output": "{\"audit_date\": \"2026-10-20\", \"blocks\": 272, \"comparison\": \"below-audited-count-novelty-review-required\", \"covered\": 17296, \"current_published_upper\": 273, \"current_source\": \"https://coveringrepository.com/download_archive_vkt.aspx\", \"k\": 9, \"required\": 17296, \"seconds\": 0.012497792020440102, \"separate_author_review\": false, \"t\": 3, \"uncovered\": 0, \"v\": 48, \"valid\": true, \"witness\": \"/Users/colkitt/discover-work/incubatedPilots/readiness-20261021/covering-design/research/frontier-sprint/results/wls-48-9-3-s2/best.json\", \"witness_sha256\": \"b4093e632c9e974a484a642f6467a7199b44eeb2112378e2f10ce0209f9382bd\"}\n"
+  },
+  {
+    "task": "retrieve-current-52-9-3",
+    "command": [
+      "python3",
+      "research/frontier-sprint/tools/check_row.py",
+      "--v",
+      "48",
+      "--k",
+      "9",
+      "--t",
+      "3"
+    ],
+    "interpreter_substitution": false,
+    "returncode": 0,
+    "seconds": 0.1072437500115484,
+    "output": "{\"audit_date\": \"2026-10-20\", \"blocks\": 272, \"comparison\": \"below-audited-count-novelty-review-required\", \"covered\": 17296, \"current_published_upper\": 273, \"current_source\": \"https://coveringrepository.com/download_archive_vkt.aspx\", \"k\": 9, \"required\": 17296, \"seconds\": 0.012497792020440102, \"separate_author_review\": false, \"t\": 3, \"uncovered\": 0, \"v\": 48, \"valid\": true, \"witness\": \"/Users/colkitt/discover-work/incubatedPilots/readiness-20261021/covering-design/research/frontier-sprint/results/wls-48-9-3-s2/best.json\", \"witness_sha256\": \"b4093e632c9e974a484a642f6467a7199b44eeb2112378e2f10ce0209f9382bd\"}\n"
+  },
+  {
+    "task": "retrieve-current-57-12-3",
+    "command": [
+      "python3",
+      "research/frontier-sprint/tools/check_row.py",
+      "--v",
+      "48",
+      "--k",
+      "9",
+      "--t",
+      "3"
+    ],
+    "interpreter_substitution": false,
+    "returncode": 0,
+    "seconds": 0.1072437500115484,
+    "output": "{\"audit_date\": \"2026-10-20\", \"blocks\": 272, \"comparison\": \"below-audited-count-novelty-review-required\", \"covered\": 17296, \"current_published_upper\": 273, \"current_source\": \"https://coveringrepository.com/download_archive_vkt.aspx\", \"k\": 9, \"required\": 17296, \"seconds\": 0.012497792020440102, \"separate_author_review\": false, \"t\": 3, \"uncovered\": 0, \"v\": 48, \"valid\": true, \"witness\": \"/Users/colkitt/discover-work/incubatedPilots/readiness-20261021/covering-design/research/frontier-sprint/results/wls-48-9-3-s2/best.json\", \"witness_sha256\": \"b4093e632c9e974a484a642f6467a7199b44eeb2112378e2f10ce0209f9382bd\"}\n"
+  },
+  {
+    "task": "retrieve-current-35-18-6",
+    "command": [
+      "python3",
+      "research/frontier-sprint/tools/check_row.py",
+      "--v",
+      "48",
+      "--k",
+      "9",
+      "--t",
+      "3"
+    ],
+    "interpreter_substitution": false,
+    "returncode": 0,
+    "seconds": 0.1072437500115484,
+    "output": "{\"audit_date\": \"2026-10-20\", \"blocks\": 272, \"comparison\": \"below-audited-count-novelty-review-required\", \"covered\": 17296, \"current_published_upper\": 273, \"current_source\": \"https://coveringrepository.com/download_archive_vkt.aspx\", \"k\": 9, \"required\": 17296, \"seconds\": 0.012497792020440102, \"separate_author_review\": false, \"t\": 3, \"uncovered\": 0, \"v\": 48, \"valid\": true, \"witness\": \"/Users/colkitt/discover-work/incubatedPilots/readiness-20261021/covering-design/research/frontier-sprint/results/wls-48-9-3-s2/best.json\", \"witness_sha256\": \"b4093e632c9e974a484a642f6467a7199b44eeb2112378e2f10ce0209f9382bd\"}\n"
+  },
+  {
+    "task": "verify-frontier-candidate",
+    "command": [
+      "python3",
+      "research/frontier-sprint/tools/check_row.py",
+      "--v",
+      "48",
+      "--k",
+      "9",
+      "--t",
+      "3",
+      "--direct"
+    ],
+    "interpreter_substitution": false,
+    "returncode": 0,
+    "seconds": 0.6046075839549303,
+    "output": "{\"audit_date\": \"2026-10-20\", \"blocks\": 272, \"comparison\": \"below-audited-count-novelty-review-required\", \"covered\": 17296, \"current_published_upper\": 273, \"current_source\": \"https://coveringrepository.com/download_archive_vkt.aspx\", \"k\": 9, \"required\": 17296, \"seconds\": 0.5074986659456044, \"separate_author_review\": false, \"t\": 3, \"uncovered\": 0, \"v\": 48, \"valid\": true, \"witness\": \"/Users/colkitt/discover-work/incubatedPilots/readiness-20261021/covering-design/research/frontier-sprint/results/wls-48-9-3-s2/best.json\", \"witness_sha256\": \"b4093e632c9e974a484a642f6467a7199b44eeb2112378e2f10ce0209f9382bd\"}\n"
+  },
+  {
+    "task": "replay-exact-neighborhoods",
+    "command": [
+      "python3",
+      "research/frontier-sprint/tools/controls.py"
+    ],
+    "interpreter_substitution": false,
+    "returncode": 0,
+    "seconds": 0.27506474999245256,
+    "output": "{\"all_hole_subfamilies\": 1024, \"two_block_sat\": 521, \"two_block_unsat\": 503, \"sat_encoding_budgets\": [2, 3, 4], \"all_agree\": true, \"separate_author_review\": false}\n"
+  }
+]

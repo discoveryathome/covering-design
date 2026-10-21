@@ -1,4 +1,4 @@
-# Local handoff
+# Handoff
 
 **Latest continuation:** [frontier-sprint handoff](research/frontier-sprint/HANDOFF.md)
 supersedes the search priorities below. It contains two exactly verified proposed
@@ -10,8 +10,8 @@ records and governance remain unchanged; separate review is pending.
 the exploratory attack priorities below for launch planning. Original records and
 governance status remain unchanged.
 
-The pilot is ready for local review and bounded experiments. It is not ready for
-donor intake or publication. Run `python3 -m covering.reproduce` from this directory.
+Since 2026-10-21 the project is public and open to contributions; claims and handoffs go
+in the [Handoffs](https://github.com/discoveryathome/covering-design/discussions/3) thread. The notes below are from the local-proposal period. Run `python3 -m covering.reproduce` from this directory.
 Read `docs/LITERATURE.md` before treating any archive target as a current record.
 
 | Priority | Cell | Concrete attack | Why it is useful | Principal limitation |

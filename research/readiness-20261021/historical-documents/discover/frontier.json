@@ -1,0 +1,149 @@
+{
+  "schema": "discover-frontier/v0",
+  "statement": "For each table row, a supplied witness proves C(v,k,t) <= blocks. lower_bound is the locally recomputed Schonheim bound. Archive-reported stronger lower bounds are separately labelled; no global best-known or optimality claim except C(7,3,2)=7.",
+  "status": "LOCAL-ONLY, author-checked archive replication; maintainer and publication pending",
+  "evidence_level": [
+    "author-checked"
+  ],
+  "claim_kind": [
+    "exact",
+    "argument"
+  ],
+  "scope": "Five independent instances only. Labels 1..v, k distinct integer points per block, simple block family, lambda=1. No aggregate optimization metric.",
+  "table": {
+    "path": "data/records.json",
+    "format": "json",
+    "key": [
+      "v",
+      "k",
+      "t"
+    ],
+    "value": "blocks",
+    "direction": "lower-is-better",
+    "bound": "lower_bound",
+    "object": "witness",
+    "check_row": [
+      "python3",
+      "-m",
+      "covering.records",
+      "check_row",
+      "--v",
+      "{v}",
+      "--k",
+      "{k}",
+      "--t",
+      "{t}"
+    ],
+    "check_row_minutes": 1
+  },
+  "assumptions": [
+    {
+      "id": "current-frontier-audit",
+      "statement": "2026-03 frozen LJCR constructions may have been improved since; successor cell confirmation is pending, so targets are archive-qualified.",
+      "status": "open",
+      "link": "docs/LITERATURE.md"
+    },
+    {
+      "id": "stronger-lower-bound-provenance",
+      "statement": "LJCR reports C(13,6,3)>=20 but its proof has not been traced in this pilot; the table uses the proved and recomputed bound 18.",
+      "status": "open",
+      "link": "docs/LOWER_BOUNDS.md"
+    },
+    {
+      "id": "independent-review",
+      "statement": "Both verification implementations were authored in this session. A separate person or agent has not independently reviewed the result.",
+      "status": "open",
+      "link": "discover/review-ledger.md"
+    }
+  ],
+  "sources": [
+    "https://doi.org/10.5281/zenodo.19735294",
+    "https://dmgordon.org/covering-designs/",
+    "https://dmgordon.org/errata/",
+    "https://arxiv.org/html/1706.06825v2"
+  ],
+  "artifacts": [
+    {
+      "path": "witnesses/fano.json",
+      "sha256": "d0cb460c609c039bc218043d1d6a9c57ab1fc30ea05d681fed533e90efe8d5bd",
+      "role": "construction witness"
+    },
+    {
+      "path": "witnesses/ljcr/14-5-3.json",
+      "sha256": "f8dc998e19c764dcb0492ce83a0b1f68ff3579cf7700f69463936c1e29d28935",
+      "role": "construction witness"
+    },
+    {
+      "path": "witnesses/ljcr/15-5-3.json",
+      "sha256": "960e822a038a6529acb147828674e4921a385036e63c2d6d873b33513d87cd56",
+      "role": "construction witness"
+    },
+    {
+      "path": "witnesses/ljcr/16-5-3.json",
+      "sha256": "10caba2a12ce51889be410cf9db6a43548904e9189333e59dceda2368d834832",
+      "role": "construction witness"
+    },
+    {
+      "path": "witnesses/ljcr/13-6-3.json",
+      "sha256": "6ab812870d05d7450c9169d90464e5959b91f0fde9b6cf6f328fccab05aca340",
+      "role": "construction witness"
+    },
+    {
+      "path": "data/records.json",
+      "sha256": "bcbbe0bfcd521ae63316e6cfaa1189d5c36266f6907537e2ebaa151544e7ddfa",
+      "role": "record evidence or baseline artifact"
+    },
+    {
+      "path": "data/ljcr-selected.json",
+      "sha256": "20691876ace85917f72f88eb28c9e02660864e11bf376ef76390b2f834a32bf5",
+      "role": "record evidence or baseline artifact"
+    },
+    {
+      "path": "data/ljcr-blocks-selected.json",
+      "sha256": "6234364cfdc69a9bc56dd9fd5d1faa2755305769b4f22d3735c30118282a1dbf",
+      "role": "record evidence or baseline artifact"
+    },
+    {
+      "path": "data/ljcr-github-selected.json",
+      "sha256": "75b7461f8533009df442aff459c08d58c0f83ddf2c3397236a862a908eb3ed9e",
+      "role": "record evidence or baseline artifact"
+    },
+    {
+      "path": "witnesses/baseline/summary.json",
+      "sha256": "c82878c6272b0429e8d518a964996bada6c3c0eb809ed45320e6afd824a6aaa4",
+      "role": "record evidence or baseline artifact"
+    },
+    {
+      "path": "witnesses/baseline/13-6-3.json",
+      "sha256": "d7851761687edb9424770763090e94b0f7dd4284a4e30a9f74b8ea41e85b3467",
+      "role": "record evidence or baseline artifact"
+    },
+    {
+      "path": "witnesses/baseline/14-5-3.json",
+      "sha256": "acb7c1d12d0b45ee9111a62c865a9363346eba7f249df9485090fcdcb3738a25",
+      "role": "record evidence or baseline artifact"
+    },
+    {
+      "path": "witnesses/baseline/15-5-3.json",
+      "sha256": "a528e7e45abc9d4ce0304304b2c89def8c323926cac012073eba2d4c959ad8db",
+      "role": "record evidence or baseline artifact"
+    },
+    {
+      "path": "witnesses/baseline/16-5-3.json",
+      "sha256": "e5b8cbcecf2b23f35ef55e0980da1ff16f0e0fd84318c5f79c4a90defcc8e729",
+      "role": "record evidence or baseline artifact"
+    },
+    {
+      "path": "witnesses/baseline/7-3-2.json",
+      "sha256": "a90c3f5b2b628293f92dd942848fc518e2a30ac5cb889f1595a625e1476ba8f5",
+      "role": "record evidence or baseline artifact"
+    }
+  ],
+  "reproduce": "python3 -m covering.reproduce",
+  "reproduce_minutes": 1,
+  "prerequisites": [
+    "Python 3.10 or later; standard library only"
+  ],
+  "review": "discover/review-ledger.md",
+  "updated_on": "2026-10-20"
+}

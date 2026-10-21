@@ -1,11 +1,13 @@
 # Research question and evidence
 
+Current contributor instructions: [CONTRIBUTOR_WORKFLOW.md](CONTRIBUTOR_WORKFLOW.md) (21 October 2026).
+
 **Follow-up evidence (20 October 2026):**
 [`research/frontier-sprint/README.md`](research/frontier-sprint/README.md) supplies
 the current-record audit, focused stronger-search experiments and launch assessment.
 The successor's public ordinary count export is now accessible through the web
 reader. All three earlier large archive improvements have already been surpassed.
-Catalogue revision 2 supersedes the attack priorities and weights below. Original
+Active catalogue revision 3 supersedes the attack priorities and weights below. Original
 accepted rows, exact verifier and historical results remain unchanged.
 
 The follow-up found author-checked proposals C(48,9,3)<=272 and C(90,12,3)<=678,
@@ -25,36 +27,32 @@ or independent replication. Search speed and a smaller heuristic defect alone
 are not record improvements. Verification profile: exact certificate. Lower-bound
 arguments require their own proof review; this pilot provides no formal proof kernel.
 
-The user supplied the objective and LOCAL scope explicitly. The operational
+The user supplied the objective and (originally) LOCAL scope explicitly. The operational
 interpretation and evidence standard are recorded in `docs/BRIEF.md`; no additional
 interview was needed to invent or approve governance choices.
 
 # Frontier and sources
 
-See the five rows in `data/records.json`, table in README, and `docs/LITERATURE.md`.
-Every row points to a concrete witness and SHA-256. Values 43,55,65,21 are verified
-archive constructions, not proven optima. The Fano plane has seven blocks covering
-all 21 pairs and meets the proved lower bound, hence C(7,3,2)=7.
-
-The 2022 GitHub metadata and April 2026 Zenodo v1.2 agree on these selected counts.
-LJCR was frozen in March 2026; the archive's existence is not evidence that its cells
-remain current. The successor audit remains open because filtered pages were
-inaccessible. Imported LJCR metadata report a stronger lower bound 20 for (13,6,3);
-the table's bound is 18 until the stronger proof is traced and checked.
+`discover/active-frontier.json` exposes the known (48,9,3) 272-block and
+(90,12,3) 678-block proposals for new work, with reproduced lower bounds 224 and
+548. The public ordinary-count export viewed on 21 October lists 273 and 679.
+These comparisons need separate literature/propagation review before novelty
+acceptance. The original five rows in `data/records.json` remain historical
+archive controls. Only C(7,3,2)=7 is settled there.
 
 # Bottleneck
 
-All block pools here have only 1,716–4,368 candidates, and verifying a witness is
-cheap. Getting from generic greedy covers to the strong archive incumbents is the
-search bottleneck. The baseline is deliberately modest. Coverage gaps do not imply
-that an improved construction exists. Another bottleneck is tracing stronger bounds
-and checking current records before investing compute.
+The current bottlenecks are source authority, independent scientific review,
+obtaining current-count witnesses for six shortlisted cells, and testing new
+registered work units against strong inherited starts. Existing local proposals
+are known even before acceptance. An archive warm start worse than the live count
+is not a ready ordinary search task.
 
-The search track has weight 35, lower-bound tracing 25, archive/current-record audits
-20, and independent verification 20. Each track has one concrete card and a working
-positive control in `discover/catalog.json`. Retain small budgets until a method
-beats or matches an archive incumbent. Symmetry and deletion-repair are plausible
-experiments, not claims that these particular instances are easy.
+The active catalogue weights are search 35, lower-bound tracing 20,
+construction/source audit 20 and independent verification 25. It has two concrete
+search cells, six retrieval cards, one bound trace and two verification cards.
+Consult the existing experiment ledger before registering disjoint deletion
+clusters; UNKNOWN and restricted neighborhood exclusions are not global bounds.
 
 # Settled and excluded claims
 
@@ -69,10 +67,10 @@ solver establishes nothing about the unrestricted minimum. Restricted-family
 exclusions must say exactly which family they exclude. Asymptotic existence results
 for fixed k,t and v tending to infinity do not determine these small cells.
 
-# Review, credit, and local operation
+# Review, credit, and coordination
 
-No maintainer has agreed; review capacity is unknown and the proposal is not open
-to donors. Original-material licensing, credit policy, and publication remain pending.
+Maintainer: @Mister-Meeseeks (from 2026-10-21); review capacity `surge`. Original
+material is MIT-licensed; credit is in `discover.json`. See `docs/GOVERNANCE.md`.
 Preserve source authorship and contributors' witness/algorithm provenance. No
 co-authorship or acceptance is promised. LJCR excerpts keep their existing CC BY 4.0
 license and attribution; that is separate from a license for this pilot's code.
@@ -81,8 +79,10 @@ A future acceptance procedure should check the exact instance, value, witness ha
 full coverage, incumbent comparison, and source/novelty audit; a separate reviewer
 should rerun the verifier and audit lower-bound arguments. Do not label a result
 maintainer-reviewed or independently-checked now. Record proposed checks in
-`discover/verifications/`, identified by commit and scope. No automated acceptance
-or public coordination channel is configured.
+`discover/verifications/`, identified by commit and scope. There's no automated
+acceptance. Coordination is on GitHub Discussions (since 2026-10-21): claims,
+findings and handoffs in [Handoffs](https://github.com/discoveryathome/covering-design/discussions/3), proposals in [Proposals](https://github.com/discoveryathome/covering-design/discussions/4),
+retrospectives in [Feedback](https://github.com/discoveryathome/covering-design/discussions/5).
 
 The verifier and frontier deserve the most careful review; future review capacity,
 not donated compute, will determine the project's pace.
