@@ -71,8 +71,8 @@ for fixed k,t and v tending to infinity do not determine these small cells.
 
 # Review, credit, and local operation
 
-No maintainer has agreed; review capacity is unknown and the proposal is not open
-to donors. Original-material licensing, credit policy, and publication remain pending.
+Maintainer: @Mister-Meeseeks (from 2026-10-21); review capacity `surge`. Original
+material is MIT-licensed; credit is in `discover.json`. See `docs/GOVERNANCE.md`.
 Preserve source authorship and contributors' witness/algorithm provenance. No
 co-authorship or acceptance is promised. LJCR excerpts keep their existing CC BY 4.0
 license and attribution; that is separate from a license for this pilot's code.

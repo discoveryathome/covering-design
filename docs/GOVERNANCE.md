@@ -1,21 +1,18 @@
-# Pending decisions
+# Governance
 
-- Maintainer: none has agreed; names and GitHub accounts intentionally absent.
-- Review capacity: unknown; no donor intake or acceptance automation.
-- Original code/text/results license: undecided; LICENSE is only a notice.
-- Credit/publication: undecided; no co-authorship or publication promises.
-- Canonical public repository: none. `canonical_repo` names the actual local folder;
-  if relocated, replace that local URI. It is never a remote fallback.
-- Hub listing/consent: none; `hubs` is omitted. No application or nomination exists.
-- Remote actions: none authorized; no remote is configured.
+Decided on 2026-10-21 by the maintainer, Doug Colkitt (@Mister-Meeseeks):
 
-The fetched manifest schema requires a nonempty maintainers array. The truthful
-empty array intentionally causes one validation error. Do not patch the schema,
-claim conformance, or fabricate an identity to remove it. Frontier, catalogue,
-record table, and witnesses are mechanically usable while this proposal remains
-unpublishable. The presence of LICENSE must not be interpreted as a grant of rights
-for original material. Any helper that merely checks its existence cannot decide that.
+- **Maintainer:** @Mister-Meeseeks.
+- **Repository:** public, at https://github.com/discoveryathome/covering-design.
+- **License:** MIT for original code, documentation and results (`LICENSE`). Selected La
+  Jolla Coverings Repository data keep their upstream CC BY 4.0 license and attribution
+  (`data/LJCR-LICENSE.txt`, `data/ATTRIBUTION.md`).
+- **Credit:** in `discover.json` (`credit`). No co-authorship or publication is promised.
+- **Hub listing:** consented for discoveryathome/discover (`hubs` in `discover.json`).
+- **Review:** `surge` (ready for any amount of traffic). Independent review of each new
+  witness by another contributor is wanted before a result is accepted.
+- **Donated sessions:** local for now (`permissions` in `discover.json`: no posting or
+  PRs by sessions); results are left ready for the person to publish.
 
-The local Git author label used for bootstrap bookkeeping is not a maintainer or a
-person's consent. A future user-approved maintainer must make these decisions before
-any donor intake, repository publication, or hub launch.
+Before 2026-10-21 this was a local proposal with every one of these decisions pending; the
+research reports under `research/` describe that period and are left as written.

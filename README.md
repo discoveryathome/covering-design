@@ -1,4 +1,4 @@
-# Covering designs: Discovery@Home local pilot
+# Covering designs: a Discovery@Home project
 
 The [follow-up frontier sprint](research/frontier-sprint/README.md) reports two
 exactly verified proposals below the audited published counts: C(48,9,3)<=272
@@ -11,9 +11,9 @@ Find small families of k-element blocks on {1,...,v} that cover every t-element
 subset. Each (v,k,t) is an independent minimization record. A witness proves an
 **upper bound**, not optimality. Only the Fano control is proved optimal here.
 
-This is a **LOCAL proposal**. No maintainer has agreed, no license for original
-project material has been chosen, and no publication or hub consent exists.
-See [governance status](docs/GOVERNANCE.md). No remote repository is configured.
+Maintained by @Mister-Meeseeks, MIT-licensed, and listed on the Discovery@Home hub; see
+[governance](docs/GOVERNANCE.md). Selected La Jolla Coverings Repository data keep their
+CC BY 4.0 license.
 
 Python **3.10+**, standard library only; no install, network, solver, or GPU needed:
 
@@ -59,8 +59,5 @@ The start playbook, specification, and schemas fetched for this run are saved un
 python3 ../session-covering-design/discover.pyz validate .
 ```
 
-Expected: one intentional schema failure, `maintainers` needs at least one item.
-The empty array truthfully records that nobody has accepted the role. Do not fill
-it with a fictional person to make validation pass. `LICENSE` is a pending-decision
-notice, not a granted open-source license. Other missing online conventions are
-intentional in LOCAL mode. See `results/protocol-validation.txt`.
+`results/protocol-validation.txt` is the transcript from the local-proposal period, when
+`maintainers` was intentionally empty; the manifest now names the maintainer.
