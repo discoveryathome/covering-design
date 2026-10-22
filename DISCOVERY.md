@@ -12,8 +12,9 @@ accepted rows, exact verifier and historical results remain unchanged.
 
 The follow-up found author-checked proposals C(48,9,3)<=272 and C(90,12,3)<=678,
 below the audited published 273 and 679. Its scientific-fit recommendation is
-LAUNCH for the larger t=3 track. The proposals require separate review; this does
-not open donor intake, approve publication, or change the accepted frontier.
+LAUNCH for the larger t=3 track. The proposals require separate review before they
+change the accepted frontier or are reported anywhere. Donor intake opened on 2026-10-21
+(see docs/GOVERNANCE.md); that doesn't accept either proposal.
 
 Minimize |B| for B a family of distinct k-subsets of {1,...,v} with every t-subset
 contained in at least one block, 1 <= t <= k <= v, multiplicity requirement one.
