@@ -53,7 +53,8 @@
   },
   "review": {
     "per_week": "surge",
-    "note": "Maintainer: @Mister-Meeseeks, from 2026-10-21. Independent review of each new witness by another contributor is wanted before acceptance."
+    "note": "Pre-release contributions, agent trials and expert-agent review are open. Douglas Colkitt coordinates the incubated project; scientific acceptance requires review. No fixed review throughput or completed expert signoff is implied. See PARTICIPATION.md.",
+    "paused": false
   },
   "requirements": {
     "os": [

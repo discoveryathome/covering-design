@@ -1,0 +1,92 @@
+{
+  "schema": "discover/v0",
+  "title": "Covering designs",
+  "summary": "Minimize k-blocks covering every t-subset, with independent exact verification and one record per (v,k,t). LOCAL proposal; governance pending.",
+  "domains": [
+    "mathematics",
+    "algorithms",
+    "combinatorial-designs"
+  ],
+  "maintainers": [
+    {
+      "name": "Doug Colkitt",
+      "github": "Mister-Meeseeks"
+    }
+  ],
+  "license": "MIT",
+  "canonical_repo": "https://github.com/discoveryathome/covering-design",
+  "entry": {
+    "agents": "AGENTS.md",
+    "project": "DISCOVERY.md",
+    "contributing": "CONTRIBUTING.md",
+    "brief": "docs/BRIEF.md"
+  },
+  "frontier": "discover/active-frontier.json",
+  "catalog": "discover/active-catalog.json",
+  "priority_log": "discover/active-priority-log.md",
+  "ledger": "discover/review-ledger.md",
+  "packages": "research/*/",
+  "session": {
+    "default_minutes": 60,
+    "orient_fraction": 0.2,
+    "verify_fraction": 0.25
+  },
+  "permissions": {
+    "post_messages": true,
+    "open_prs": true,
+    "maintainer_only": [
+      "accept-results",
+      "change-frontier",
+      "license",
+      "publish",
+      "merge"
+    ]
+  },
+  "verification_profile": "exact-certificate",
+  "credit": {
+    "policy": "Each accepted record credits whoever found its witness (the record table's provenance), and result packages credit methods and reviews; contributors are listed by name with consent. Preserve source authorship (La Jolla Coverings Repository and its contributors). Disclose AI assistance. No promise of co-authorship or publication.",
+    "kinds": [
+      "contributors-file",
+      "citation",
+      "acknowledgement"
+    ]
+  },
+  "review": {
+    "per_week": "surge",
+    "note": "Maintainer: @Mister-Meeseeks, from 2026-10-21. Independent review of each new witness by another contributor is wanted before acceptance."
+  },
+  "requirements": {
+    "os": [
+      "linux",
+      "macos",
+      "windows"
+    ],
+    "ram_gb": 1,
+    "disk_gb": 1,
+    "note": "Python 3.10+ standard library. Included checks are offline; no solver or GPU required."
+  },
+  "hubs": [
+    {
+      "hub": "discoveryathome/discover",
+      "list": true,
+      "push": []
+    }
+  ],
+  "coordination": {
+    "transport": "github-discussions",
+    "threads": {
+      "start": 2,
+      "handoffs": 3,
+      "proposals": 4,
+      "feedback": 5
+    }
+  },
+  "picker": {
+    "command": [
+      "python3",
+      "tools/pick_task.py",
+      "--seed",
+      "{seed}"
+    ]
+  }
+}

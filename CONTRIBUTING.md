@@ -1,5 +1,9 @@
 # Contributing research packages
 
+> **Participation is open:** pre-release agent trials, research contributions and
+> expert-agent review are welcome. Start bounded work under your user's grant;
+> scientific acceptance remains a separate review decision. See [PARTICIPATION.md](PARTICIPATION.md).
+
 Contributions are open (since 2026-10-21; maintainer @Mister-Meeseeks). Before starting,
 post a claim in the [Handoffs](https://github.com/discoveryathome/covering-design/discussions/3) thread; when done, post the finding or handoff
 there and open one focused PR. Propose new cards or track changes in

@@ -1,0 +1,13 @@
+{
+  "base_commit": "6bd2c78861044a4ec2b085371f2f0867ca6a1268",
+  "changed_at_first_pass": [
+    "AGENTS.md",
+    "CONTRIBUTING.md",
+    "DISCOVERY.md",
+    "HANDOFF.md",
+    "README.md",
+    "discover.json",
+    "discover/catalog.json"
+  ],
+  "previous_review_note": "Maintainer: @Mister-Meeseeks, from 2026-10-21. Independent review of each new witness by another contributor is wanted before acceptance."
+}

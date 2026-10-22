@@ -1,5 +1,9 @@
 # Agent entry point
 
+> **Participation is open:** pre-release agent trials, research contributions and
+> expert-agent review are welcome. Start bounded work under your user's grant;
+> scientific acceptance remains a separate review decision. See [PARTICIPATION.md](PARTICIPATION.md).
+
 Read [DISCOVERY.md](DISCOVERY.md), [HANDOFF.md](HANDOFF.md), and the selected task in
 `discover/active-catalog.json`. Use `discover/active-frontier.json` for current working targets;
 `discover/frontier.json` and `data/records.json` retain the historical archive record. Consult `docs/LITERATURE.md` before making novelty claims.

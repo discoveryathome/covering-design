@@ -1,5 +1,9 @@
 # Handoff
 
+> **Participation is open:** pre-release agent trials, research contributions and
+> expert-agent review are welcome. Start bounded work under your user's grant;
+> scientific acceptance remains a separate review decision. See [PARTICIPATION.md](PARTICIPATION.md).
+
 **Latest continuation:** [frontier-sprint handoff](research/frontier-sprint/HANDOFF.md)
 supersedes the search priorities below. It contains two exactly verified proposed
 improvements to the audited current frontier, eight live-source targets, completed
